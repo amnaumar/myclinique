@@ -49,7 +49,7 @@ const Singleimplant = () => {
   <div className="row">
    
 
- <img src={Singlehed} className="img-fluid dant" alt=" surgery"/>
+ <br/><img src={Singlehed} className="img-fluid dant" alt=" surgery"/>
 </div>
 </div>
       </div>
@@ -74,7 +74,7 @@ const Singleimplant = () => {
   <div className="card-body ">World leading implants</div>
   </div>
    </div>
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5 mid1">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5 mid1">
    <div className="card text-center"style={{height:"8.83rem",width:"8.83rem"}}>
   
   <img src={I2} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
@@ -90,7 +90,7 @@ const Singleimplant = () => {
   
 </div>
    </div>
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5">
    <div className="card text-center add2"style={{width:"8.83rem",height:"8.83rem"}}>
 
   <img src={I4} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
@@ -100,7 +100,7 @@ const Singleimplant = () => {
    </div>
 
   
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5">
    <div className="card text-center add3"style={{width:"8.83rem",height:"8.83rem"}}>
   
   <img src={I5} className="img-fluid border-radius p-4" alt=" surgery"style={{height:"5.83rem",width:"8.83rem"}}/>
@@ -116,14 +116,14 @@ const Singleimplant = () => {
 <div className="cure">
 
 
-<h3 className ="text-center beautiful"><br/><br/><br/><br/><br/>Discover the power of a single dental implant</h3>
-<h5 className="beautiful text-center pl-5 pr-5" ><br/>Single dental implants can be used<br/> to replace a single missing tooth or several missing teeth.<br/> They offer excellent performance and can look and act<br/> just like a real tooth, allowing you to go back to<br/> eating what you like and speaking without feeling <br/>self-conscious. Here is what you need to know to decide if<br/> they are the right option for you.</h5>
-<div className="container-fluid mb-5 d-flex justify-content-center">
+<h3 className ="brace text-center beautiful"><br/><br/><br/><br/><br/>Discover the power of a single dental implant</h3>
+<h5 className="brace-1 beautiful text-center pl-5 pr-5" ><br/>Single dental implants can be used<br/> to replace a single missing tooth or several missing teeth.<br/> They offer excellent performance and can look and act<br/> just like a real tooth, allowing you to go back to<br/> eating what you like and speaking without feeling <br/>self-conscious. Here is what you need to know to decide if<br/> they are the right option for you.</h5>
+<div className="notreal container-fluid mb-5 d-flex justify-content-center">
 
 
    <div className ="row d-flex justify-content-center">
   
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
   
   <div className="card-body"> Natural</div>
@@ -132,7 +132,7 @@ const Singleimplant = () => {
 </div>
    </div>
 
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
   
   <div className="card-body">Safe</div>
@@ -140,7 +140,7 @@ const Singleimplant = () => {
    </div>
 </div>
    </div>
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
 
   <div className="card-body">Strong</div>
@@ -180,7 +180,7 @@ Implants are made from zirconia, a strong and therefore<br/> robust material. Th
 
 <section  id="agee" className="mt-5 reviews-ib">
 <h3 className=" text-center beautiful"><br/>Pros & cons</h3>
-<p className=" text-center  beautiful" > Here is a quick guide to the pros and cons of single dental implants Northampton</p>
+<p className="hide text-center  beautiful" > Here is a quick guide to the pros and cons of single dental implants Northampton</p>
 <div className="iskob exactly mt-2 d-flex justify-content-center">
   <div className="column " >
     <h4 className="paright text-center beautiful "><br/>Look exactly like your real teeth
@@ -200,7 +200,7 @@ Implants are made from zirconia, a strong and therefore<br/> robust material. Th
 
 
   </div>
-  <div className="column" >
+  <div className="column hide" >
    
     <h4 className="line-2 text-center  beautiful" > <br/> <br/> <br/>Require surgery</h4>
     <p className="line-2 text-center  beautiful">Although the procedure is relatively quick, single<br/> dental implants do require surgery</p>
@@ -221,7 +221,7 @@ Implants are made from zirconia, a strong and therefore<br/> robust material. Th
 </section>
 
 
- <h3 className="text-center beautiful"> <br/> <br/>  Single dental implant Northampton procedure   </h3>
+ <h3 className="brace text-center beautiful"> <br/> <br/>  Single dental implant Northampton procedure   </h3>
   <p className="text-center" ></p>
 <div className="container-fluid mt-5  d-flex justify-content-center ">
   
@@ -317,7 +317,7 @@ Implants are made from zirconia, a strong and therefore<br/> robust material. Th
   </div>
 
   <section id="bismillah">
-  <h3 className="text-center beautiful">Is a single dental implant right for me? <br/><br/><br/></h3>
+  <h3 className="brace text-center beautiful">Is a single dental implant right for me? <br/><br/><br/></h3>
  <div className="col-lg-6 col-md-6 cell ">
    <div className="row">
    <div className="leftside">
@@ -328,13 +328,13 @@ Implants are made from zirconia, a strong and therefore<br/> robust material. Th
   <li className="pl-5" >Providing the closest solution to a real tooth</li>
   <li className="pl-5">Preserving bone density by preventing any further bone loss</li>
   <li  className="pl-5 ">Restoring your smile to it's former glory</li>
-  <li  className="pl-5 spabove">Those who want to avoid using dentures</li>
+  <li  className="pl-5 spabove hide">Those who want to avoid using dentures</li>
   
 
 </ul>
 </div>
 
-<p className="pl-5">Another point to note is that the dental implants function like a tooth root. Tooth roots do more than just hold your teeth in place. They also act as support struts for your jawbone, giving it strength and preventing it from being worn away. Single dental implants Northampton are one of the most popular treatments for replacing a missing tooth and with such a high success rate, it's easy to understand why.
+<p className="pl-5 hide">Another point to note is that the dental implants function like a tooth root. Tooth roots do more than just hold your teeth in place. They also act as support struts for your jawbone, giving it strength and preventing it from being worn away. Single dental implants Northampton are one of the most popular treatments for replacing a missing tooth and with such a high success rate, it's easy to understand why.
 
 </p>
 <div className ="mt-3 gbtn">
@@ -353,7 +353,7 @@ Implants are made from zirconia, a strong and therefore<br/> robust material. Th
    </div>
 </section>
 <section id="mark">
-<h4 className="text-center line-3">Single dental implant pricing Northampton</h4>
+<h4 className=" brace text-center line-3">Single dental implant pricing Northampton</h4>
 <div className="row">
 <div className="col-lg-6 col-md-6  spacedown">
    
@@ -380,7 +380,7 @@ Take a look at our pricing page to see the cost of single dental implants in Nor
 </section>
 
 <div className="cure">
-<section className="we-are container " >
+<section className="we-are container "id="product" >
   <div className="py-2 text-center mb-5">
     <div>
     <h3 className="line"><br/>Dental implants product range</h3>
@@ -418,7 +418,7 @@ Take a look at our pricing page to see the cost of single dental implants in Nor
 
 </section>
 
-<section className="we-are container mt-5" >
+<section className="we-are container mt-5"id="product" >
   <div className="py-2 text-center mb-5">
     <div>
 

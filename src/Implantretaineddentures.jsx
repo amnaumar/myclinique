@@ -71,7 +71,7 @@ return (
   <div className="card-body  ">World Leading Implant</div>
   </div>
    </div>
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5 mid1">
+   <div className=" hide col-lg-2 col-md-2 col-4 mb-5 gy-5 mid1">
    <div className="card text-center"style={{height:"8.83rem",width:"8.83rem"}}>
   
   <img src={I2} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
@@ -87,7 +87,7 @@ return (
   
 </div>
    </div>
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5">
    <div className="card text-center add2"style={{width:"8.83rem",height:"8.83rem"}}>
 
   <img src={I4} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
@@ -97,7 +97,7 @@ return (
    </div>
 
   
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5">
    <div className="card text-center add3"style={{width:"8.83rem",height:"8.83rem"}}>
   
   <img src={I5} className="img-fluid border-radius p-4" alt=" surgery"style={{height:"5.83rem",width:"8.83rem"}}/>
@@ -121,20 +121,20 @@ return (
     <div>
 
 <div className ='row'>
-  <div className ="col-10 mx-auto text-center">
+  <div className ="col-10 mx-auto text-center brace">
     <div className ="row gy-4" >
     <div className="col-md-4 col-10 mx-auto">
-   <h5>I had my consultation with Dr Buddha. He was by far the most professional compared to the other clinics I went to for consultations this week. His colleague Lisa was very friendly and helpful.<hr/>
+   <h5 className="brace-1">I had my consultation with Dr Buddha. He was by far the most professional compared to the other clinics I went to for consultations this week. His colleague Lisa was very friendly and helpful.<hr/>
 
 Sue Green</h5>
     </div>
      <div className="col-md-4 col-10 mx-auto">
-   <h5>So I went to see myclinique this week for a Invisalign consultation and I was very impressed, I saw a lady called Lisa and a man called Mark, I told them what a great consultation it was because I was informed of lot's of options and were given lots of information about Invisalign that other clinics never told me before.
+   <h5 className="brace-1" >So I went to see myclinique this week for a Invisalign consultation and I was very impressed, I saw a lady called Lisa and a man called Mark, I told them what a great consultation it was because I was informed of lot's of options and were given lots of information about Invisalign that other clinics never told me before.
 
    <hr/>Natalia Marjovic</h5>
     </div>
      <div className="col-md-4 col-10 mx-auto">
-  <h5>MyClinique is the best clinic in Northampton my daughter got her Invisalign here with the gentleman and I get my anti-wrinkle injections here.
+  <h5 className="brace-1" >MyClinique is the best clinic in Northampton my daughter got her Invisalign here with the gentleman and I get my anti-wrinkle injections here.
 
   <hr/>Marianne Donova</h5>
     </div>
@@ -149,10 +149,10 @@ Sue Green</h5>
 
 </section>
 
-<div className="container-fluid mb-5 reviews-ib d-flex justify-content-center">
+<div className="notreal container-fluid mb-5 reviews-ib d-flex justify-content-center">
    <div className ="row d-flex justify-content-center">
   
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
   
   <div className="card-body"> Secure</div>
@@ -163,7 +163,7 @@ Sue Green</h5>
 </div>
    </div>
 
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
   
   <div className="card-body">Better appearance</div>
@@ -173,7 +173,7 @@ Sue Green</h5>
    </div>
 </div>
    </div>
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
 
   <div className="card-body">Long-lasting</div>
@@ -203,7 +203,7 @@ Implant retained dentures use much the same materials as implant-supported dentu
 
 <div className="row">
   
-   <img src={Imrd1} className="img-fluid side" alt=" surgery"/>
+  <br/><br/><br/> <img src={Imrd1} className="img-fluid side" alt=" surgery"/>
    <div className="row">
    </div>
    </div>
@@ -214,7 +214,7 @@ Implant retained dentures use much the same materials as implant-supported dentu
 </section>
 <section  id="agee" className="mt-5 reviews-ib">
 <h3 className=" text-center beautiful"><br/>Pros & cons</h3>
-<p className=" text-center beautiful " >Here is a quick guide to the pros and cons of implant retained dentures</p>
+<p className="hide text-center beautiful " >Here is a quick guide to the pros and cons of implant retained dentures</p>
 <div className="iskob exactly mt-2 d-flex justify-content-center">
   <div className="column " >
     <h4 className="paright text-center beautiful "><br/>Quicker and simpler procedure than<br/> other implant procedures</h4>
@@ -230,7 +230,7 @@ Implant retained dentures use much the same materials as implant-supported dentu
 
 
   </div>
-  <div className="column" >
+  <div className="column hide" >
     <h4 className="line-2 text-center beautiful" ><br/><br/>Very hard and/or sticky foods will probably still be off-limits</h4>
     <p className="line-2 text-center beautiful " >Your dentist will advise you on which foods<br/> you'll need to be careful with after having your implant<br/> retained denture fitted</p>
     <h4 className="line-2 text-center beautiful" >You’ll still need to go through the healing process associated with dental implants</h4>
@@ -242,11 +242,11 @@ Implant retained dentures use much the same materials as implant-supported dentu
 </div>
  </section>  
  <section id="enlarge2">
-  <div className="cure">
+  <div className="cure maxm">
 
   </div>
 </section>
- <h3 className="text-center mt-5 beautiful ">Multiple Dental implant procedure     </h3>
+ <h3 className="brace text-center mt-5 beautiful  ">Multiple Dental implant procedure     </h3>
  
 
 <div className="container-fluid mt-5  d-flex justify-content-center ">
@@ -345,7 +345,7 @@ Implant retained dentures use much the same materials as implant-supported dentu
   </div>
 
 
-  <h3 className="text-center beautiful">Are implant retained dentures right for me??<br/><br/><br/><br/></h3>
+  <h3 className="brace text-center beautiful">Are implant retained dentures right for me?<br/><br/><br/><br/></h3>
   
   <section id="bismillah">
  <div className="col-lg-6 col-md-6 cell ">
@@ -358,13 +358,13 @@ Implant retained dentures use much the same materials as implant-supported dentu
   <li className="pl-5">Providing a cost-effective solution</li>
   <li className="pl-5">Giving better functionality than traditional dentures</li>
  
-  <li  className="pl-5 spabove">Preserving bone density in the jaw</li>
+  <li  className="pl-5 spabove hide">Preserving bone density in the jaw</li>
   
 
 </ul>
 </div>
 
-<p className="pl-5">The more implants you need to have fitted into your jaw, the longer the procedure will take to perform. This not only increases the costs, but it can also increase the immediate post-surgery bruising and swelling. For some people, this is reason enough to opt for implant retained dentures over other options such as All-on-6 or Teeth in a Day.</p>
+<p className="pl-5 hide">The more implants you need to have fitted into your jaw, the longer the procedure will take to perform. This not only increases the costs, but it can also increase the immediate post-surgery bruising and swelling. For some people, this is reason enough to opt for implant retained dentures over other options such as All-on-6 or Teeth in a Day.</p>
 
 <div className ="mt-3 gbtn">
     
@@ -406,7 +406,7 @@ View our pricing page to see our prices for an implant retained denture in North
   
 </section>
 <div className="cure">
-<section className="we-are container " >
+<section className="we-are container"id="product" >
   <div className="py-2 text-center mb-5">
     <div>
     <h3 className="line" > <br/>Dental implants product range
@@ -445,7 +445,7 @@ View our pricing page to see our prices for an implant retained denture in North
 
 </section>
 
-<section className="we-are container mt-5" >
+<section className="we-are container mt-5" id="product" >
   <div className="py-2 text-center mb-5">
     <div>
 

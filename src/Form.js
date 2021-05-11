@@ -30,8 +30,8 @@ const Form = () => {
 <>
 
 <form onSubmit={formSubmit}>
-<div className="container-fluid consultation mt-5" id="consultation">
-               <h3>Get your free consultation today</h3>
+<div className="container-fluid cure consultation mt-5" id="consultation">
+               <h3 className="beautiful mt-5"><br/>Get your free consultation today</h3>
                <div className="row d-flex justify-content-center mt-5">
                <div className="big-form col-lg-2 col-md-2 col-12">
                  
@@ -82,10 +82,10 @@ const Form = () => {
     </div>
     <p>I understand that by requesting a consultation through MyClinique I am agreeing with the MyClinique Privacy Policy & Terms & Conditions.
  </p>
- <div className ="mt-3">
+ <div className ="mt-5 ">
     
  
-   <input type="submit"  className ="btn-orderappointment "value="Book your FREE consultation Now"/>                                                          
+   <input type="submit"  className ="btn-orderappointment "value="Book your FREE consultation Now"/>  <br/><br/>                                                        
 </div>
   
 

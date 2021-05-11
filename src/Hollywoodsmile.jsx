@@ -35,10 +35,10 @@ const Hollywoodsmile = () => {
   
    <div className ="col-md-12 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center "> 
    <div className ='row'>
-    <h1 className="hard mb-3"> Hollywood smile in<br/> Northampton<br/>
+    <h1 className="hard mb-3 maxb "><br/> Hollywood smile in<br/> Northampton<br/>
  </h1>
- <h3 className="hard new" >
- Design your Hollywood smile with our<br/>instant smile makeovers (Starts from £153) 
+ <h3 className="extralotsof hard new maxm" >
+ <br/>Design your Hollywood smile with our<br/>instant smile makeovers (Starts from £153) 
 
  </h3>
   <div className="row">
@@ -70,7 +70,7 @@ const Hollywoodsmile = () => {
   <div className="card-body ">Transparent pricing</div>
   </div>
    </div>
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5 mid1">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5 mid1">
    <div className="card text-center"style={{height:"8.83rem",width:"8.83rem"}}>
   
   <img src={Ven2} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
@@ -82,11 +82,11 @@ const Hollywoodsmile = () => {
    <div className="card text-center add2"style={{width:"8.83rem",height:"8.83rem"}}>
 
   <img src={Ven3} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
-  <div className="card-body beautiful  ">0% Finance</div>
+  <div className="card-body beautiful  "><br/>0% Finance</div>
   
 </div>
    </div>
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5">
    <div className="card text-center add2"style={{width:"8.83rem",height:"8.83rem"}}>
 
   <img src={Ven4} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
@@ -96,7 +96,7 @@ const Hollywoodsmile = () => {
    </div>
 
   
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5">
    <div className="card text-center add3"style={{width:"8.83rem",height:"8.83rem"}}>
   
   <img src={Ven5} className="img-fluid border-radius p-4" alt=" surgery"style={{height:"5.83rem",width:"8.83rem"}}/>
@@ -112,9 +112,9 @@ const Hollywoodsmile = () => {
 <div className="cure">
 
 
-<h3 className ="text-center beautiful"><br/><br/><br/><br/><br/>Discover the power of a Hollywood smile</h3>
-<h5 className="beautiful text-center pl-5 pr-5" ><br/>A Hollywood smile uses double arch veneers to create that <br/>perfect white, straight appearance we often associate with the <br/>rich and famous. This treatment has become increasingly popular over the years and is now accessible to everyone <br/>who wants to improve their smile. <br/><br/></h5>
-<div className="container-fluid mb-5 d-flex justify-content-center">
+<h3 className ="brace text-center beautiful"><br/><br/><br/><br/><br/>Discover the power of a Hollywood smile</h3>
+<h5 className="brace-1 beautiful text-center pl-5 pr-5" ><br/>A Hollywood smile uses double arch veneers to create that <br/>perfect white, straight appearance we often associate with the <br/>rich and famous. This treatment has become increasingly popular over the years and is now accessible to everyone <br/>who wants to improve their smile. <br/><br/></h5>
+<div className="notreal container-fluid mb-5 d-flex justify-content-center">
 
 
    <div className ="row d-flex justify-content-center">
@@ -136,7 +136,7 @@ const Hollywoodsmile = () => {
    </div>
 </div>
    </div>
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="maxb col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
 
   <div className="card-body">Cost Effective</div>
@@ -172,9 +172,9 @@ const Hollywoodsmile = () => {
    </div>
 </section>
 
-<section  id="agee" className="mt-5 reviews-ib">
-<h3 className=" text-center beautiful"><br/>Pros & cons</h3>
-<p className=" text-center  beautiful" >Here are some of the pros and cons of Hollywood Smile treatment </p>
+<section  id="agee" className="  mt-5 reviews-ib">
+<h3 className="noma text-center beautiful"><br/>Pros & cons</h3>
+<p className="hide text-center  beautiful" >Here are some of the pros and cons of Hollywood Smile treatment </p>
 <div className="iskob exactly mt-2 d-flex justify-content-center">
   <div className="column " >
     <h4 className="paright text-center beautiful "><br/>Can be made to look natural
@@ -191,7 +191,7 @@ const Hollywoodsmile = () => {
 
 
   </div>
-  <div className="column" >
+  <div className="column hide" >
     <h4 className="line-2 text-center  beautiful" ><br/><br/><br/><br/>Can be expensive if not using dental finance</h4>
     <p className="beautiful">2 arches of veneers can be expensive, so it is worth looking at your options for dental finance plans</p>
     <h4 className="line-2 text-center  beautiful" >Hollywood smile treatment is non-reversible due to enamel removal</h4>
@@ -260,7 +260,7 @@ const Hollywoodsmile = () => {
    </div>
 
    <section>
-   <h3 className="text-center beautiful">Veneers patients</h3>
+   <h3 className="text-center beautiful maxm">Veneers patients</h3>
       <div className=" sobia mt-5" >
       
       <h6 className="text-center beautiful"> From A-listers to the general public, everyone gets the same level of care & attention to detail at my clinic</h6>
@@ -311,11 +311,11 @@ const Hollywoodsmile = () => {
   <li className="pl-5" >Achieving a shade of white that teeth whitening cannot</li>
   <li className="pl-5">Straightening teeth without the need for braces</li>
   
-  <li className="pl-5 spabove" >Creating a uniform smile on both the upper and lower arches</li>
+  <li className="pl-5 spabove hide" >Creating a uniform smile on both the upper and lower arches</li>
  
 </ul>
 </div>
-<p className="pl-5 ">A Hollywood smile can be tailored to your specific requirements, as you are able to choose the exact size, shade and colour that you want. As everyone is different, your dentist will be able to advise you on what will look best for you before creating your custom veneers and achieving the desired look.
+<p className="pl-5 hide ">A Hollywood smile can be tailored to your specific requirements, as you are able to choose the exact size, shade and colour that you want. As everyone is different, your dentist will be able to advise you on what will look best for you before creating your custom veneers and achieving the desired look.
 </p>
 
 <div className ="mt-3 gbtn">
@@ -334,7 +334,7 @@ const Hollywoodsmile = () => {
    </div>
 </section>
 <section id="mark">
-  <h4 className="text-center line-3">Hollywood smile veneers pricing</h4>
+  <h4 className="text-center line-3 beautiful">Hollywood smile veneers pricing</h4>
 <div className="row">
 <div className="col-lg-6 col-md-6  ">
  
@@ -364,7 +364,7 @@ Please see our pricing page to view the cost for a Hollywood smile in Northampto
     </h2>
    <div className="container-fluid mt-0 d-flex justify-content-center">
    <div className ="row">
-   <div className="col-lg-4 col-md-4 mb-5">
+   <div className="hide col-lg-4 col-md-4 mb-5">
    <div class="card text-center"style={{width:"18.83rem",height:"8.83rem"}}>
   
   <img src={Smile2} className="img-fluid border-radius mid p-4" alt=" 5"style={{width:"10.83rem",height:"6.83rem"}}/>
@@ -376,7 +376,7 @@ Please see our pricing page to view the cost for a Hollywood smile in Northampto
 </div>
 </div>
    </div>
-   <div className="col-lg-4 col-md-4">
+   <div className="lotsof col-lg-4 col-md-4">
    <div class="card text-center"style={{width:"18.83rem",height:"8.83rem"}}>
   
   <img src={Smile3} className="img-fluid border-radius mid p-4" alt=" 5"style={{width:"10.83rem",height:"6.83rem"}}/>
@@ -389,7 +389,7 @@ Please see our pricing page to view the cost for a Hollywood smile in Northampto
 </div>
 </div>
    </div>
-   <div className="col-lg-4 col-md-4">
+   <div className="lotsof col-lg-4 col-md-4">
    <div class="card text-center"style={{width:"18.83rem",height:"8.83rem"}}>
   
   <img src={Smile4} className="img-fluid border-radius mid p-4" alt=" 5"style={{width:"10.83rem",height:"6.83rem"}}/>
@@ -404,8 +404,8 @@ Please see our pricing page to view the cost for a Hollywood smile in Northampto
    </div>
   </div>
  </div>
- <div className="space"></div>
- <div className="space"></div>
+ <div className="space noma"></div>
+ <div className="space noma"></div>
  
 
 <Footer/>

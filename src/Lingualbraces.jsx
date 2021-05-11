@@ -39,7 +39,7 @@ const Lingualbraces = () => {
   
    <div className ="col-md-12 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center "> 
    <div className ='row'>
-    <h1 className="hard"> Lingual braces in<br/> Northampton </h1>
+    <h1 className="hard"><br/><br/> Lingual braces in<br/> Northampton </h1>
   <div className="row">
    <h2 className =" hard my-3"> Straighten your teeth with<br/> lingual braces (Start from£66)
 
@@ -70,7 +70,7 @@ const Lingualbraces = () => {
   <div className="card-body "><br/>Straighten your teeth</div>
   </div>
    </div>
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5 mid1">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5 mid1">
    <div className="card text-center"style={{height:"8.83rem",width:"8.83rem"}}>
   
   <img src={Clb3} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
@@ -86,7 +86,7 @@ const Lingualbraces = () => {
   
 </div>
    </div>
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5">
    <div className="card text-center add2"style={{width:"8.83rem",height:"8.83rem"}}>
 
   <img src={Clb5} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
@@ -96,7 +96,7 @@ const Lingualbraces = () => {
    </div>
 
   
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5">
    <div className="card text-center add3"style={{width:"8.83rem",height:"8.83rem"}}>
   
   <img src={Clb6} className="img-fluid border-radius p-4" alt=" surgery"style={{height:"5.83rem",width:"8.83rem"}}/>
@@ -112,15 +112,15 @@ const Lingualbraces = () => {
 <div className="cure">
 
 
-<h3 className ="text-center beautiful"><br/><br/><br/><br/><br/>Discover the power of Lingual Braces</h3>
-<h5 className="beautiful text-center pl-5 pr-5" >Lingual braces offer the perfect solution, providing all the benefits of traditional braces,<br/> with an added difference that sets them apart - while traditional braces consist<br/> of a series of metal moulds and wires fixed to the front of your teeth, lingual braces<br/> are instead fitted to the back of your teeth, making them virtually invisible to the outside world.<br/> You're likely to be able to complete an entire course of orthodontic treatment without anyone <br/>knowing you were even wearing braces! You'll get all the benefits of traditional metal braces - just with a little more privacy.<br/> <br/></h5>
+<h3 className ="brace text-center beautiful"><br/><br/><br/><br/><br/>Discover the power of Lingual Braces</h3>
+<h5 className="brace-1 beautiful text-center pl-5 pr-5" >Lingual braces offer the perfect solution, providing all the benefits of traditional braces,<br/> with an added difference that sets them apart - while traditional braces consist<br/> of a series of metal moulds and wires fixed to the front of your teeth, lingual braces<br/> are instead fitted to the back of your teeth, making them virtually invisible to the outside world.<br/> You're likely to be able to complete an entire course of orthodontic treatment without anyone <br/>knowing you were even wearing braces! You'll get all the benefits of traditional metal braces - just with a little more privacy.<br/> <br/></h5>
 
-<div className="container-fluid mb-5 d-flex justify-content-center">
+<div className="notreal container-fluid mb-5 d-flex justify-content-center">
 
 
    <div className ="row d-flex justify-content-center">
   
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
   
   <div className="card-body"> Invisible</div>
@@ -131,7 +131,7 @@ const Lingualbraces = () => {
 </div>
    </div>
 
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
   
   <div className="card-body">Effective</div>
@@ -141,7 +141,7 @@ const Lingualbraces = () => {
    </div>
 </div>
    </div>
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
 
   <div className="card-body">Quick</div>
@@ -157,7 +157,7 @@ const Lingualbraces = () => {
 
 <section id="bismillah">
 <div className="row">
- <div className="col-lg-6 col-md-6 cell balance ">
+ <div className="maxm col-lg-6 col-md-6 cell balance ">
    
 <p className="oer1"><br/><br/> As well as being incredibly discreet, lingual braces are <br/>also a highly effective orthodontic solution. Over a period of time,<br/> their metal wires and brackets gradually push your teeth into<br/> the correct position. They're fixed to your teeth, meaning you won't need to <br/>worry about them falling out of place. And because we schedule<br/> check-ups every few weeks, you can rest assured that your<br/> lingual braces are working correctly and that you're on your way to<br/> the perfect smile.
 
@@ -179,7 +179,7 @@ What's more, as well as granting you a<br/> perfectly straight smile, your lingu
 </section>
 <section  id="agee" className="mt-5 reviews-ib">
 <h3 className=" text-center beautiful"><br/>Pros & cons</h3>
-<p className=" text-center  beautiful" >Here is a quick guide to the pros and cons of Lingual Braces. </p>
+<p className="hide text-center  beautiful" >Here is a quick guide to the pros and cons of Lingual Braces. </p>
 <div className="iskob exactly mt-2 d-flex justify-content-center">
   <div className="column " >
     <h4 className="paright text-center beautiful "><br/>Fitted to the back of your teeth</h4>
@@ -190,7 +190,7 @@ What's more, as well as granting you a<br/> perfectly straight smile, your lingu
     <p className=" paright text-center  beautiful" >Lingual braces tend to be less expensive than other forms of invisible braces</p>
     
   </div>
-  <div className="column" >
+  <div className="column hide" >
     <h4 className="line-2 text-center  beautiful" ><br/><br/>Not removeable</h4>
     <p className="beautiful">Unlike aligners, lingual braces are not able to be removed for eating</p>
     <h4 className="line-2 text-center  beautiful" >Extra care when cleaning</h4>
@@ -199,7 +199,7 @@ What's more, as well as granting you a<br/> perfectly straight smile, your lingu
 </div>
  </section>
 
- <h3 className="text-center beautiful"><br/> Lingual Braces Procedure    </h3>
+ <h3 className="noma text-center beautiful"><br/> Lingual Braces Procedure    </h3>
   
 
 <div className="container-fluid mt-5  d-flex justify-content-center ">
@@ -248,7 +248,7 @@ What's more, as well as granting you a<br/> perfectly straight smile, your lingu
    </div>
   </div>
  </div>
- <section className="we-are container-fluid  mt-5" >
+ <section className="we-are container-fluid  mt-5"id="open" >
   <div className=" text-center ">
     <div>
 
@@ -278,7 +278,7 @@ What's more, as well as granting you a<br/> perfectly straight smile, your lingu
 
 
 </section>
-<section className="we-are container-fluid mt-2" >
+<section className="we-are container-fluid mt-2"id="open" >
   <div className=" text-center ">
     <div>
 
@@ -304,7 +304,7 @@ What's more, as well as granting you a<br/> perfectly straight smile, your lingu
 </div>
 </section>
 
-<section className="we-are container-fluid mt-2" >
+<section className="we-are container-fluid mt-2"id="open" >
   <div className=" text-center ">
     <div>
 
@@ -332,8 +332,8 @@ What's more, as well as granting you a<br/> perfectly straight smile, your lingu
 
 <section>
       <div className=" sobia mt-5 review-ib" >
-      <h3 className="line-5 beautiful"><br/>Lingual braces patients</h3>
-      <h6 className="text-center beautiful">From A-listers to the general public, everyone gets the same level of care & attention to detail at my clinic </h6>
+      <h3 className=" line-5 beautiful"><br/>Lingual braces patients</h3>
+      <h6 className="patients-1 text-center beautiful">From A-listers to the general public, everyone gets the same level of care & attention to detail at my clinic </h6>
 </div>
 </section>
 <div className="container mb-5 mt-5">
@@ -374,13 +374,13 @@ What's more, as well as granting you a<br/> perfectly straight smile, your lingu
 <li className="pl-5"><br/><strong className="brand-name"> Lingual braces are prefect for</strong></li>
   <li className="pl-5"><br/>Fixing misaligned teeth</li>
   <li className="pl-5" >Providing a discreet alternative to traditional braces</li>
-  <li className="pl-5 spabove">Closing gaps between teeth</li>
+  <li className="pl-5 spabove hide">Closing gaps between teeth</li>
   
  
 </ul>
 </div>
 
-<p className="pl-5 ">If you want a more subtle alternative to fixed braces, lingual braces may be right for you. They are fitted to the backs of your teeth, making them virtually undetectable when you're speaking and smiling.
+<p className="pl-5 hide ">If you want a more subtle alternative to fixed braces, lingual braces may be right for you. They are fitted to the backs of your teeth, making them virtually undetectable when you're speaking and smiling.
 
 What's more, as well as granting you a perfectly straight smile, your lingual braces will also help you achieve great dental health. When your teeth are misaligned, it can become difficult to reach certain places with your toothbrush. This can lead to a build-up of plaque, which can then lead to cavities and a whole host of other issues. A straight smile, on the other hand, is far easier to clean, meaning the risk of these issues is greatly reduced. With lingual braces, you'll get a smile that looks great, and is incredibly healthy.
 </p>
@@ -402,7 +402,7 @@ What's more, as well as granting you a perfectly straight smile, your lingual br
    </div>
 </section>
 <section id="mark">
-  <h4 className="text-center line-3">Lingual baces pricing</h4>
+  <h4 className="beautiful text-center line-3">Lingual baces pricing</h4>
 <div className="row">
 <div className="col-lg-6 col-md-6  ">
  

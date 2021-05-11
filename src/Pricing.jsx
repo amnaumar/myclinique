@@ -44,14 +44,14 @@ return (
      <>
 
 <section id = "pricing-1" className ="d-flex text-center mt-5">
-       <div className ="container">
+       <div className ="container price">
 <div className ='row width= "100%"'>
   <div className =" col-10 mx-auto">
                                    
-   <div className =  "col-md-10 mx-auto d-flex align-items-center "> 
+   <div className =  " col-md-10 mx-auto d-flex align-items-center "> 
    <div className ="row">
    
-    <h2 className =" brand-name my-3 text-center"> Pricing </h2>
+    <h2 className ="price1 brand-name my-3 text-center"> Pricing </h2>
    <div className ="explain">
      <p className="text-center">Honest, transparent & competitive.
 
@@ -70,7 +70,7 @@ View our complete pricing structure for all treatments on offer at MyClinique No
 </div>
        </section>
 
-<section className="gbtn container">
+<section className="gbtn container notreal">
 
 <div>
 
@@ -158,7 +158,7 @@ From
 Invisalign
 </h2></div>
 
-<div className="container mt-0 bg-light d-flex justify-content-center ">
+<div className="lotsof2 container mt-0 bg-light d-flex justify-content-center ">
   
    
    <div className ="row">
@@ -232,7 +232,7 @@ From
 </section>
 <div className="py-5 text-center">
     
-    <h2 className="beautiful" >
+    <h2 className="beautiful brace" >
     Clear Braces & Fixed Braces
     </h2></div>
 
@@ -240,7 +240,7 @@ From
 
    
    <div className ="row">
-   <div className="col-lg-3 col-md-3 col-12 mb-5">
+   <div className="lotsof2 col-lg-3 col-md-3 col-12 mb-5">
    <div class="card text-center"style={{width:"10.83rem"}}>
   
   <img src={Ct1} className="img-fluid border-radius p-4" alt=" surgery"style={{width:"10.83rem"}}/>
@@ -252,7 +252,7 @@ From
 </div>
 </div>
    </div>
-   <div className="col-lg-3 col-md-3 col-12 d-flex justify-content-center">
+   <div className="maxm col-lg-3 col-md-3 col-12 d-flex justify-content-center">
    <div class="card text-center"style={{width:"10.83rem"}}>
   
   <img src={Ct2} className="img-fluid border-radius p-4" alt=" surgery"style={{width:"10.83rem"}}/>
@@ -263,7 +263,7 @@ From
 £51</div>
 </div>
    </div>
-   <div className="col-lg-3 col-md-3 col-12">
+   <div className="lotsof2 col-lg-3 col-md-3 col-12 maxm">
    <div class="card text-center"style={{width:"10.83rem"}}>
   
   <img src={Ct3} className="img-fluid d-flex align-items-center" alt=" surgery"style={{width:"10.83rem",height:"10.83rem"}}/>
@@ -272,7 +272,7 @@ From
  </div>
 </div>
    </div>
-   <div className="col-lg-3 col-md-3 col-12">
+   <div className="lotsof2 col-lg-3 col-md-3 col-12 maxm">
    <div class="card text-center"style={{width:"10.83rem"}}>
   
   <img src={Ct4} className="img-fluid border-radius p-4" alt=" surgery"style={{width:"10.83rem"}}/>
@@ -287,12 +287,12 @@ From
  </div>
  <div className="py-5 text-center">
     
-    <h2 className="beautiful" >
+    <h2 className=" ntoreal beautiful brace" >
     Crowns & Bridges
     </h2></div>
  <div className="container-fluid mt-0 d-flex justify-content-center">
    <div className ="row">
-   <div className="col-lg-6 col-md-6 col-12 mb-5">
+   <div className="notreal col-lg-6 col-md-6 col-12 mb-5">
    <div class="card text-center"style={{width:"15.83rem"}}>
   
   <img src={Cm1} className="img-fluid border-radius p-4" alt=" surgery"/>
@@ -303,7 +303,7 @@ From
 </div>
 </div>
    </div>
-   <div className="col-lg-6 col-md-6 col-12">
+   <div className="notreal col-lg-6 col-md-6 col-12">
    <div class="card text-center"style={{width:"13.83rem"}}>
   
   <img src={Cm2} className="img-fluid border-radius p-4" alt=" surgery"/>
@@ -317,13 +317,13 @@ From
   </div>
  </div>
 
- <section className="we-are container mt-5" >
+ <section className="we-are container mt-5 antir  " >
   <div className="py-2 text-center mb-5">
     <div>
 
 <h3>Anti-Wrinkle Injections</h3>
 <div className ='row'>
-  <div className ="col-10 mx-auto text-center">
+  <div className ="col-10 mx-auto text-center ">
     <div className ="row gy-2" >
     <div className="col-md-4 col-10 mx-auto">
     <img src={D1} alt=''style={{width:"20.83rem"}}/>
@@ -332,7 +332,7 @@ From
 
 </h5>
     </div>
-     <div className="col-md-4 col-10 mx-auto">
+     <div className="antir col-md-4 col-10 mx-auto">
      <img src={D2} alt=''style={{width:"20.83rem"}}/>
    <h5 >2 Areas<br/> <br/>Full Price From £250
    <hr/>Monthly Price From £4
@@ -355,7 +355,7 @@ From
 
 </section>
 
-<section className="we-are container mt-5" >
+<section className="antir we-are container mt-5" >
   <div className="py-2 text-center mb-5">
     <div>
 
@@ -423,7 +423,7 @@ From
 
 <div className="py-5 text-center">
     
-    <h2 className="beautiful" >
+    <h2 className="beautiful brace" >
     Emergency Appointment
     </h2></div>
 <div className="container-fluid mt-0 bg-light d-flex justify-content-center">
@@ -441,12 +441,12 @@ From
    </div>
    <div className="py-5 text-center">
     
-    <h2 className="beautiful" >
+    <h2 className="beautiful brace" >
     6 Months Smile Braces
     </h2></div>
    <div className="container-fluid mt-0 d-flex justify-content-center">
    <div className ="row">
-   <div className="col-lg-6 col-md-6 col-12 mb-5">
+   <div className="lotsof2 col-lg-6 col-md-6 col-12 mb-5">
    <div class="card text-center"style={{width:"13.83rem"}}>
   
   <img src={T1} className="img-fluid border-radius p-4" alt=" 5"/>
@@ -457,7 +457,7 @@ From
 </div>
 </div>
    </div>
-   <div className="col-lg-6 col-md-6 col-12">
+   <div className="lotsof2 col-lg-6 col-md-6 col-12">
    <div class="card text-center"style={{width:"13.83rem"}}>
   
   <img src={T1} className="img-fluid border-radius p-4" alt=" 5"/>
@@ -470,10 +470,10 @@ From
    </div>
   </div>
  </div> 
- <h2 className="text-center beautiful">Fast Braces</h2>
+ <h2 className="text-center beautiful brace"><br/><br/>Fast Braces</h2>
  <div className="container-fluid mt-5 d-flex justify-content-center mb-5">
    <div className ="row">
-   <div className="col-lg-6 col-md-6 col-12 mb-5 ">
+   <div className="lotsof2 col-lg-6 col-md-6 col-12 mb-5 ">
    <div class="card text-center"style={{width:"13.83rem",height:"13.83rem"}}>
   
   <img src={T2} className="img-fluid border-radius p-4" alt=" 5"/>
@@ -484,7 +484,7 @@ From
 </div>
 </div>
    </div>
-   <div className="col-lg-6 col-md-6 col-12">
+   <div className="lotsof2 col-lg-6 col-md-6 col-12 memaxm2">
    <div class="card text-center"style={{width:"13.83rem",height:"13.83rem"}}>
   
   <img src={T2} className="img-fluid border-radius p-4" alt=" 5"/>
@@ -497,10 +497,10 @@ From
    </div>
   </div>
  </div>
- <h2 className="beautiful text-center " >
+ <h2 className="brace beautiful text-center " >
     <br/><br/><br/><br/>Incognito Braces
     </h2>
- <div className="container-fluid bg-light  d-flex justify-content-center ">
+ <div className="lotsof2 container-fluid bg-light  d-flex justify-content-center ">
    <div className ="row">
    <div className="col-lg-6 col-md-6 col-12 pt-5">
    <div class="card text-center"style={{width:"13.83rem",height:"10.83rem"}}>
@@ -513,7 +513,7 @@ From
 </div>
 </div>
    </div>
-   <div className="col-lg-6 col-md-6 col-12 pt-5">
+   <div className=" col-lg-6 col-md-6 col-12 pt-5 memaxm2">
    <div class="card text-center"style={{width:"13.83rem",height:"10.83rem"}}>
   
   <img src={T3} className="img-fluid border-radius p-4" alt=" 5"/>
@@ -527,13 +527,13 @@ From
   </div>
  </div>
 
- <section className="we-are container mt-5 pt-5 " >
+ <section className="we-are container mt-5 pt-5 antir " >
   <div className="py-2 text-center ">
     <div>
 
-<h3 className="beautiful"><br/><br/><br/>Secret Smiles Aligners</h3>
+<h3 className="beautiful brace"><br/><br/><br/>Secret Smiles Aligners</h3>
 <div className ='row'>
-  <div className ="col-10 mx-auto text-center">
+  <div className ="col-10 mx-auto text-center ">
     <div className ="row gy-2" >
     <div className="col-md-4 col-10 mx-auto">
     <img src={T4} alt=''style={{width:"20.83rem"}}/>
@@ -569,7 +569,7 @@ From
   <div className="py-2 text-center mb-5">
     <div>
 
-<h3>Damon Clear Aligners</h3>
+<h3 className="brace beautiful">Damon Clear Aligners</h3>
 <div className ='row'>
   <div className ="col-10 mx-auto text-center">
     <div className ="row gy-2" >
@@ -598,7 +598,7 @@ From
 
 </section>
 <h3 className="text-center beautiful">C-Fast Braces</h3>
-<div className="container-fluid mt-5  d-flex justify-content-center ">
+<div className="lotsof2 container-fluid mt-5  d-flex justify-content-center ">
    <div className ="row">
    <div className="col-lg-6 col-md-6 col-12 mb-5 bg-light">
    <div class="card text-center"style={{width:"13.83rem",height:"15.83rem"}}>
@@ -611,7 +611,7 @@ From
 </div>
 </div>
    </div>
-   <div className="col-lg-6 col-md-6 col-12 bg-light ">
+   <div className="col-lg-6 col-md-6 col-12 bg-light memaxm2 ">
    <div class="card text-center"style={{width:"13.83rem",height:"15.83rem"}}>
   
   <img src={Ff} className="img-fluid border-radius p-4" alt=" surgery"/>
@@ -624,8 +624,8 @@ From
    </div>
   </div>
  </div>
- <h3 className="text-center beautiful"><br/><br/><br/>Quick Straight Teeth</h3>
- <div className="container-fluid mt-5  d-flex justify-content-center ">
+<br/> <h3 className="text-center beautiful "><br/><br/><br/>Quick Straight Teeth</h3>
+ <div className="lotsof2 container-fluid mt-5  d-flex justify-content-center ">
    <div className ="row">
    <div className="col-lg-6 col-md-6 col-12 mb-5 bg-light">
    <div class="card text-center"style={{width:"13.83rem",height:"15.83rem"}}>
@@ -638,7 +638,7 @@ From
 </div>
 </div>
    </div>
-   <div className="col-lg-6 col-md-6 col-12 bg-light ">
+   <div className="col-lg-6 col-md-6 col-12 bg-light memaxm2 ">
    <div class="card text-center"style={{width:"13.83rem",height:"15.83rem"}}>
   
   <img src={Fg} className="img-fluid border-radius p-4" alt=" surgery"/>
@@ -651,8 +651,8 @@ From
    </div>
   </div>
  </div>
- <h3 className="text-center beautiful"><br/><br/><br/>Lingual Braces</h3>
- <div className="container-fluid mt-5  d-flex justify-content-center ">
+<br/> <h3 className="text-center beautiful"><br/><br/><br/>Lingual Braces</h3>
+ <div className="notreal container-fluid mt-5  d-flex justify-content-center ">
    <div className ="row">
    <div className="col-lg-6 col-md-6 col-12 mb-5 bg-light">
    <div class="card text-center"style={{width:"18.83rem",height:"15.83rem"}}>
@@ -665,7 +665,7 @@ From
 </div>
 </div>
    </div>
-   <div className="col-lg-6 col-md-6 col-12 bg-light ">
+   <div className="memaxm2 col-lg-6 col-md-6 col-12 bg-light ">
    <div class="card text-center"style={{width:"18.83rem",height:"15.83rem"}}>
   
   <img src={Li2} className="img-fluid border-radius p-4" alt=" surgery"/>
@@ -683,7 +683,7 @@ From
   <div className="py-2 text-center mb-5">
     <div>
 
-<h3>6 Month Smile Clear Aligners
+<h3 className="brace beautiful">6 Month Smile Clear Aligners
 </h3>
 <div className ='row'>
   <div className ="col-10 mx-auto text-center">
@@ -746,7 +746,7 @@ From
   <div className="py-2 text-center mb-5">
     <div>
 
-<h3>Inman Clear Aligners
+<br/><h3>Inman Clear Aligners
 </h3>
 <div className ='row'>
   <div className ="col-10 mx-auto text-center">
@@ -779,10 +779,10 @@ From
 <section className="reviews container-fluid mt-3" id='reviews-id'>
   <div className="py-5 text-center">
     <div>
-<h2>
+<h2 className="brace">
 Reviews
 </h2>
-<h3>Here are some reviews we've received from some of our real patients...</h3>
+<h3 className="brace-1 ">Here are some reviews we've received from some of our real patients...</h3>
 <div className ='row'>
   <div className ="col-10 mx-auto text-center">
     <div className ="row gy-4" >
@@ -792,12 +792,12 @@ Reviews
 Sue Green</h5>
     </div>
      <div className="col-md-4 col-10 mx-auto">
-   <h5>So I went to see myclinique this week for a Invisalign consultation and I was very impressed, I saw a lady called Lisa and a man called Mark, I told them what a great consultation it was because I was informed of lot's of options and were given lots of information about Invisalign that other clinics never told me before.
+   <h5 className="hide">So I went to see myclinique this week for a Invisalign consultation and I was very impressed, I saw a lady called Lisa and a man called Mark, I told them what a great consultation it was because I was informed of lot's of options and were given lots of information about Invisalign that other clinics never told me before.
 
    <hr/>Natalia Marjovic</h5>
     </div>
      <div className="col-md-4 col-10 mx-auto">
-  <h5>MyClinique is the best clinic in Northampton my daughter got her Invisalign here with the gentleman and I get my anti-wrinkle injections here.
+  <h5 className="hide">MyClinique is the best clinic in Northampton my daughter got her Invisalign here with the gentleman and I get my anti-wrinkle injections here.
 
   <hr/>Marianne Donova</h5>
     </div>

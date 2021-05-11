@@ -39,9 +39,9 @@ const Allon4 = () => {
   
    <div className ="col-md-12 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center "> 
    <div className ='row'>
-    <h1 className="hard mt-3"> <br/> All-on-4 dental implants in <br/>Northampton </h1>
+    <h1 className="hard mt-3"> <br/><br/> All-on-4 dental implants in <br/>Northampton </h1>
   <div className="row">
-   <h2 className =" hard mb-3"> All-on-4, the most permanent & lifelike solution <br/>to replacing a single or both arches<br/> of missing teeth. (start from £98)
+   <h2 className =" hard mb-3 maxm"> All-on-4, the most permanent & lifelike solution <br/>to replacing a single or both arches<br/> of missing teeth. (start from £98)
 
 </h2>
  <img src={Allhed} className="img-fluid dant mb-5" alt=" surgery"/><br/><br/>
@@ -69,7 +69,7 @@ const Allon4 = () => {
   <div className="card-body  ">World Leading Implant</div>
   </div>
    </div>
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5 mid1">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5 mid1">
    <div className="card text-center"style={{height:"8.83rem",width:"8.83rem"}}>
   
   <img src={I2} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
@@ -85,7 +85,7 @@ const Allon4 = () => {
   
 </div>
    </div>
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5">
    <div className="card text-center add2"style={{width:"8.83rem",height:"8.83rem"}}>
 
   <img src={I4} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
@@ -95,7 +95,7 @@ const Allon4 = () => {
    </div>
 
   
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5">
    <div className="card text-center add3"style={{width:"8.83rem",height:"8.83rem"}}>
   
   <img src={I5} className="img-fluid border-radius p-4" alt=" surgery"style={{height:"5.83rem",width:"8.83rem"}}/>
@@ -122,17 +122,17 @@ const Allon4 = () => {
   <div className ="col-10 mx-auto text-center">
     <div className ="row gy-4" >
     <div className="col-md-4 col-10 mx-auto">
-   <h5>I had my consultation with Dr Buddha. He was by far the most professional compared to the other clinics I went to for consultations this week. His colleague Lisa was very friendly and helpful.<hr/>
+   <h5 className="brace-1">I had my consultation with Dr Buddha. He was by far the most professional compared to the other clinics I went to for consultations this week. His colleague Lisa was very friendly and helpful.<hr/>
 
 Sue Green</h5>
     </div>
      <div className="col-md-4 col-10 mx-auto">
-   <h5>So I went to see myclinique this week for a Invisalign consultation and I was very impressed, I saw a lady called Lisa and a man called Mark, I told them what a great consultation it was because I was informed of lot's of options and were given lots of information about Invisalign that other clinics never told me before.
+   <h5 className="brace-1">So I went to see myclinique this week for a Invisalign consultation and I was very impressed, I saw a lady called Lisa and a man called Mark, I told them what a great consultation it was because I was informed of lot's of options and were given lots of information about Invisalign that other clinics never told me before.
 
    <hr/>Natalia Marjovic</h5>
     </div>
      <div className="col-md-4 col-10 mx-auto">
-  <h5>MyClinique is the best clinic in Northampton my daughter got her Invisalign here with the gentleman and I get my anti-wrinkle injections here.
+  <h5 className="brace-1">MyClinique is the best clinic in Northampton my daughter got her Invisalign here with the gentleman and I get my anti-wrinkle injections here.
 
   <hr/>Marianne Donova</h5>
     </div>
@@ -147,10 +147,10 @@ Sue Green</h5>
 
 </section>
 
-<div className="container-fluid mb-5 reviews-ib d-flex justify-content-center">
+<div className="notreal container-fluid mb-5 reviews-ib d-flex justify-content-center">
    <div className ="row d-flex justify-content-center">
   
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
   
   <div className="card-body"> Realistic</div>
@@ -161,7 +161,7 @@ Sue Green</h5>
 </div>
    </div>
 
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
   
   <div className="card-body">Secure</div>
@@ -171,7 +171,7 @@ Sue Green</h5>
    </div>
 </div>
    </div>
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
 
   <div className="card-body">Strong</div>
@@ -215,7 +215,7 @@ The dental implant screws are made from titanium and coated in acrylic, whilst t
 </section>
 <section  id="agee" className="mt-5 reviews-ib">
 <h3 className=" text-center beautiful"><br/>Pros & cons</h3>
-<p className=" text-center beautiful " >Here's a quick guide to some of the pros and cons of All-on-4</p>
+<p className="hide text-center beautiful " >Here's a quick guide to some of the pros and cons of All-on-4</p>
 <div className="iskob exactly mt-2 d-flex justify-content-center">
   <div className="column " >
     <h4 className="paright text-center beautiful "><br/>Easily replace a whole arch of missing teeth</h4>
@@ -231,7 +231,7 @@ The dental implant screws are made from titanium and coated in acrylic, whilst t
 
 
   </div>
-  <div className="column" >
+  <div className="column hide" >
     <h4 className="line-2 text-center beautiful" ><br/><br/>You will have to allow time to heal</h4>
     <p className="line-2 text-center beautiful " >After your All-on-4 procedure, you will have to allow for<br/> the healing times that accompany any dental implant treatment</p>
     <h4 className="line-2 text-center beautiful" >All-on-4 implants are more expensive than dentures</h4>
@@ -242,7 +242,7 @@ The dental implant screws are made from titanium and coated in acrylic, whilst t
 </div>
  </section>  
 
- <h3 className="text-center mt-5 beautiful "> All-on-4 procedure    </h3>
+ <h3 className=" noma text-center mt-5 beautiful "> All-on-4 procedure    </h3>
  
 
 <div className="container-fluid mt-5  d-flex justify-content-center ">
@@ -350,13 +350,13 @@ The dental implant screws are made from titanium and coated in acrylic, whilst t
   <li className="pl-5">Replacing a whole arch of missing teeth</li>
   <li className="pl-5">Providing a more cost-effective alternative<br/> to using single dental implants</li>
   
-  <li  className="pl-5 spabove">Creating teeth that both look and feel just like your natural teeth would</li>
+  <li  className="pl-5 spabove hide">Creating teeth that both look and feel just like your natural teeth would</li>
   
 
 </ul>
 </div>
 
-<p className="pl-5">Having All-on-4 dental implants as an alternative to<br/> traditional dentures is not only going to improve the appearance <br/>of your smile, but also the functionality of your bite. <br/>Dentures have a tendency to encourage bone loss within the jaw, whereas All-on-4<br/> implants actually help to preserve the bone density to prevent it<br/> shrinking over time.
+<p className="pl-5 hide">Having All-on-4 dental implants as an alternative to<br/> traditional dentures is not only going to improve the appearance <br/>of your smile, but also the functionality of your bite. <br/>Dentures have a tendency to encourage bone loss within the jaw, whereas All-on-4<br/> implants actually help to preserve the bone density to prevent it<br/> shrinking over time.
   </p>
 <div className ="mt-3 gbtn">
     
@@ -402,7 +402,7 @@ View our pricing page to see our costs for All-on-4 in Northampton.</p>
 </section>
 <div className="cure">
 <section className="we-are container " >
-  <div className="py-2 text-center mb-5">
+  <div className="py-2 text-center mb-5"id="product">
     <div>
     <h3 className="line" > <br/>Dental implants product range
  </h3>
@@ -443,7 +443,7 @@ View our pricing page to see our costs for All-on-4 in Northampton.</p>
 
 </section>
 
-<section className="we-are container mt-5" >
+<section className="we-are container mt-5"id="product" >
   <div className="py-2 text-center mb-5">
     <div>
 

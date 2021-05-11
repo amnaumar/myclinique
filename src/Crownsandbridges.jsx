@@ -36,7 +36,7 @@ const  Crownsandbridges = () => {
  The quickest & most cost-effective, invisible solution for your perfect smile
 
  </h4>
-  <div className="row">
+  <div className=" dant row">
    
 
  <img src={Cabb} className="img-fluid dant" alt=" surgery"/>
@@ -64,7 +64,7 @@ const  Crownsandbridges = () => {
   <div className="card-body ">Transparent pricing</div>
   </div>
    </div>
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5 mid1">
+   <div className=" hide col-lg-2 col-md-2 col-4 mb-5 gy-5 mid1">
    <div className="card text-center"style={{height:"8.83rem",width:"8.83rem"}}>
   
   <img src={Cab2} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
@@ -80,7 +80,7 @@ const  Crownsandbridges = () => {
   
 </div>
    </div>
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5">
    <div className="card text-center add2"style={{width:"8.83rem",height:"8.83rem"}}>
 
   <img src={Cab4} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
@@ -90,7 +90,7 @@ const  Crownsandbridges = () => {
    </div>
 
   
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5">
    <div className="card text-center add3"style={{width:"8.83rem",height:"8.83rem"}}>
   
   <img src={Cab5} className="img-fluid border-radius p-4" alt=" surgery"style={{height:"5.83rem",width:"8.83rem"}}/>
@@ -108,14 +108,14 @@ const  Crownsandbridges = () => {
 <div className="cure">
 
 
-<h3 className ="text-center beautiful"><br/><br/><br/><br/><br/>Discuss the power of Crowns & Bridges</h3>
-<h5 className="beautiful text-center pl-5 pr-5" ><br/>A crown is a cap that is fitted over the existing tooth to improve its appearance<br/> and return it to its previous shape and size. This is the best option<br/> if you have a tooth that is too damaged for fillings to work, as a crown can act as a reinforcement<br/> by sealing any cracks and holding the tooth together. This will prevent any further damage from occurring whilst<br/> drastically improving the appearance of your tooth.<br/></h5>
-<div className="container-fluid mb-5 d-flex justify-content-center">
+<h3 className ="brace text-center beautiful"><br/><br/><br/><br/><br/>Discuss the power of Crowns & Bridges</h3>
+<h5 className="brace-1 beautiful text-center pl-5 pr-5" ><br/>A crown is a cap that is fitted over the existing tooth to improve its appearance<br/> and return it to its previous shape and size. This is the best option<br/> if you have a tooth that is too damaged for fillings to work, as a crown can act as a reinforcement<br/> by sealing any cracks and holding the tooth together. This will prevent any further damage from occurring whilst<br/> drastically improving the appearance of your tooth.<br/></h5>
+<div className="notreal container-fluid mb-5 d-flex justify-content-center">
 
 
    <div className ="row d-flex justify-content-center">
   
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
   
   <div className="card-body"> Non-surgical</div>
@@ -126,7 +126,7 @@ const  Crownsandbridges = () => {
 </div>
    </div>
 
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
   
   <div className="card-body">Durable</div>
@@ -135,7 +135,7 @@ const  Crownsandbridges = () => {
    </div>
 </div>
    </div>
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
 
   <div className="card-body">Quick</div>
@@ -171,7 +171,7 @@ const  Crownsandbridges = () => {
    </div>
    </div>
 </section>
-<section id="mark">
+<section id="mark"className="noma">
 
 <div className="row">
 
@@ -194,10 +194,10 @@ const  Crownsandbridges = () => {
   
 </section>
 
-<h2 className="beautiful text-center" >
+<h2 className="beautiful text-center brace" >
     Crowns & bridges product range <br/><br/>
     </h2>
-   <div className="container-fluid mt-0 d-flex justify-content-center">
+   <div className="real container-fluid mt-0 d-flex justify-content-center">
    <div className ="row">
    <div className="col-lg-6 col-md-6 col-12 mb-5">
    <div class="card text-center"style={{width:"18.83rem"}}>
@@ -227,13 +227,13 @@ const  Crownsandbridges = () => {
   </div>
  </div> 
  
- <h3 className="text-center beautiful"><br/>   Crowns & bridges procedure  </h3>
+ <h3 className="hide text-center beautiful"><br/>   Crowns & bridges procedure  </h3>
   
 
-  <div className="container mt-5 ">
+  <div className="hide container mt-5 ">
     
      <div className ="row">
-     <div className="col-lg-6 col-md-6 col-12  bg-light">
+     <div className="hide col-lg-6 col-md-6 col-12  bg-light">
      <div class="card text-center"style={{width:"30.83rem",height:"25.83rem"}}>
     
     <img src={Dbp1} className="img-fluid border-radius p-4 function" alt=" surgery"style={{width:"8.83rem",height:"6.83rem"}}/>
@@ -242,7 +242,7 @@ const  Crownsandbridges = () => {
   </div>
   </div>
      </div>
-     <div className="col-lg-6 col-md-6 col-12 bg-light ">
+     <div className="hide col-lg-6 col-md-6 col-12 bg-light ">
      <div class="card text-center"style={{width:"30.83rem",height:"25.83rem"}}>
     
     <img src={Dbp2} className="img-fluid border-radius p-4 function" alt=" surgery"style={{width:"8.83rem",height:"6.83rem"}}/>
@@ -256,7 +256,7 @@ const  Crownsandbridges = () => {
     </div>
    </div>
   
-   <div className="container gutter ">
+   <div className="hide container gutter ">
      <div className ="row">
      <div className="col-lg-6 col-md-6 col-12 mb-5 bg-light">
      <div class="card text-center"style={{width:"30.83rem",height:"25.83rem"}}>
@@ -281,8 +281,8 @@ const  Crownsandbridges = () => {
 
    <section>
  <div className=" sobia mt-5" >
-      <h3 className="line-5 beautiful">Crowns and Bridges patients</h3>
-      <h6 className="text-center beautiful"> From A-listers to the general public, everyone gets the same level of care & attention to detail at my clinic </h6>
+      <h3 className="brace line-5 beautiful">Crowns and Bridges patients</h3>
+      <h6 className="brace-1 text-center beautiful"> From A-listers to the general public, everyone gets the same level of care & attention to detail at my clinic </h6>
 </div>
 </section>
 

@@ -59,7 +59,7 @@ return (
 
 
 
-       <div className="cure">
+       <div className="  cure">
        <div className="container mt-5  ">
  
  <div className ="row">
@@ -71,7 +71,7 @@ return (
   <div className="card-body "><br/>Straighten your teeth</div>
   </div>
    </div>
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5 mid1">
+   <div className=" hide col-lg-2 col-md-2 col-4 mb-5 gy-5 mid1">
    <div className="card text-center"style={{height:"8.83rem",width:"8.83rem"}}>
   
   <img src={In2} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
@@ -87,7 +87,7 @@ return (
   
 </div>
    </div>
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5">
+   <div className=" hide col-lg-2 col-md-2 col-4 mb-5 gy-5">
    <div className="card text-center add2"style={{width:"8.83rem",height:"8.83rem"}}>
 
   <img src={In4} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
@@ -97,7 +97,7 @@ return (
    </div>
 
   
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5">
+   <div className=" hide col-lg-2 col-md-2 col-4 mb-5 gy-5">
    <div className="card text-center add3"style={{width:"8.83rem",height:"8.83rem"}}>
   
   <img src={In5} className="img-fluid border-radius p-4" alt=" surgery"style={{height:"5.83rem",width:"8.83rem"}}/>
@@ -115,7 +115,7 @@ return (
   </div>
 </section>
 
-<section className="reviews-ib container-fluid " id='reviews-ib'>
+<section className=" console reviews-ib container-fluid " id='reviews-ib'>
   <div className="py-5 text-center">
     <div>
 
@@ -148,10 +148,10 @@ Sue Green</h5>
 
 </section>
 
-<div className= "reviews-ib">
+<div className= "notreal reviews-ib">
 
-<h3 className ="text-center beautiful reviews-ib"><br/>Discover the power of clear aligners</h3><br/>
-<h5 className="beautiful text-center pl-5 pr-5  reviews-ib" >Perhaps the best thing about clear aligners is <br/>that they are, as the name suggests, completely clear. <br/>Their translucent material means that they're hardly noticeable<br/> when you're wearing them. You'll be able to achieve a perfect<br/> smile without having to worry about eyes being drawn to the metal brackets<br/> and wires that are associated with traditional braces.<br/></h5>
+<h3 className ="brace text-center beautiful reviews-ib"><br/>Discover the power of clear aligners</h3><br/>
+<h5 className="brace-1 beautiful text-center pl-5 pr-5  reviews-ib" >Perhaps the best thing about clear aligners is <br/>that they are, as the name suggests, completely clear. <br/>Their translucent material means that they're hardly noticeable<br/> when you're wearing them. You'll be able to achieve a perfect<br/> smile without having to worry about eyes being drawn to the metal brackets<br/> and wires that are associated with traditional braces.<br/></h5>
 
 <div className="container-fluid mb-5 reviews-ib d-flex justify-content-center">
 
@@ -159,7 +159,7 @@ Sue Green</h5>
    
    <div className ="row d-flex justify-content-center">
   
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className=" real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
   
   <div className="card-body"> Discreet</div>
@@ -169,7 +169,7 @@ Sue Green</h5>
 </div>
    </div>
 
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
   
   <div className="card-body">Practical</div>
@@ -178,7 +178,7 @@ Sue Green</h5>
    </div>
 </div>
    </div>
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
 
   <div className="card-body">Effective</div>
@@ -202,7 +202,7 @@ Sue Green</h5>
 
 <div className="row">
   
- <br/><br/> <img src={Pow} className="img-fluid side" alt=" surgery"/>
+<br/><br/> <br/><br/> <img src={Pow} className="img-fluid side" alt=" surgery"/>
    <div className="row">
    </div>
    </div>
@@ -214,7 +214,7 @@ Sue Green</h5>
 
 <section  id="agee" className="mt-5 reviews-ib">
 <h3 className=" text-center mt-4 beautiful"><br/>Pros & cons</h3>
-<p className=" text-center beautiful " >Here are some of the pros and cons of clear aligners</p>
+<p className="hide text-center beautiful " >Here are some of the pros and cons of clear aligners</p>
 <div className="iskob exactly mt-2 d-flex justify-content-center">
   <div className="column " >
     <h4 className="paright beautiful text-center"><br/>More affordable than alternatives</h4>
@@ -226,7 +226,7 @@ Sue Green</h5>
     <h4 className="paright beautiful text-center" >Aligners are removable</h4>
     <p className="paright beautiful text-center">You remove you aligners when you eat and brush your teeth, <br/>so they're easy to keen clean</p>
   </div>
-  <div className="column" >
+  <div className="column hide" >
     <h4 className="line-2 text-center beautiful " ><br/><br/><br/><br/></h4>
     <p></p>
     <h4 className="line-2 text-center beautiful" >Must be worn all day</h4>
@@ -287,7 +287,7 @@ Sue Green</h5>
  </div>
 
  <div className="cure">
- <section className="we-are container-fluid  mt-5" >
+ <section className="we-are container-fluid  mt-5" id="open">
   <div className=" text-center ">
     <div>
 
@@ -301,7 +301,7 @@ Sue Green</h5>
    <h5>Crowded Teeth<br/><br/>
   </h5>
     </div>
-     <div className="col-md-6 col-10 mx-auto">
+     <div className=" col-md-6 col-10 mx-auto">
      <img src={Crow2} alt=''style={{width:"30.83rem"}}/>
    <h5 >Open Bite<br/> <br/>
    </h5>
@@ -317,7 +317,7 @@ Sue Green</h5>
 
 
 </section>
-<section className="we-are container-fluid mt-2" >
+<section className="we-are container-fluid mt-2"id="open" >
   <div className=" text-center ">
     <div>
 
@@ -345,7 +345,7 @@ Sue Green</h5>
 
 
 </section>
-<section className="we-are container-fluid mt-2" >
+<section className="we-are container-fluid mt-2"id="open" >
   <div className=" text-center ">
     <div>
 
@@ -424,13 +424,13 @@ Sue Green</h5>
 <li className="pl-5" >Giving you a more aligned smile</li>
 <li className="pl-5" >Providing great results whilst also being subtle</li>
   <li className="pl-5" >Quickly correcting minor crookedness or small gaps between teeth</li>
-  <li  className="pl-5 spabove">Those who want to be able to remove their braces for eating and brushing</li>
+  <li  className="pl-5 spabove hide">Those who want to be able to remove their braces for eating and brushing</li>
   
 
 </ul>
 </div>
 
-<p className='pl-5'>It may seem difficult to believe that a set of clear plastic aligners could be effective as traditional metal braces, but this really is the case. Clear aligners can, in fact, be used to treat a whole variety of problems, from slightly crooked teeth, all the way to bite misalignment and overcrowding. Straighter teeth are also healthier teeth. When your teeth are overcrowded or misaligned, it can be difficult to clean certain areas with your toothbrush. This can lead to a build of plaque, which can introduce cavities and a whole host of other problems. Straighter teeth, on the other hand, are much easier to clean. Clear aligners therefore make it much less likely that you'll fall prone to these kinds of issues
+<p className='pl-5 hide'>It may seem difficult to believe that a set of clear plastic aligners could be effective as traditional metal braces, but this really is the case. Clear aligners can, in fact, be used to treat a whole variety of problems, from slightly crooked teeth, all the way to bite misalignment and overcrowding. Straighter teeth are also healthier teeth. When your teeth are overcrowded or misaligned, it can be difficult to clean certain areas with your toothbrush. This can lead to a build of plaque, which can introduce cavities and a whole host of other problems. Straighter teeth, on the other hand, are much easier to clean. Clear aligners therefore make it much less likely that you'll fall prone to these kinds of issues
   </p>
 <div className ="mt-3 gbtn">
     

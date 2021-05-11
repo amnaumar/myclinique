@@ -31,9 +31,9 @@ const  Dentalcrowns = () => {
   
    <div className ="col-md-12 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center "> 
    <div className ='row'>
-    <h1 className="hard"> Dental crowns and bridges in <br/>Northampton
+    <h1 className="hard"> <br/>Dental crowns and bridges in <br/>Northampton
  </h1>
- <h4 className="hard"> The most cost-effective yet permanent solution to <br/> repairing & replacing  damaged and missing teeth  (start from£12) 
+ <h4 className="hard maxm "> The most cost-effective yet permanent solution to <br/> repairing & replacing  damaged and missing teeth  (start from£12)<br/><br/> 
  
  </h4>
   <div className="row">
@@ -64,7 +64,7 @@ const  Dentalcrowns = () => {
   <div className="card-body ">Transparent pricing</div>
   </div>
    </div>
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5 mid1">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5 mid1">
    <div className="card text-center"style={{height:"8.83rem",width:"8.83rem"}}>
   
   <img src={Cab2} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
@@ -80,7 +80,7 @@ const  Dentalcrowns = () => {
   
 </div>
    </div>
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5">
    <div className="card text-center add2"style={{width:"8.83rem",height:"8.83rem"}}>
 
   <img src={Cab4} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
@@ -90,7 +90,7 @@ const  Dentalcrowns = () => {
    </div>
 
   
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5">
    <div className="card text-center add3"style={{width:"8.83rem",height:"8.83rem"}}>
   
   <img src={Cab5} className="img-fluid border-radius p-4" alt=" surgery"style={{height:"5.83rem",width:"8.83rem"}}/>
@@ -107,16 +107,16 @@ const  Dentalcrowns = () => {
 <div className="cure">
 
 
-<h3 className ="text-center beautiful"><br/><br/><br/><br/><br/>Discover the power of dental crowns</h3>
-<h5 className="beautiful text-center pl-5 pr-5" > <br/>Dental crowns are commonly used to cover the existing tooth  <br/>for both aesthetic and oral hygiene purposes. They offer dual functionality, <br/> as they protect the damaged tooth whilst also improving its appearance. <br/> Crowns are usually held in place by a dental cement, enclosing the entire visible part of the <br/> tooth that lies at or above the gum line.  <br/></h5>
-<div className="container-fluid mb-5 d-flex justify-content-center">
+<h3 className ="brace text-center beautiful"><br/><br/><br/><br/><br/>Discover the power of dental crowns</h3>
+<h5 className="brace-1 beautiful text-center pl-5 pr-5" > <br/>Dental crowns are commonly used to cover the existing tooth  <br/>for both aesthetic and oral hygiene purposes. They offer dual functionality, <br/> as they protect the damaged tooth whilst also improving its appearance. <br/> Crowns are usually held in place by a dental cement, enclosing the entire visible part of the <br/> tooth that lies at or above the gum line.  <br/></h5>
+<div className="notreal container-fluid mb-5 d-flex justify-content-center">
 
 
    <div className ="row d-flex justify-content-center">
   
    
 
-   <div className="col-lg-6 col-md-6 ">
+   <div className="real-1 col-lg-6 col-md-6 ">
    <div className="card text-center"style={{width:"18.83rem"}}>
   
   <div className="card-body">Strong</div>
@@ -124,7 +124,7 @@ const  Dentalcrowns = () => {
    </div>
 </div>
    </div>
-   <div className="col-lg-6 col-md-6 ">
+   <div className="real-1 col-lg-6 col-md-6 ">
    <div className="card text-center"style={{width:"18.83rem"}}>
 
   <div className="card-body">Non-Surgical</div>
@@ -144,7 +144,7 @@ const  Dentalcrowns = () => {
 </div>
 <section  id="agee" className="mt-5 reviews-ib">
 <h3 className=" text-center beautiful"><br/>Pros & cons</h3>
-<p className=" text-center  beautiful" >Here are some of the pros and cons of dental crowns </p>
+<p className=" hide text-center  beautiful" >Here are some of the pros and cons of dental crowns </p>
 <div className="iskob exactly mt-2 d-flex justify-content-center">
   <div className="column " >
     <h4 className="paright text-center beautiful "><br/>Long-lasting
@@ -156,7 +156,7 @@ const  Dentalcrowns = () => {
 </p>
    
   </div>
-  <div className="column" >
+  <div className="column hide" >
     <h4 className="line-2 text-center  beautiful" ><br/><br/><br/>Can crack if not cared for properly
 </h4>
   
@@ -164,7 +164,7 @@ const  Dentalcrowns = () => {
 </div>
  </section>
 
- <h3 className="text-center beautiful"><br/> Dental Crown Procedure    </h3>
+ <h3 className="noma text-center beautiful brace "><br/> Dental Crown Procedure    </h3>
   
 
 <div className="container-fluid mt-5  d-flex justify-content-center ">
@@ -240,7 +240,7 @@ const  Dentalcrowns = () => {
      </div>
      </div>
      </div>
-     <h3 className="text-center beautiful"><br/><br/>Are  dental Bridges right for me?<br/><br/><br/></h3>
+     <h3 className="text-center beautiful brace"><br/><br/>Are  dental Bridges right for me?<br/><br/><br/></h3>
      <section id="bismillah">
  
  <div className="col-lg-6 col-md-6 cell ">
@@ -251,11 +251,11 @@ const  Dentalcrowns = () => {
   
   <li className="pl-5">Restoring the form, function and appearance of badly worn or fractured teeth</li>
   <li  className="pl-5">Maintaining the structural stability and reducing the risk of tooth fractures</li>
-  <li className="pl-5 spabove" >Replacing old existing crowns which have failed or cracked</li>
+  <li className="pl-5 spabove hide " >Replacing old existing crowns which have failed or cracked</li>
  
 </ul>
 </div>
-<p className="pl-5 ">If you have a damaged or discoloured tooth, a crown is the least invasive way to restore its appearance and prevent further decay.
+<p className="pl-5 hide">If you have a damaged or discoloured tooth, a crown is the least invasive way to restore its appearance and prevent further decay.
 
 </p>
 
@@ -278,7 +278,7 @@ const  Dentalcrowns = () => {
    </div>
 </section>
 <section id="mark">
-  <h4 className="text-center line-3">Dental Crown pricing</h4>
+  <h4 className="text-center beautiful line-3">Dental Crown pricing</h4>
 <div className="row">
 <div className="col-lg-6 col-md-6  ">
  
@@ -299,10 +299,10 @@ Dental crowns are available on a finance plan, allowing you to spread the cost o
 
 </section>
 
-<h2 className="beautiful text-center" >
+<h2 className="beautiful text-center brace" >
     Crowns & bridges product range<br/><br/>
     </h2>
-   <div className="container-fluid mt-0 d-flex justify-content-center">
+   <div className="notreal container-fluid mt-0 d-flex justify-content-center">
    <div className ="row">
    <div className="col-lg-6 col-md-6 col-12 mb-5">
    <div class="card text-center"style={{width:"18.83rem"}}>
@@ -315,7 +315,7 @@ Dental crowns are available on a finance plan, allowing you to spread the cost o
 </div>
 </div>
    </div>
-   <div className="col-lg-6 col-md-6 col-12">
+   <div className="col-lg-6 col-md-6 col-12 maxb">
    <div class="card text-center"style={{width:"18.83rem"}}>
   
   <img src={Cab9} className="img-fluid border-radius p-4" alt=" 5"/>

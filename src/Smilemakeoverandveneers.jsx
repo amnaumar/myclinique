@@ -32,7 +32,7 @@ const Smilemakeoverandveneers = () => {
   
    <div className ="col-md-12 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center "> 
    <div className ='row'>
-    <h1 className="hard"> Smile makeovers & veneers in<br/> Northampton
+  <br/><br/><br/>  <h1 className="hard"><br/><br/> Smile makeovers & veneers in<br/> Northampton
  </h1>
  <h3 className="hard" >
  Design your Hollywood Smile & create<br/> your perfect look with veneers & smile<br/> makeovers at MyClinique (Start from£17)
@@ -68,7 +68,7 @@ const Smilemakeoverandveneers = () => {
   <div className="card-body ">Transparent pricing</div>
   </div>
    </div>
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5 mid1">
+   <div className=" hide col-lg-2 col-md-2 col-4 mb-5 gy-5 mid1">
    <div className="card text-center"style={{height:"8.83rem",width:"8.83rem"}}>
   
   <img src={Ven2} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
@@ -80,11 +80,11 @@ const Smilemakeoverandveneers = () => {
    <div className="card text-center add2"style={{width:"8.83rem",height:"8.83rem"}}>
 
   <img src={Ven3} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
-  <div className="card-body beautiful  ">0% Finance</div>
+  <div className="card-body beautiful  "><br/>0% Finance</div>
   
 </div>
    </div>
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5">
    <div className="card text-center add2"style={{width:"8.83rem",height:"8.83rem"}}>
 
   <img src={Ven4} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
@@ -94,7 +94,7 @@ const Smilemakeoverandveneers = () => {
    </div>
 
   
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5">
    <div className="card text-center add3"style={{width:"8.83rem",height:"8.83rem"}}>
   
   <img src={Ven5} className="img-fluid border-radius p-4" alt=" surgery"style={{height:"5.83rem",width:"8.83rem"}}/>
@@ -110,14 +110,14 @@ const Smilemakeoverandveneers = () => {
 <div className="cure">
 
 
-<h3 className ="text-center beautiful"><br/><br/><br/><br/><br/>Discover the power of a smile makeover & veneers</h3>
-<h5 className="beautiful text-center pl-5 pr-5" ><br/>A smile makeover can not only improve<br/> the appearance of your smile, but also raise your self-esteem.<br/> A popular treatment for young, working professionals, veneers are stain-resistant and with <br/>good oral hygiene they can last for years.<br/><br/></h5>
-<div className="container-fluid mb-5 d-flex justify-content-center">
+<h3 className ="brace text-center beautiful"><br/><br/><br/><br/><br/>Discover the power of a smile makeover & veneers</h3>
+<h5 className=" brace-1 beautiful text-center pl-5 pr-5" ><br/>A smile makeover can not only improve<br/> the appearance of your smile, but also raise your self-esteem.<br/> A popular treatment for young, working professionals, veneers are stain-resistant and with <br/>good oral hygiene they can last for years.<br/><br/></h5>
+<div className="notreal container-fluid mb-5 d-flex justify-content-center">
 
 
    <div className ="row d-flex justify-content-center">
   
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
   
   <div className="card-body"> Smile with Confidence</div>
@@ -127,7 +127,7 @@ const Smilemakeoverandveneers = () => {
 </div>
    </div>
 
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
   
   <div className="card-body">Social 6</div>
@@ -135,7 +135,7 @@ const Smilemakeoverandveneers = () => {
    </div>
 </div>
    </div>
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
 
   <div className="card-body">Hollywood Smile</div>
@@ -163,7 +163,7 @@ const Smilemakeoverandveneers = () => {
 
 <div className="row">
 
-   <img src={Smile1} className="img-fluid side" alt=" surgery"/>
+  <br/><br/><br/> <img src={Smile1} className="img-fluid side" alt=" surgery"/>
    <div className="row">
    </div>
    </div>
@@ -173,9 +173,9 @@ const Smilemakeoverandveneers = () => {
    </div>
 </section>
 
-<section id="mark">
+<section  className="hide" id="mark">
 <div className="row">
-<div className="col-lg-6 col-md-6  spacedown">
+<div className="hide col-lg-6 col-md-6  spacedown">
 
 
    <img src={Cab7} className="img-fluid side2" alt=" surgery"/>
@@ -196,10 +196,10 @@ const Smilemakeoverandveneers = () => {
   
 </section>
 
-<h2 className="beautiful text-center" >
+<h2 className="beautiful text-center brace " >
     Veneers product range<br/><br/>
     </h2>
-   <div className="container-fluid mt-0 d-flex justify-content-center">
+   <div className="notreal container-fluid mt-0 d-flex justify-content-center">
    <div className ="row">
    <div className="col-lg-4 col-md-4 mb-5">
    <div class="card text-center"style={{width:"18.83rem",height:"8.83rem"}}>
@@ -213,7 +213,7 @@ const Smilemakeoverandveneers = () => {
 </div>
 </div>
    </div>
-   <div className="col-lg-4 col-md-4">
+   <div className="memaxm2 col-lg-4 col-md-4">
    <div class="card text-center"style={{width:"18.83rem",height:"8.83rem"}}>
   
  
@@ -227,7 +227,7 @@ const Smilemakeoverandveneers = () => {
 </div>
 </div>
    </div>
-   <div className="col-lg-4 col-md-4">
+   <div className="memaxm2 col-lg-4 col-md-4">
    <div class="card text-center"style={{width:"18.83rem",height:"8.83rem"}}>
   
   <img src={Smile4} className="img-fluid border-radius mid p-4" alt=" 5"style={{width:"10.83rem",height:"6.83rem"}}/>

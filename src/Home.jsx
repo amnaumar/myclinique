@@ -33,12 +33,12 @@ import Footer from './Footer';
 
       return (   
      <>
-       <section id = "header" className ="d-flex align-items-center easy" >  
+       <section id = "header" className ="d-flex justify-content-center easy" >  
        <div className ="container">
 <div className ='row'>
   <div className ="col-10 mx-auto">
     <div className ="row">                                
-   <div className ="col-md-12 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center "> 
+   <div className ="col-md-12 col col-10 d-flex justify-content-center "> 
    <div className ='row'>
     <h1>  Experts In Cosmetic Dentistry </h1>
   <div className="row">
@@ -48,20 +48,29 @@ import Footer from './Footer';
 
 We began in Northampton in 2006 and have now been working to help create perfect smiles for our patients for well over a decade. We are extremely proud of the results we are able to give patients, and their feedback is hugely important to us. With our commitment to providing the best treatments in dental care, you can be sure you're in safe hands with the team at MyClinique.</p>
 
-<div className="mt-2">
-   
+
+<div className ="mt-3 place">
     
-       <a href= "" className ="btn-order-an-appointment "> Order an appointment   </a>                                                                 </div>
+    <a href= "http://localhost:3000/Contactus" className ="swagButton ask">Ask for appointment </a>                                                             
+
+</div>
+
      </div>
      
      </div>
       </div>
      
+      </div>
+     
+     </div>
+      </div>
+     
  </div>
-</div>
-</div>
 
-</div>
+
+
+
+
 
        </section >
 
@@ -97,44 +106,46 @@ We began in Northampton in 2006 and have now been working to help create perfect
            
            </div>
          </div>
+           <section id="inquary">
+            
             <Form/> 
-            <section id="ennlarge">
-  <div className="cure">
+            
+            </section> 
 
-  </div>
-</section>
+
+
 
   </section>
-
+  <div className="space"></div>
       
-      <section>
-      <div className=" pictures mt-5" >
-      <h3>Restore Your Smile</h3>
-      <h6>"Take a look at some of images from our happy clients.</h6>
+      <section  id="pictures">
+      <div className=" pictures " >
+      <h3 className="debit "><br/><br/>Restore Your Smile</h3>
+      <h6 className="credit">"Take a look at some of images from our happy clients.</h6>
 </div>
         <div className ="container-fluid mb-5">
 <div className ='row'>
-  <div className ="col-10 mx-auto">
+  <div className ="copy col-10 mx-auto">
     <div className ="row gy-4" >
-    <div className="col-md-3 col-10 mx-auto">
+    <div className="col-md-3 col-6 mx-auto">
     <div class="card" style={{width:"13.83rem"}} >
   <img class="card-img-top" src={Copy1} alt="Card image cap"/>
   
 </div>
     </div>
-     <div className="col-md-3 col-10 mx-auto">
+     <div className=" col-md-3 col-6 mx-auto">
     <div class="card" style={{width:"13.83rem"}}>
   <img class="card-img-top" src={Copy2} alt="Card image cap"/>
   
 </div>
     </div>
-     <div className="col-md-3 col-10 mx-auto">
+     <div className=" col-md-3 col-6 mx-auto">
     <div class="card" style={{width:"13.83rem"}} >
   <img class="card-img-top" src={Copy3} alt="Card image cap"/>
   
 </div>
     </div>
-     <div className="col-md-3 col-10 mx-auto">
+     <div className=" col-md-3 col-10 mx-auto">
     <div class="card" style={{width:"13.83rem"}} >
   <img class="card-img-top" src={Copy4} alt="Card image cap"/>
   
@@ -189,7 +200,7 @@ We began in Northampton in 2006 and have now been working to help create perfect
 <div className ='row'>
   <div className ="col-10 treatment">
    <h2 className="mb-3"> Treatments</h2> 
-   <h6 className="mb-1" >At MyClinique, we offer a wide range of treatments covering all areas of dentistry, from Invisalign clear aligners, to dental implants and veneers. We are committed to delivering the highest standards of treatment and will keep you informed throughout every step of your journey with us. Our CBCT and intraoral scanners are state of the art, as we use the latest technology to ensure you get the best treatment possible. Our gold standard sterilisation facilities are a testament to our commitment to providing top quality service in our Northampton clinic. </h6>                             
+   <h6 className="mb-5 hide" >At MyClinique, we offer a wide range of treatments covering all areas of dentistry, from Invisalign clear aligners, to dental implants and veneers. We are committed to delivering the highest standards of treatment and will keep you informed throughout every step of your journey with us. Our CBCT and intraoral scanners are state of the art, as we use the latest technology to ensure you get the best treatment possible. Our gold standard sterilisation facilities are a testament to our commitment to providing top quality service in our Northampton clinic.<br/><br/><br/> </h6> <br/>                         
   
 </div>
 
@@ -202,56 +213,56 @@ We began in Northampton in 2006 and have now been working to help create perfect
   <div className="carousel slide" id ="my-slider" data-ride="carousel">
     <div className="carousel-inner text-center">
      <div className="carousel-item active">
-     <img src={Slide1} className="img-fluid "alt="slide1"/>
+  <br/>   <img src={Slide1} className="img-fluid "alt="slide1"/>
      <div className="carousel-caption">
     <h3>Anti-Wrinkles Injections & Fillers</h3>
     
   </div>
      </div>
      <div className="carousel-item ">
-     <img src={Slide2} className="img-fluid"alt="slide2"/>
+     <br/>  <img src={Slide2} className="img-fluid"alt="slide2"/>
      <div className="carousel-caption">
     <h3>Face-lift</h3>
    
   </div>
      </div>
      <div className="carousel-item">
-     <img src={Slide3} className="img-fluid"alt="slide3"/>
+     <br/>    <img src={Slide3} className="img-fluid"alt="slide3"/>
      <div className="carousel-caption">
     <h3>Bridges</h3>
   
   </div>
      </div>
      <div className="carousel-item ">
-     <img src={Slide4} className="img-fluid"alt="slide4"/>
+     <br/>     <img src={Slide4} className="img-fluid"alt="slide4"/>
      <div className="carousel-caption">
     <h3>Emergency Treatments</h3>
     
   </div>
      </div>
      <div className="carousel-item">
-     <img src={Slide5} className="img-fluid"alt="slide3"/>
+     <br/>    <img src={Slide5} className="img-fluid"alt="slide3"/>
      <div className="carousel-caption">
     <h3>Invisalign</h3>
      
   </div>
      </div> 
      <div className="carousel-item">
-     <img src={Slide6} className="img-fluid"alt="slide3"/>
+     <br/>    <img src={Slide6} className="img-fluid"alt="slide3"/>
      <div className="carousel-caption">
     <h3>Fixed Braces</h3>
     
   </div>
      </div>
      <div className="carousel-item">
-     <img src={Slide7} className="img-fluid"alt="slide3"/>
+     <br/>     <img src={Slide7} className="img-fluid"alt="slide3"/>
      <div className="carousel-caption">
     <h3>Crowns</h3>
   
   </div>
      </div>
      <div className="carousel-item">
-     <img src={Slide8} className="img-fluid"alt="slide3"/>
+     <br/>     <img src={Slide8} className="img-fluid"alt="slide3"/>
      <div className="carousel-caption">
     <h3>Smile Makeovers & Veneers</h3>
   
@@ -261,13 +272,13 @@ We began in Northampton in 2006 and have now been working to help create perfect
 </div>
   </div>
 
-  <div className="container-fluid d-flex jusgtify-content-center reviews-ib" >  
+  <div className="  container-fluid d-flex jusgtify-content-center reviews-ib" >  
        
        <div className ='row'>
          <div className ="col-10 treatment">
          
   
-          <h6 >If you have any questions or are interested in pursuing any dental treatments, feel free to book your free consultation and come in to see us. You'll find us at Cheyne Walk, right across the road from Northampton Hospital on the outskirts of Northampton town centre. We're only 1 mile away from the closest train station, or reach us by car via Junction 15 off the M1 motorway.
+          <h6 className="myc">If you have any questions or are interested in pursuing any dental treatments, feel free to book your free consultation and come in to see us. You'll find us at Cheyne Walk, right across the road from Northampton Hospital on the outskirts of Northampton town centre. We're only 1 mile away from the closest train station, or reach us by car via Junction 15 off the M1 motorway.
 
 MyClinique has free parking at the clinic, with disabled access and a fully air conditioned waiting area.. </h6>                             
          </div>
@@ -275,9 +286,9 @@ MyClinique has free parking at the clinic, with disabled access and a fully air 
        
        </div>
 
-       <div className="section-out" >
+    <br/>   <div className="section-out" >
     
-    <a href= "" className =" btn-primary button-1  ">Book your FREE consultation Now</a>                                                             
+    <a href= "http://localhost:3000/Contactus" className =" btn-primary button-1  ">Book your FREE consultation Now</a>                                                             
 </div>
 </section>
 
@@ -294,7 +305,7 @@ Our treatments are available on a 0% dental finance plan, where you can spread t
  </div>
  <div className="container">
    <div className ="row">
-   <div className="col-lg-3 col-md-3 col-12">
+   <div className="fab col-lg-3 col-md-3 col-12">
    <div class="card text-center"style={{width:"13.83rem",height:"17.83rem",}}>
   
   <img src={Ic1} className="img-fluid border-radius p-4 adan" alt=" surgery"style={{width:"6.83rem",height:"5.83rem",}}/>
@@ -302,7 +313,7 @@ Our treatments are available on a 0% dental finance plan, where you can spread t
   <div class="card-footer"> <a href="https://lead.tabeo.co.uk/myclinique-1/finance" >Learn more</a> </div>
 </div>
    </div>
-   <div className="col-lg-3 col-md-3 col-12">
+   <div className="fab col-lg-3 col-md-3 col-12">
    <div class="card text-center"style={{width:"13.83rem",height:"17.83rem",}}>
   
   <img src={Ic2} className="img-fluid border-radius p-4 adan" alt=" surgery"style={{width:"6.83rem",height:"5.83rem",}}/>
@@ -310,7 +321,7 @@ Our treatments are available on a 0% dental finance plan, where you can spread t
   <div class="card-footer"> <a href="https://lead.tabeo.co.uk/myclinique-1/finance" >Learn more </a> </div>
 </div>
    </div>
-   <div className="col-lg-3 col-md-3 col-12">
+   <div className="fab col-lg-3 col-md-3 col-12">
    <div class="card text-center"style={{width:"13.83rem adan",height:"17.83rem",}}>
    <i className="fab fa-creative-commons-zero"></i>
   <img src={Ic3} className="img-fluid border-radius p-4 adan" alt=" surgery"style={{width:"7.83rem",height:"5.83rem",}}/>
@@ -318,7 +329,7 @@ Our treatments are available on a 0% dental finance plan, where you can spread t
   <div class="card-footer"> <a href="https://lead.tabeo.co.uk/myclinique-1/finance">Learn more </a> </div>
 </div>
    </div>
-   <div className="col-lg-3 col-md-3 col-12">
+   <div className=" fab col-lg-3 col-md-3 col-12">
    <div class="card text-center"style={{width:"13.83rem",height:"17.83rem",}}>
   
   <img src={Ic4} className="img-fluid border-radius p-4 adan " alt=" surgery"style={{width:"6.83rem",height:"5.83rem",}}/>
@@ -330,7 +341,7 @@ Our treatments are available on a 0% dental finance plan, where you can spread t
 
  </div>
 
- <div className ="container heading text-center mt-5">
+ <div className =" hide container heading text-center mt-5">
    
    <p className="mb-5" >View our pricing page to see a breakdown of the costs for all the treatments available at MyClinique Northampton. If you're unsure about some of the prices and would like some additional information, we encourage you to book a free consultation with us where we will give you a tailored treatment plan which includes a full breakdown of the treatment costs.
   </p>
@@ -340,26 +351,26 @@ Our treatments are available on a 0% dental finance plan, where you can spread t
 
 
 <section className="reviews container-fluid mt-3" id='reviews-id'>
-  <div className="py-5 text-center">
+  <div className="py-5 text-center here">
     <div>
-<h2>
+<h2 className="brace">
 Reviews
 </h2>
-<h3>Here are some reviews we've received from some of our real patients...</h3>
+<h3 className="brace-1">Here are some reviews we've received from some of our real patients...</h3>
 <div className ='row'>
-  <div className ="col-10 mx-auto text-center">
+  <div className =" col-10 mx-auto text-center">
     <div className ="row gy-4" >
     <div className="col-md-4 col-10 mx-auto">
    <h5>I had my consultation with Dr Buddha. He was by far the most professional compared to the other clinics I went to for consultations this week. His colleague Lisa was very friendly and helpful.<hr/>
 
 Sue Green</h5>
     </div>
-     <div className="col-md-4 col-10 mx-auto">
+     <div className=" hide col-md-4 col-10 mx-auto">
    <h5>So I went to see myclinique this week for a Invisalign consultation and I was very impressed, I saw a lady called Lisa and a man called Mark, I told them what a great consultation it was because I was informed of lot's of options and were given lots of information about Invisalign that other clinics never told me before.
 
    <hr/>Natalia Marjovic</h5>
     </div>
-     <div className="col-md-4 col-10 mx-auto">
+     <div className=" hide col-md-4 col-10 mx-auto">
   <h5>MyClinique is the best clinic in Northampton my daughter got her Invisalign here with the gentleman and I get my anti-wrinkle injections here.
 
   <hr/>Marianne Donova</h5>

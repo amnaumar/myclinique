@@ -43,7 +43,7 @@ return (
   
    <div className ="col-md-12 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center "> 
    <div className ='row'>
-    <h1 className="hard">  Clear braces in<br/> Northampton </h1>
+    <h1 className="hard"><br/>  Clear braces in<br/> Northampton </h1>
   <div className="row">
    <h2 className =" hard my-3"> The quickest & most cost-effective, invisible <br/>solution for your perfect smile (start from £27)
 
@@ -74,11 +74,11 @@ return (
   <div className="card-body "><br/>Straighten your teeth</div>
   </div>
    </div>
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5 mid1">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5 mid1">
    <div className="card text-center"style={{height:"8.83rem",width:"8.83rem"}}>
   
-  <img src={Clb3} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
-  <div className="card-body beautiful">Highly experienced clinicians</div>
+  <img src={Clb3} className=" img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
+  <div className="card-body beautiful ">Highly experienced clinicians</div>
  
 </div>
    </div>
@@ -90,7 +90,7 @@ return (
   
 </div>
    </div>
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5">
    <div className="card text-center add2"style={{width:"8.83rem",height:"8.83rem"}}>
 
   <img src={Clb5} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
@@ -100,7 +100,7 @@ return (
    </div>
 
   
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5">
    <div className="card text-center add3"style={{width:"8.83rem",height:"8.83rem"}}>
   
   <img src={Clb6} className="img-fluid border-radius p-4" alt=" surgery"style={{height:"5.83rem",width:"8.83rem"}}/>
@@ -119,7 +119,7 @@ return (
 </section>
 
        
-<section className="reviews-ib container-fluid  beautiful" id='reviews-ib'>
+<section className="console reviews-ib container-fluid  beautiful" id='reviews-ib'>
   <div className="py-5 text-center">
     <div>
 
@@ -151,15 +151,15 @@ Sue Green</h5>
 
 
 </section>
-<h3 className ="text-center beautiful"><br/>Discuss the power of Clear Braces</h3><br/>
-<h5 className="beautiful text-center pl-5 pr-5" >No longer do you have to worry about the appearance of your braces<br/> holding you back from seeking teeth straightening treatment. Clear braces allow you to achieve straighter teeth <br/>whilst being more discreet than traditional metal braces. Those who are looking for <br/>clear braces in Northampton are welcome to book a free consultation to discuss treatment.<br/></h5>
+<h3 className ="brace  text-center beautiful"><br/>Discuss the power of Clear Braces</h3><br/>
+<h5 className="brace-1 beautiful text-center pl-5 pr-5" >No longer do you have to worry about the appearance of your braces<br/> holding you back from seeking teeth straightening treatment. Clear braces allow you to achieve straighter teeth <br/>whilst being more discreet than traditional metal braces. Those who are looking for <br/>clear braces in Northampton are welcome to book a free consultation to discuss treatment.<br/></h5>
 
-<div className="container-fluid mb-5 d-flex justify-content-center">
+<div className=" container-fluid mb-5 d-flex justify-content-center">
 
 
-   <div className ="row d-flex justify-content-center">
+   <div className ="real row d-flex justify-content-center">
   
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
   
   <div className="card-body"> Quick</div>
@@ -170,7 +170,7 @@ Sue Green</h5>
 </div>
    </div>
 
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
   
   <div className="card-body">Discreet</div>
@@ -180,7 +180,7 @@ Sue Green</h5>
    </div>
 </div>
    </div>
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
 
   <div className="card-body">Effective</div>
@@ -221,7 +221,7 @@ Sue Green</h5>
 
  <section  id="agee" className="mt-5 reviews-ib">
 <h3 className=" text-center beautiful"><br/>Pros & cons</h3>
-<p className=" text-center  beautiful" >Here is a quick guide to the pros and cons of multiple Clear Braces. </p>
+<p className=" hide text-center  beautiful" >Here is a quick guide to the pros and cons of multiple Clear Braces. </p>
 <div className="iskob exactly mt-2 d-flex justify-content-center">
   <div className="column " >
     <h4 className="paright text-center beautiful "><br/>Brackets are almost invisible</h4>
@@ -232,7 +232,7 @@ Sue Green</h5>
     <p className=" paright text-center  beautiful" >Clear fixed braces are often more affordable than other invisible ortodontic treatments.</p>
     
   </div>
-  <div className="column" >
+  <div className="column hide" >
     <h4 className="line-2 text-center  beautiful" ><br/><br/>Not removeable</h4>
     <p className="beautiful">Clear braces are fixed to your teeth, so you can't remove them when eating</p>
     <h4 className="line-2 text-center  beautiful" >Extra care needs to be taken when cleaning</h4>
@@ -240,8 +240,8 @@ Sue Green</h5>
   </div>
 </div>
  </section>
- <h3 className="text-center"><br/> Clear brace procedure     </h3>
-  <p className="text-center " >For patients receiving dental implant treatment, here's a guide to how the procedure usually goes </p>
+ <h3 className=" noma text-center"><br/> Clear brace procedure     </h3>
+  <p className="  text-center " >For patients receiving dental implant treatment, here's a guide to how the procedure usually goes </p>
 
 <div className="container-fluid mt-5  d-flex justify-content-center ">
   
@@ -291,7 +291,7 @@ Sue Green</h5>
  </div>
 
  <div className="cure">
- <section className="we-are container-fluid  mt-5" >
+ <section className="we-are container-fluid  mt-5" id="open">
   <div className=" text-center ">
     <div>
 
@@ -321,7 +321,7 @@ Sue Green</h5>
 
 
 </section>
-<section className="we-are container-fluid mt-2" >
+<section className="we-are container-fluid mt-2" id="open">
   <div className=" text-center ">
     <div>
 
@@ -349,7 +349,7 @@ Sue Green</h5>
 
 
 </section>
-<section className="we-are container-fluid mt-2" >
+<section className="we-are container-fluid mt-2"id="open" >
   <div className=" text-center ">
     <div>
 
@@ -425,13 +425,13 @@ Sue Green</h5>
 <ul >
   <li className="pl-5">Straightening teeth to achieve a perfect smile</li>
   <li className="pl-5" >Offering an alternative to clear aligners</li>
-  <li  className="pl-5 spabove">Being discreet enough to not be noticeable unless you're up close</li>
+  <li  className="pl-5 spabove hide">Being discreet enough to not be noticeable unless you're up close</li>
   
 
 </ul>
 </div>
 
-<p className="pl-5">With recent advances in orthodontic treatment, there are now a number of fantastic invisible orthodontic treatments available. For those wishing to achieve a perfectly straight smile without drawing attention to their treatment, clear braces are a great option. Made largely from see through materials, they're virtually invisible to onlookers. They're also an affordable option, being less expensive than many alternate orthodontic treatments.
+<p className="pl-5 hide">With recent advances in orthodontic treatment, there are now a number of fantastic invisible orthodontic treatments available. For those wishing to achieve a perfectly straight smile without drawing attention to their treatment, clear braces are a great option. Made largely from see through materials, they're virtually invisible to onlookers. They're also an affordable option, being less expensive than many alternate orthodontic treatments.
   </p>
 <div className ="mt-3 gbtn">
     

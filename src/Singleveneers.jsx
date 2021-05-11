@@ -41,7 +41,7 @@ const Singleveneers = () => {
   <div className="row">
    
 
- <img src={Singleh} className="img-fluid dant" alt=" surgery"/>
+<br/> <img src={Singleh} className="img-fluid dant" alt=" surgery"/>
 </div>
 </div>
   </div>    
@@ -67,7 +67,7 @@ const Singleveneers = () => {
   <div className="card-body ">Transparent pricing</div>
   </div>
    </div>
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5 mid1">
+   <div className=" hide col-lg-2 col-md-2 col-4 mb-5 gy-5 mid1">
    <div className="card text-center"style={{height:"8.83rem",width:"8.83rem"}}>
   
   <img src={Ven2} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
@@ -75,7 +75,7 @@ const Singleveneers = () => {
  
 </div>
    </div>
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5">
+   <div className=" hide col-lg-2 col-md-2 col-4 mb-5 gy-5">
    <div className="card text-center add2"style={{width:"8.83rem",height:"8.83rem"}}>
 
   <img src={Ven3} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
@@ -83,7 +83,7 @@ const Singleveneers = () => {
   
 </div>
    </div>
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5">
    <div className="card text-center add2"style={{width:"8.83rem",height:"8.83rem"}}>
 
   <img src={Ven4} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
@@ -108,14 +108,14 @@ const Singleveneers = () => {
 <div className="cure">
 
 
-<h3 className ="text-center beautiful"><br/><br/><br/><br/> <br/>Discover the power of single veneers</h3>
-<h5 className="beautiful text-center pl-5 pr-5" > <br/> Single veneers in Northampton are a popular treatment for <br/> those looking to improve the appearance of one or more teeth without the <br/> need for surgery. Veneers can be custom made to look just like the surrounding  <br/>teeth, so they look as natural as possible. <br/><br/></h5>
-<div className="container-fluid mb-5 d-flex justify-content-center">
+<h3 className ="brace text-center beautiful"><br/><br/><br/><br/> <br/>Discover the power of single veneers</h3>
+<h5 className="brace-1 beautiful text-center pl-5 pr-5" > <br/> Single veneers in Northampton are a popular treatment for <br/> those looking to improve the appearance of one or more teeth without the <br/> need for surgery. Veneers can be custom made to look just like the surrounding  <br/>teeth, so they look as natural as possible. <br/><br/></h5>
+<div className="notreal container-fluid mb-5 d-flex justify-content-center">
 
 
    <div className ="row d-flex justify-content-center">
   
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
   
   <div className="card-body"> Natural</div>
@@ -124,7 +124,7 @@ const Singleveneers = () => {
 </div>
    </div>
 
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
   
   <div className="card-body">Durable</div>
@@ -132,7 +132,7 @@ const Singleveneers = () => {
    </div>
 </div>
    </div>
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
 
   <div className="card-body">Improve your smile</div>
@@ -182,7 +182,7 @@ const Singleveneers = () => {
     <p className=" paright text-center  beautiful" >Although more of a temporary solution, composite<br/> veneers work the same and are more affordable</p>
     
   </div>
-  <div className="column" >
+  <div className="column hide" >
     <h4 className="line-2 text-center  beautiful" ><br/><br/><br/>A single veneer is non-reversible</h4>
     <p className="beautiful">Once you have veneers fitted, you will have to have them for life</p>
     <h4 className="line-2 text-center  beautiful" >Some enamel will be removed</h4>
@@ -192,7 +192,7 @@ const Singleveneers = () => {
 </div>
  </section>
 
- <h3 className="text-center beautiful "><br/> Single Veneer Procedure    </h3>
+ <h3 className="noma  brace text-center beautiful "><br/> Single Veneer Procedure    </h3>
   
 
   <div className="container mt-5  ">
@@ -290,13 +290,13 @@ const Singleveneers = () => {
   <li className="pl-5">Disguising teeth that have cracked or chipped</li>
   <li className="pl-5">Making your teeth appear to be more straight</li>
  
-  <li  className="pl-5 spabove">Being a protective cover to prevent any further damage or staining occurring</li>
+  <li  className="pl-5 spabove hide">Being a protective cover to prevent any further damage or staining occurring</li>
   
 
 </ul>
 </div>
 
-<p className="pl-5"> A single veneer is the ideal solution to improving<br/> the appearance of a tooth that perhaps doesn't look the same as the <br/>surrounding ones. A veneer can drastically change how your smile looks,<br/> simply by covering the unsightly tooth so that it matches with<br/> the rest, and is protected from further damage.
+<p className="pl-5 hide"> A single veneer is the ideal solution to improving<br/> the appearance of a tooth that perhaps doesn't look the same as the <br/>surrounding ones. A veneer can drastically change how your smile looks,<br/> simply by covering the unsightly tooth so that it matches with<br/> the rest, and is protected from further damage.
 </p>
 <div className ="mt-3 gbtn">
 <br/><br/>
@@ -315,7 +315,7 @@ const Singleveneers = () => {
 </section>
 
 <section id="mark">
-<h4 className="text-center line-3">Single veneer pricing</h4>
+<h4 className="beautiful text-center line-3">Single veneer pricing</h4>
 <div className="row">
 <div className="col-lg-6 col-md-6  spacedown">
    

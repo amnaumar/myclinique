@@ -33,19 +33,19 @@ const Dentalimplant = () => {
 return (   
      <>
       
-      <section id = "thund" className ="d-flex align-items-center easy mt-5" >  
+      <section id = "thund" className ="d-flex justify-content-center easy mt-5" >  
        <div className ="container">
 <div className ='row'>
   <div className ="col-10 mx-auto">
     <div className ="row">                                
   
-   <div className ="col-md-12 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center "> 
+   <div className =" dentali col-md-12 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center "> 
    <div className ='row'>
     <h1 className="hard">  Dental implants in<br/> Northampton </h1>
   <div className="row">
-   <h2 className =" hard my-3">   The most permanent & lifelike solution<br/> to replacing missing teeth (start from£29) </h2>
+   <h2 className =" hard my-3">   The most permanent & lifelike solution<br/> to replacing missing teeth (start from£29)<br/><br/> </h2>
  
- <img src={Ib} className="img-fluid dant" alt=" surgery"/>
+ <img src={Ib} className="slide img-fluid dateli " alt=" surgery"/>
 </div>
 </div>
       </div>
@@ -58,19 +58,19 @@ return (
 
        </section >
 
-       <div className="cure">
-       <div className="container mt-5  ">
+       <div className="cure icons">
+       <div className="container mt-5 icons ">
  
  <div className ="row">
   
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5">
    <div class="card text-center"style={{height:"8.83rem",width:"8.83rem"}}>
   
   <img src={I1} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"6.83rem",width:"6.83rem"}}/>
   <div className="card-body  ">World Leading Implant</div>
   </div>
    </div>
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5 mid1">
+   <div className=" hide col-lg-2 col-md-2 col-4 mb-5 gy-5 mid1">
    <div className="card text-center"style={{height:"8.83rem",width:"8.83rem"}}>
   
   <img src={I2} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
@@ -78,7 +78,7 @@ return (
  
 </div>
    </div>
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5">
    <div className="card text-center add2"style={{width:"8.83rem",height:"8.83rem"}}>
 
   <img src={I3} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
@@ -86,7 +86,7 @@ return (
   
 </div>
    </div>
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5">
+   <div className="lead col-lg-2 col-md-2 col-4 mb-5 gy-5">
    <div className="card text-center add2"style={{width:"8.83rem",height:"8.83rem"}}>
 
   <img src={I4} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
@@ -114,7 +114,7 @@ return (
   </div>
 </section>
 
-<section className="reviews-ib container-fluid " id='reviews-ib'>
+<section className=" hide reviews-ib container-fluid " id='reviews-ib'>
   <div className="py-5 text-center">
     <div>
 
@@ -145,7 +145,7 @@ Sue Green</h5>
 </div>
 </section>
 
-<div className="container-fluid mb-5 reviews-ib d-flex justify-content-center">
+<div className=" disc container-fluid mb-5 reviews-ib d-flex justify-content-center">
    
 <div className="py-5 text-center">
     <div>
@@ -154,7 +154,7 @@ Discover the power of dental implants<br/><br/>
 </h2>
 <h6 className="mb-5 both-padding  beautiful
 ">Dental implants are the most effective and long-lasting way to replacing missing teeth. As they can last up to 25 years, dental implants are considered a permanent solution to creating natural-looking and fully functioning replacement. At MyClinique, we have placed thousands of dental implants in Northampton with a 98% success rate.</h6>
-<div className ="row d-flex justify-content-center">
+<div className =" dis row d-flex justify-content-center">
   
    <div className="col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
@@ -212,17 +212,17 @@ Discover the power of dental implants<br/><br/>
    </div>
    </div>
 </section>
-<section id="mark">
+<section id="mark hide">
 <div className="row">
 <div className="col-lg-6 col-md-6  ">
    
 
-   <img src={Mb} className="img-fluid " alt=" surgery"/>
+   <img src={Mb} className="img-fluid maxm" alt=" surgery"/><br/><br/><br/>
 
 </div>
    <div className="col-lg-6 col-md-6 cell ">
-<h3 className="slight">Dr. Mark Buddha DDMS</h3>
-<p className="text-align: right abb">"Every patient is unique & has individual expectations. I’ve treated thousands of happy patients and understand the importance of both honestly managing & fulfilling patients expectations. It is of the upmost importance that every patient leaves my clinic with the smile they’ve always wanted. We don’t cut corners & we don’t settle for less than the very best when it comes to patient care & results".</p>
+<h3 className="slight ">Dr. Mark Buddha DDMS</h3>
+<p className=" text-align: right abb">"Every patient is unique & has individual expectations. I’ve treated thousands of happy patients and understand the importance of both honestly managing & fulfilling patients expectations. It is of the upmost importance that every patient leaves my clinic with the smile they’ve always wanted. We don’t cut corners & we don’t settle for less than the very best when it comes to patient care & results".</p>
   
    <div className="row">
    
@@ -233,8 +233,8 @@ Discover the power of dental implants<br/><br/>
   
 </section>
 
-<div className="cure">
-<section className="we-are container " >
+<div className="cure maxm">
+<section className="we-are container " id="product">
   <div className="py-2 text-center mb-5">
     <div>
     <h3 className="line"><br/>Dental implants product range</h3>
@@ -277,7 +277,7 @@ Discover the power of dental implants<br/><br/>
 
 </section>
 
-<section className="we-are container mt-5" >
+<section className="we-are container mt-5"id="product" >
   <div className="py-2 text-center mb-5">
     <div>
 
@@ -326,28 +326,28 @@ Discover the power of dental implants<br/><br/>
 </section>
 </div>
 
-<div className="reviews-ib">
+<div className=" hide reviews-ib">
 <h3 className=" text-center"><br/><br/> Dental implant procedure     </h3>
   <p className=" text-center" >For patients receiving dental implant treatment, here's a guide to how the procedure usually goes </p>
 
 <div className="container-fluid  d-flex justify-content-center ">
   
    <div className ="row">
-   <div className="col-lg-6 col-md-6 col-12  bg-light">
+   <div className=" initial col-lg-6 col-md-6 col-12  bg-light">
    <div class="card text-center"style={{width:"30.83rem",height:"25.83rem"}}>
   
   <img src={Ta} className="img-fluid border-radius p-4 function" alt=" surgery"style={{width:"6.83rem",height:"6.83rem"}}/>
   <div class="card-body">Consultation</div>
-  <div class="card-footer "> At your initial consultation, we'll establish the results that you'd like to achieve with dental implants, explain your potential treatment options, and give you the opportunity to ask any questions that you may have. We'll also conduct an assessment where we'll assess your oral health, before taking the necessary scans and x-rays. We'll then work closely with you to formulate the perfect dental implant treatment plan.
+  <div className="card-footer "> At your initial consultation, we'll establish the results that you'd like to achieve with dental implants, explain your potential treatment options, and give you the opportunity to ask any questions that you may have. We'll also conduct an assessment where we'll assess your oral health, before taking the necessary scans and x-rays. We'll then work closely with you to formulate the perfect dental implant treatment plan.
 </div>
 </div>
    </div>
-   <div className="col-lg-6 col-md-6 col-12 bg-light ">
-   <div class="card text-center"style={{width:"30.83rem",height:"25.83rem"}}>
+   <div className="initial col-lg-6 col-md-6 col-12 bg-light ">
+   <div className="card text-center"style={{width:"30.83rem",height:"25.83rem"}}>
   
   <img src={Xr} className="img-fluid border-radius p-4 function" alt=" surgery"style={{width:"6.83rem",height:"6.83rem"}}/>
-  <div class="card-body">X-ray </div>
-  <div class="card-footer ">The x-rays that were taken of your teeth at your consultation are sent to the laboratory so that the expert team can craft your dental implants ready for fitting.
+  <div className="card-body">X-ray </div>
+  <div className="card-footer ">The x-rays that were taken of your teeth at your consultation are sent to the laboratory so that the expert team can craft your dental implants ready for fitting.
     </div>
 </div>
    </div>
@@ -356,21 +356,21 @@ Discover the power of dental implants<br/><br/>
 
  <div className="container-fluid   d-flex justify-content-center ">
    <div className ="row">
-   <div className="col-lg-6 col-md-6 col-12 mb-5 bg-light">
-   <div class="card text-center"style={{width:"30.83rem",height:"25.83rem"}}>
+   <div className="initial col-lg-6 col-md-6 col-12 mb-5 bg-light">
+   <div className="card text-center"style={{width:"30.83rem",height:"25.83rem"}}>
   
   <img src={N1} className="img-fluid border-radius p-4 function" alt=" surgery"style={{width:"6.83rem",height:"6.83rem"}}/>
   <div class="card-body">Implant Fitting</div>
-  <div class="card-footer bg-light"> Next comes the procedure itself. Our dental implant procedure involves the fitting of a titanium screw into your jawbone, onto which an abutment and prosthetic tooth will be placed. The length of the procedure will depend on how any implants you are having placed. Anaesthetic will also be used to ensure that you feel completely comfortable, and our expert team will be on hand throughout the procedure for anything you might need.
+  <div className="card-footer bg-light"> Next comes the procedure itself. Our dental implant procedure involves the fitting of a titanium screw into your jawbone, onto which an abutment and prosthetic tooth will be placed. The length of the procedure will depend on how any implants you are having placed. Anaesthetic will also be used to ensure that you feel completely comfortable, and our expert team will be on hand throughout the procedure for anything you might need.
 </div>
 </div>
    </div>
-   <div className="col-lg-6 col-md-6 col-12 bg-light ">
-   <div class="card text-center"style={{width:"30.83rem",height:"25.83rem"}}>
+   <div className="initial col-lg-6 col-md-6 col-12 bg-light ">
+   <div className="card text-center"style={{width:"30.83rem",height:"25.83rem"}}>
   
   <img src={N2} className="img-fluid border-radius p-4 function" alt=" surgery"style={{width:"6.83rem",height:"6.83rem"}}/>
-  <div class="card-body">Healing</div>
-  <div class="card-footer bg-light">After your dental implant procedure, we'll give you a full debriefing and answer any questions you may have to ensure that you feel confident with your new smile. We'll also give you full guidance on the best ways to care for your dental implants to ensure that you know just what to do to keep them in the best shape. You may experience some very slight swelling and bruising but this should subside within a few days. The most important thing is to allow time for your dental implant to fuse with your jawbone
+  <div className="card-body">Healing</div>
+  <div className="card-footer bg-light">After your dental implant procedure, we'll give you a full debriefing and answer any questions you may have to ensure that you feel confident with your new smile. We'll also give you full guidance on the best ways to care for your dental implants to ensure that you know just what to do to keep them in the best shape. You may experience some very slight swelling and bruising but this should subside within a few days. The most important thing is to allow time for your dental implant to fuse with your jawbone
     </div>
 </div>
    </div>

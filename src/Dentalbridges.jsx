@@ -32,8 +32,8 @@ const  Dentalbridges = () => {
   
    <div className ="col-md-12 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center "> 
    <div className ='row'>
-    <h1 className="hard"> Dental bridges in <br/> Northampton
- </h1>
+    <h2 className="hard"><br/> Dental bridges in <br/> Northampton
+ </h2>
  <h4 className="hard mrleft"> <br/> <br/> <br/> <br/>The most cost-effective yet permanent solution <br/> to replacing missing teeth (start from £8) 
  
  </h4>
@@ -65,7 +65,7 @@ const  Dentalbridges = () => {
   <div className="card-body ">Transparent pricing</div>
   </div>
    </div>
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5 mid1">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5 mid1">
    <div className="card text-center"style={{height:"8.83rem",width:"8.83rem"}}>
   
   <img src={Cab2} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
@@ -81,7 +81,7 @@ const  Dentalbridges = () => {
   
 </div>
    </div>
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5">
    <div className="card text-center add2"style={{width:"8.83rem",height:"8.83rem"}}>
 
   <img src={Cab4} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
@@ -91,7 +91,7 @@ const  Dentalbridges = () => {
    </div>
 
   
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5">
    <div className="card text-center add3"style={{width:"8.83rem",height:"8.83rem"}}>
   
   <img src={Cab5} className="img-fluid border-radius p-4" alt=" surgery"style={{height:"5.83rem",width:"8.83rem"}}/>
@@ -110,14 +110,14 @@ const  Dentalbridges = () => {
 <div className="cure">
 
 
-<h3 className ="text-center beautiful"><br/><br/><br/><br/><br/>Discuss the power of Dental Bridges</h3>
-<h5 className="beautiful text-center pl-5 pr-5" ><br/>Dental bridges quite literally 'bridge' the gap<br/> opened up by a missing tooth, and are held in place by two dental crowns, <br/>which are placed on either side of the gap, on the neighbouring teeth.<br/> Dental crowns are prosthetic teeth that fit like small caps over<br/> your natural teeth. Often made from porcelain, they effectively replace<br/> the outer part of your tooth. These two dental crowns then provide a solid support for the bridge, <br/>which consists of a row of natural-looking replacement teeth, which effectively fills the gap.<br/> <br/></h5>
-<div className="container-fluid mb-5 d-flex justify-content-center">
+<h3 className ="brace text-center beautiful"><br/><br/><br/><br/><br/>Discuss the power of Dental Bridges</h3>
+<h5 className="brace-1 beautiful text-center pl-5 pr-5" ><br/>Dental bridges quite literally 'bridge' the gap<br/> opened up by a missing tooth, and are held in place by two dental crowns, <br/>which are placed on either side of the gap, on the neighbouring teeth.<br/> Dental crowns are prosthetic teeth that fit like small caps over<br/> your natural teeth. Often made from porcelain, they effectively replace<br/> the outer part of your tooth. These two dental crowns then provide a solid support for the bridge, <br/>which consists of a row of natural-looking replacement teeth, which effectively fills the gap.<br/> <br/></h5>
+<div className="notreal container-fluid mb-5 d-flex justify-content-center">
 
 
    <div className ="row d-flex justify-content-center">
   
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
   
   <div className="card-body"> Secure</div>
@@ -128,7 +128,7 @@ const  Dentalbridges = () => {
 </div>
    </div>
 
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
   
   <div className="card-body">Realistic</div>
@@ -137,7 +137,7 @@ const  Dentalbridges = () => {
    </div>
 </div>
    </div>
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
 
   <div className="card-body">Aesthetic and health benefits</div>
@@ -176,7 +176,7 @@ const  Dentalbridges = () => {
 
 <section  id="agee" className="mt-5 reviews-ib">
 <h3 className=" text-center beautiful"><br/>Pros & cons</h3>
-<p className=" text-center  beautiful" >Here is a quick guide to the pros and cons of dental bridges. </p>
+<p className="hide text-center  beautiful" >Here is a quick guide to the pros and cons of dental bridges. </p>
 <div className="iskob exactly mt-2 d-flex justify-content-center">
   <div className="column " >
     <h4 className="paright text-center beautiful "><br/>Can be used to replace several missing teeth</h4>
@@ -191,7 +191,7 @@ const  Dentalbridges = () => {
 
 
   </div>
-  <div className="column" >
+  <div className="column hide" >
     <h4 className="line-2 text-center  beautiful" ><br/><br/>Not as long-lasting as implants</h4>
     <p className="beautiful">Although dental bridges don't require surgery, dental implants <br/>tend to be a more permanent solution to missing teeth</p>
     <h4 className="line-2 text-center  beautiful" >Teeth may need to be filed down</h4>
@@ -276,7 +276,7 @@ const  Dentalbridges = () => {
      </div>
      </div>
 
-     <h3 className="text-center beautiful"><br/><br/>Are  dental Bridges right for me?<br/></h3>
+     <h3 className="brace text-center beautiful"><br/><br/>Are  dental Bridges right for me?<br/></h3>
      <section id="bismillah">
  
 
@@ -289,17 +289,17 @@ const  Dentalbridges = () => {
   <li className="pl-5" >Providing an affordable alternative to dental implants</li>
   <li className="pl-5">Preventing loss of facial structure</li>
   <li  className="pl-5">Preserving bone density within the jaw</li>
-  <li className="pl-5 spabove" >Restoring your smile</li>
+  <li className="pl-5 spabove hide" >Restoring your smile</li>
  
 </ul>
 </div>
-<p className="pl-5 ">Your dental crowns will provide a solid foundation for your dental bridge, meaning that your replacement teeth will function just like your natural ones. You'll no longer need to struggle with tougher foods, and because the gaps in your smile will be filled with natural looking prosthetic teeth, you'll be able to smile with confidence. Additionally, you'll never need to worry about them falling out as you would with traditional dentures. The material used to make dental bridges is also highly durable, meaning that, if you take care of your new teeth as you would your natural ones, they can last for up to a decade, or even longer.
+<p className="pl-5 hide ">Your dental crowns will provide a solid foundation for your dental bridge, meaning that your replacement teeth will function just like your natural ones. You'll no longer need to struggle with tougher foods, and because the gaps in your smile will be filled with natural looking prosthetic teeth, you'll be able to smile with confidence. Additionally, you'll never need to worry about them falling out as you would with traditional dentures. The material used to make dental bridges is also highly durable, meaning that, if you take care of your new teeth as you would your natural ones, they can last for up to a decade, or even longer.
 
 </p>
 
-<div className ="mt-3 gbtn">
+<div className ="mpm mt-3 gbtn ">
     
-    <a href= "" className ="btn- btn">Book your FREE consultation Now</a>                                                             
+    <a href= "" className =" btn- btn">Book your FREE consultation Now</a>                                                             
 
 <div className="row">
   
@@ -313,13 +313,13 @@ const  Dentalbridges = () => {
    </div>
 </section>
 <section id="mark">
-  <h4 className="text-center line-3">Dental Bridge pricing</h4>
+  <h4 className="text-center beautiful line-3">Dental Bridge pricing</h4>
 <div className="row">
 <div className="col-lg-6 col-md-6  ">
  
 <h4 className="brand-name"> <br/><span className="change-content brand-name proper"></span> (£8)</h4>
 
-   <img src={Cdd4} className="img-fluid replace2 " alt=" surgery"/>
+   <img src={Cdd4} className="maxm img-fluid replace2 " alt=" surgery"/>
 
 </div>
    <div className="col-lg-6 col-md-6 cell ">
@@ -334,10 +334,10 @@ See our pricing page to view our full pricing for dental bridges in Northampton.
 
 </section>
 
-<h2 className="beautiful text-center" >
+<h2 className="beautiful text-center brace" >
     Crowns & bridges product range<br/><br/>
     </h2>
-   <div className="container-fluid mt-0 d-flex justify-content-center">
+   <div className="notreal container-fluid mt-0 d-flex justify-content-center">
    <div className ="row">
    <div className="col-lg-6 col-md-6 col-12 mb-5">
    <div class="card text-center"style={{width:"18.83rem"}}>
@@ -350,7 +350,7 @@ See our pricing page to view our full pricing for dental bridges in Northampton.
 </div>
 </div>
    </div>
-   <div className="col-lg-6 col-md-6 col-12">
+   <div className="col-lg-6 col-md-6 col-12 maxb">
    <div class="card text-center"style={{width:"18.83rem"}}>
   
   <img src={Cab9} className="img-fluid border-radius p-4" alt=" 5"/>

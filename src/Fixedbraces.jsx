@@ -72,7 +72,7 @@ const Fixedbraces = () => {
   <div className="card-body "><br/>Straighten your teeth</div>
   </div>
    </div>
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5 mid1">
+   <div className=" hide col-lg-2 col-md-2 col-4 mb-5 gy-5 mid1">
    <div className="card text-center"style={{height:"8.83rem",width:"8.83rem"}}>
   
   <img src={Clb3} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
@@ -88,7 +88,7 @@ const Fixedbraces = () => {
   
 </div>
    </div>
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5">
    <div className="card text-center add2"style={{width:"8.83rem",height:"8.83rem"}}>
 
   <img src={Clb5} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
@@ -98,7 +98,7 @@ const Fixedbraces = () => {
    </div>
 
   
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5">
    <div className="card text-center add3"style={{width:"8.83rem",height:"8.83rem"}}>
   
   <img src={Clb6} className="img-fluid border-radius p-4" alt=" surgery"style={{height:"5.83rem",width:"8.83rem"}}/>
@@ -113,14 +113,14 @@ const Fixedbraces = () => {
 <div className="cure">
 
 
-<h3 className ="text-center beautiful"><br/><br/><br/><br/><br/>Discuss the power of fixed Braces</h3>
-<h5 className="beautiful text-center pl-5 pr-5" >Fixed braces are the most traditional way of straightening teeth. They are extremely effective and can treat<br/> most types of misalignment, from minor crookedness to more complex cases. <br/>  </h5>
-<div className="container-fluid mb-5 d-flex justify-content-center">
+<h3 className ="brace text-center beautiful"><br/><br/><br/><br/><br/>Discuss the power of fixed Braces</h3>
+<h5 className="brace-1 beautiful text-center pl-5 pr-5" >Fixed braces are the most traditional way of straightening teeth. They are extremely effective and can treat<br/> most types of misalignment, from minor crookedness to more complex cases. <br/>  </h5>
+<div className="notreal container-fluid mb-5 d-flex justify-content-center">
 
 
    <div className ="row d-flex justify-content-center">
   
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
   
   <div className="card-body"> Practical</div>
@@ -130,7 +130,7 @@ const Fixedbraces = () => {
 </div>
    </div>
 
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
   
   <div className="card-body">Effective</div>
@@ -140,7 +140,7 @@ const Fixedbraces = () => {
    </div>
 </div>
    </div>
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
 
   <div className="card-body">Quick</div>
@@ -179,7 +179,7 @@ As the name suggest, they are fixed in your mouth, and can only be removed by yo
 </section>
 <section  id="agee" className="mt-5 reviews-ib">
 <h3 className=" text-center beautiful"><br/>Pros & cons</h3>
-<p className=" text-center  beautiful" >Here is a quick guide to the pros and cons of fixed Braces. </p>
+<p className=" hide text-center  beautiful" >Here is a quick guide to the pros and cons of fixed Braces. </p>
 <div className="iskob exactly mt-2 d-flex justify-content-center">
   <div className="column " >
     <h4 className="paright text-center beautiful "><br/>Straighten teeth with the traditional method</h4>
@@ -191,7 +191,7 @@ As the name suggest, they are fixed in your mouth, and can only be removed by yo
    
     
   </div>
-  <div className="column" >
+  <div className="column hide" >
     <h4 className="line-2 text-center  beautiful" ><br/><br/>Traditional fixed braces are visible
 </h4>
   
@@ -201,7 +201,7 @@ As the name suggest, they are fixed in your mouth, and can only be removed by yo
 </div>
  </section>
 
- <h3 className="text-center"><br/> Fixed braces procedure     </h3>
+ <h3 className="noma text-center"><br/> Fixed braces procedure     </h3>
   
 <div className="container-fluid mt-5  d-flex justify-content-center ">
   
@@ -249,7 +249,7 @@ As the name suggest, they are fixed in your mouth, and can only be removed by yo
    </div>
   </div>
  </div>
- <section className="we-are container-fluid  mt-5" >
+ <section className="we-are container-fluid  mt-5"id="open" >
   <div className=" text-center ">
     <div>
 
@@ -279,7 +279,7 @@ As the name suggest, they are fixed in your mouth, and can only be removed by yo
 
 
 </section>
-<section className="we-are container-fluid mt-2" >
+<section className="we-are container-fluid mt-2"id="open" >
   <div className=" text-center ">
     <div>
 
@@ -305,7 +305,7 @@ As the name suggest, they are fixed in your mouth, and can only be removed by yo
 </div>
 </section>
 
-<section className="we-are container-fluid mt-2" >
+<section className="we-are container-fluid mt-2"id="open" >
   <div className=" text-center ">
     <div>
 
@@ -333,8 +333,8 @@ As the name suggest, they are fixed in your mouth, and can only be removed by yo
 
 <section>
       <div className=" sobia mt-5 review-ib" >
-      <h3 className="line-5"><br/>Fixed braces patients</h3>
-      <h6 className="text-center"> From A-listers to the general public, everyone gets the same level of care & attention to detail at my clinic. </h6>
+      <h3 className="line-5 beautiful"><br/>Fixed braces patients</h3>
+      <h6 className="text-center beautiful"> From A-listers to the general public, everyone gets the same level of care & attention to detail at my clinic. </h6>
 </div>
 </section>
 
@@ -378,11 +378,11 @@ As the name suggest, they are fixed in your mouth, and can only be removed by yo
   <li className="pl-5" >Fixing bite problems, such as an overbite, underbite or crossbite</li>
   <li className="pl-5">Closing any gaps between the teeth</li>
   
-  <li className="pl-5 spabove" >Correcting overcrowding issues</li>
+  <li className="pl-5 spabove hide" >Correcting overcrowding issues</li>
  
 </ul>
 </div>
-<p className="pl-5 ">It is important to note that opting for teeth straightening treatment will not only improve the appearance of your smile, but is also a step in the right direction for improving the overall hygiene of your mouth. Teeth that are crowded close together or sit at differing angles are harder to clean, and therefore can lead to staining and a build up of plaque, which can then lead on to decay
+<p className="pl-5 hide ">It is important to note that opting for teeth straightening treatment will not only improve the appearance of your smile, but is also a step in the right direction for improving the overall hygiene of your mouth. Teeth that are crowded close together or sit at differing angles are harder to clean, and therefore can lead to staining and a build up of plaque, which can then lead on to decay
 </p>
 
 <div className ="mt-3 gbtn">
@@ -401,7 +401,7 @@ As the name suggest, they are fixed in your mouth, and can only be removed by yo
    </div>
 </section>
 <section id="mark">
-  <h4 className="text-center line-3">Fixed braces pricing</h4>
+  <h4 className="text-center line-3 beautiful">Fixed braces pricing</h4>
 <div className="row">
 <div className="col-lg-6 col-md-6  ">
 <h4 className="brand-name"> <br/><span className="change-content brand-name proper"></span> (£25)</h4>

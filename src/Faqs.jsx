@@ -4,9 +4,9 @@ const Faqs = () => {
 
 return (   
      <>
-       <div className="scroll">
+       <div className="scroll ">
      
-         <div className="section">
+         <div className="section myfaqs">
 
          <div className="content">
        <br/><br/>   <h3>MyClinique FAQs </h3> 
@@ -22,7 +22,7 @@ Read our FAQs for more information or feel free to give us a call and we'll be m
          </div>
 
          </div>
-         <div className="section">
+         <div className="section  myfaqs">
          <div className="content">
          <br/><br/>   <h3>Celebrities with veneers </h3> 
           <p>Veneers are an extremely popular treatment for those in the limelight.  
@@ -36,7 +36,7 @@ Read our FAQs for more information or feel free to give us a call and we'll be m
          </div>
 
          </div>
-         <div className="section">
+         <div className="section myfaqs ">
          <div className="content">
          <br/><br/>    <h3>Should I get dental implants abroad?  </h3> 
           <p> In short, the answer is a resounding no. If you would like some more depth as to why you shouldn’t go abroad for your dental implants, please read on. 
@@ -52,7 +52,7 @@ Read our FAQs for more information or feel free to give us a call and we'll be m
          </div>
 
          </div>
-         <div className="section">
+         <div className="section  myfaqs">
          <div className="content">
          <br/><br/>    <h3> Can I get braces as an adult?</h3> 
           <p>  Braces are no longer just for teenagers.
@@ -70,7 +70,7 @@ Read our FAQs for more information or feel free to give us a call and we'll be m
          </div>
 
          </div>
-         <div className="section">
+         <div className="section  myfaqs">
          <div className="content">
          <br/><br/>   <h3>Top Tips for Invisalign  </h3> 
           <p>Here are some of our tips for getting the most out of your Invisalign treatment.

@@ -145,24 +145,24 @@ return (
               </div>
 </div>
 </div>
-<section className="reviews-ib container-fluid " id='reviews-ib'>
+<section className=" hide reviews-ib container-fluid " id='reviews-ib'>
   <div className="py-5 text-center">
     <div>
 
 <div className ='row'>
   <div className ="col-10 mx-auto text-center">
     <div className ="row gy-4" >
-    <div className="col-md-4 col-10 mx-auto">
+    <div className=" col-md-4 col-10 mx-auto">
    <h5>I had my consultation with Dr Buddha. He was by far the most professional compared to the other clinics I went to for consultations this week. His colleague Lisa was very friendly and helpful.<hr/>
 
 Sue Green</h5>
     </div>
-     <div className="col-md-4 col-10 mx-auto">
+     <div className="  col-md-4 col-10 mx-auto">
    <h5>So I went to see myclinique this week for a Invisalign consultation and I was very impressed, I saw a lady called Lisa and a man called Mark, I told them what a great consultation it was because I was informed of lot's of options and were given lots of information about Invisalign that other clinics never told me before.
 
    <hr/>Natalia Marjovic</h5>
     </div>
-     <div className="col-md-4 col-10 mx-auto">
+     <div className=" col-md-4 col-10 mx-auto">
   <h5>MyClinique is the best clinic in Northampton my daughter got her Invisalign here with the gentleman and I get my anti-wrinkle injections here.
 
   <hr/>Marianne Donova</h5>

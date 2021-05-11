@@ -36,7 +36,7 @@ const Wholearchreplacement = () => {
   
    <div className ="col-md-12 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center "> 
    <div className ='row'>
-    <h1 className="hard">  Whole arch replacement dental implants <br/>in Northampton
+    <h1 className="hard"><br/>  Whole arch replacement dental implants <br/>in Northampton
  </h1>
  <h3 className="hard" >
  The most permanent & lifelike solution<br/> to replacing a whole arch<br/> of missing teeth (Start from£144)
@@ -69,7 +69,7 @@ const Wholearchreplacement = () => {
   <div className="card-body ">World leading Implants</div>
   </div>
    </div>
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5 mid1">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5 mid1">
    <div className="card text-center"style={{height:"8.83rem",width:"8.83rem"}}>
   
   <img src={I2} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
@@ -77,7 +77,7 @@ const Wholearchreplacement = () => {
  
 </div>
    </div>
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5">
    <div className="card text-center add2"style={{width:"8.83rem",height:"8.83rem"}}>
 
   <img src={I3} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
@@ -95,7 +95,7 @@ const Wholearchreplacement = () => {
    </div>
 
   
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5">
    <div className="card text-center add3"style={{width:"8.83rem",height:"8.83rem"}}>
   
   <img src={I5} className="img-fluid border-radius p-4" alt=" surgery"style={{height:"5.83rem",width:"8.83rem"}}/>
@@ -111,14 +111,14 @@ const Wholearchreplacement = () => {
 <div className="cure">
 
 
-<h3 className ="text-center beautiful"><br/><br/><br/><br/><br/>The power of whole-arch replacements</h3>
-<h5 className="beautiful text-center pl-5 pr-5" > <br/>Whole-arch replacements are used when most<br/> or all of the teeth on the upper or lower jaw need replacing. <br/>There are several whole-arch replacement options to consider<br/> depending on your individual requirements.<br/></h5>
-<div className="container-fluid mb-5 d-flex justify-content-center">
+<h3 className ="brace text-center beautiful"><br/><br/><br/><br/><br/>The power of whole-arch replacements</h3>
+<h5 className="brace-1 beautiful text-center pl-5 pr-5" > <br/>Whole-arch replacements are used when most<br/> or all of the teeth on the upper or lower jaw need replacing. <br/>There are several whole-arch replacement options to consider<br/> depending on your individual requirements.<br/></h5>
+<div className="notreal container-fluid mb-5 d-flex justify-content-center">
 
 
    <div className ="row d-flex justify-content-center">
   
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"20.83rem"}}>
   
   <div className="card-body">Natural</div>
@@ -127,7 +127,7 @@ const Wholearchreplacement = () => {
 </div>
    </div>
 
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"20.83rem"}}>
   
   <div className="card-body">Cost Effective</div>
@@ -135,7 +135,7 @@ const Wholearchreplacement = () => {
    </div>
 </div>
    </div>
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"20.83rem"}}>
 
   <div className="card-body">Functional</div>
@@ -174,7 +174,7 @@ Whole-arch replacements use either 4 or 6 <br/>dental implant screws. These are 
 
 <section  id="agee" className="mt-5 reviews-ib">
 <h3 className=" text-center beautiful"><br/>Pros & cons</h3>
-<p className=" text-center  beautiful" >Here is a quick guide to the pros and cons of the whole-arch replacement procedure </p>
+<p className=" hide text-center  beautiful" >Here is a quick guide to the pros and cons of the whole-arch replacement procedure </p>
 <div className="iskob exactly mt-2 d-flex justify-content-center">
   <div className="column " >
     <h4 className="paright text-center beautiful "><br/>A whole-arch replacement is cost-effective
@@ -192,7 +192,7 @@ Whole-arch replacements use either 4 or 6 <br/>dental implant screws. These are 
     
 
   </div>
-  <div className="column" >
+  <div className="column hide" >
    
     <h4 className="line-2 text-center  beautiful" ><br/><br/><br/>   The whole-arch procedure is more expensive than regular dentures</h4>
     <p className="line-2 text-center  beautiful">A whole-arch replacement is more expensive than<br/> traditional dentures, although it does <br/>last longer and work better</p>
@@ -211,7 +211,7 @@ Whole-arch replacements use either 4 or 6 <br/>dental implant screws. These are 
 </section>
 
 
- <h3 className="text-center"><br/> <br/> Whole-arch replacements procedure  </h3>
+ <h3 className="brace beautiful text-center"><br/> <br/> Whole-arch replacements procedure  </h3>
   <p className="text-center" >There are many different types of dental implants on offer to<br/> make sure you can achieve the smile you’re looking for.<br/> Your dentist will advise and prescribe a treatment depending on your <br/>individual dental requirements. </p>
 
 <div className="container-fluid mt-5  d-flex justify-content-center ">
@@ -268,8 +268,8 @@ Whole-arch replacements use either 4 or 6 <br/>dental implant screws. These are 
 
  <section>
       <div className=" sobia mt-5" >
-      <h3 className="line-5">Dental implant patients</h3>
-      <h6 className="text-center"> From A-listers to the general public, everyone gets the same level of care & attention to detail at my clinic. If you think you may want dental implants in Northampton, book your free consultation today </h6>
+      <h3 className=" brace beautiful line-5">Dental implant patients</h3>
+      <h6 className="beautiful text-center"> From A-listers to the general public, everyone gets the same level of care & attention to detail at my clinic. If you think you may want dental implants in Northampton, book your free consultation today </h6>
 </div>
 </section>
 
@@ -312,25 +312,25 @@ Whole-arch replacements use either 4 or 6 <br/>dental implant screws. These are 
     </div>
 </div>
   </div>
-  <h3 className="text-center">Is a whole-arch replacement right for me?</h3>
+  <h3 className="beautiful brace text-center">Is a whole-arch replacement right for me?</h3>
   <section id="bismillah">
  <div className="col-lg-6 col-md-6 cell space ">
    <div className="row">
    <div className="leftside">
-     <h6  className="pl-5">Whole-arch replacements are perfect for</h6>
+     <h6  className="noma pl-5">Whole-arch replacements are perfect for</h6>
 
 <ul >
   <li className="pl-5">Replacing a large number of missing teeth</li>
   <li className="pl-5" >Creating a natural-looking smile</li>
   <li className="pl-5">Restoring functionality</li>
  
-  <li  className="pl-5 spabove">Preserving bone density within the jaw</li>
+  <li  className="pl-5 spabove hide ">Preserving bone density within the jaw</li>
   
 
 </ul>
 </div>
 
-<p className="pl-5">A whole-arch replacement is a cost-effective solution to replacing either one or both arches of teeth. Whether you opt for All-on-4, All-on-6 or Teeth in a Day, your whole-arch replacement will look just like real teeth and nobody will be able to tell you have a whole arch of dental implants in your mouth.</p>
+<p className="pl-5 hide ">A whole-arch replacement is a cost-effective solution to replacing either one or both arches of teeth. Whether you opt for All-on-4, All-on-6 or Teeth in a Day, your whole-arch replacement will look just like real teeth and nobody will be able to tell you have a whole arch of dental implants in your mouth.</p>
 
 <div className ="mt-3 gbtn">
     
@@ -378,7 +378,7 @@ View our pricing page to see our full list of prices, including the cost for who
 </section>
 
 <div className="cure">
-<section className="we-are container " >
+<section className="we-are container "id="product" >
   <div className="py-2 text-center mb-5">
     <div>
     <h3 className="line"><br/>Whole-arch replacements product range<br/><br/>

@@ -39,7 +39,7 @@ return (
   
    <div className ="col-md-12 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center "> 
    <div className ='row'>
-    <h1 className="hard">   Invisalign in<br/> Northampton
+    <h1 className="hard"> <br/>  Invisalign in<br/> Northampton
 </h1>
   <div className="row">
    <h2 className =" hard my-3"> The invisible solution to a perfectly straight smile<br/> in as little as 3 months (Starts from£25)
@@ -69,7 +69,7 @@ return (
   <div className="card-body ">World leading implants</div>
   </div>
    </div>
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5 mid1">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5 mid1">
    <div className="card text-center"style={{height:"8.83rem",width:"8.83rem"}}>
   
   <img src={I2} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
@@ -80,12 +80,12 @@ return (
    <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5">
    <div className="card text-center add2"style={{width:"8.83rem",height:"8.83rem"}}>
 
-  <img src={I3} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
+  <img src={I3} className=" img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
   <div className="card-body beautiful  "><br/>A lifetime warranty</div>
   
 </div>
    </div>
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5">
    <div className="card text-center add2"style={{width:"8.83rem",height:"8.83rem"}}>
 
   <img src={I4} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
@@ -95,7 +95,7 @@ return (
    </div>
 
   
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5">
    <div className="card text-center add3"style={{width:"8.83rem",height:"8.83rem"}}>
   
   <img src={I5} className="img-fluid border-radius p-4" alt=" surgery"style={{height:"5.83rem",width:"8.83rem"}}/>
@@ -111,14 +111,14 @@ return (
 <div className="cure">
 
 
-<h3 className ="text-center beautiful"><br/><br/><br/><br/><br/>Discover the power of an Invisalign smile</h3>
-<h5 className="beautiful text-center pl-5 pr-5" ><br/>Invisalign treatment isn’t the same quality at every clinic.<br/> At MyClinique, we make it our mission that everyone leaves with their<br/> dream smile. Our orthodontists are qualified Invisalign Gold Providers, so you can be sure you're in safe hands and will <br/>get the best out of Invisalign in Northampton</h5>
-<div className="container-fluid mb-5 d-flex justify-content-center">
+<h3 className ="brace text-center beautiful"><br/><br/><br/><br/><br/>Discover the power of an Invisalign smile</h3>
+<h5 className="brace-1 beautiful text-center pl-5 pr-5" ><br/>Invisalign treatment isn’t the same quality at every clinic.<br/> At MyClinique, we make it our mission that everyone leaves with their<br/> dream smile. Our orthodontists are qualified Invisalign Gold Providers, so you can be sure you're in safe hands and will <br/>get the best out of Invisalign in Northampton</h5>
+<div className="notreal container-fluid mb-5 d-flex justify-content-center">
 
 
    <div className ="row d-flex justify-content-center">
   
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
   
   <div className="card-body"> More Freedom</div>
@@ -127,7 +127,7 @@ return (
 </div>
    </div>
 
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
   
   <div className="card-body">Works Fast</div>
@@ -135,7 +135,7 @@ return (
    </div>
 </div>
    </div>
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
 
   <div className="card-body">Investing In you</div>
@@ -164,7 +164,7 @@ Invisalign Doctors will manage your treatment every step of the way.
 
 <div className="row">
   
- <br/> <br/><br/> <img src={Iw} className="img-fluid side" alt=" surgery"/>
+ <br/><br/> <br/><br/> <img src={Iw} className="img-fluid side" alt=" surgery"/>
    <div className="row">
    </div>
    </div>
@@ -174,7 +174,7 @@ Invisalign Doctors will manage your treatment every step of the way.
    </div>
 </section>
 <section id="mark">
-<h4 className="text-center line-3">Dr. Mark Buddha DDMS</h4>
+<h4 className="noma text-center line-3"> <br/>Dr. Mark Buddha DDMS</h4>
 <div className="row">
 <div className="col-lg-6 col-md-6  ">
  
@@ -191,16 +191,16 @@ Invisalign Doctors will manage your treatment every step of the way.
    </div>
 
 </section>
-<h3 className="text-center beautiful"> <br/>Honest & transparent pricing<br/><br/></h3>
+<h3 className="brace text-center beautiful"> <br/>Honest & transparent pricing<br/><br/></h3>
 
 <div className="row">
-<div className="col-lg-6 col-md-6  ">
+<div className="col-lg-6 col-md-6  "id="express">
  
 
    <img src={Pack} className="img-fluid side5" alt=" surgery"style={{width:"25.83rem",height:"20.83rem"}}/>
 
 </div>
-   <div className="col-lg-6 col-md-6 cell ">
+   <div className="col-lg-6 col-md-6 cell  "id="product">
 
  
    <div class="card text-center"style={{width:"30.83rem",height:"30.83rem"}}>
@@ -224,9 +224,9 @@ Invisalign Doctors will manage your treatment every step of the way.
 
 
   
-   <h3 className ="text-center beautiful"><br/><br/>Invisalign treatment procedure</h3>
+   <h3 className ="brace text-center beautiful"><br/><br/>Invisalign treatment procedure</h3>
 
-<div className="container-fluid mb-5 d-flex justify-content-center">
+<div className=" notreal container-fluid mb-5 d-flex justify-content-center">
 
 
    <div className ="row d-flex justify-content-center">
@@ -301,10 +301,10 @@ Invisalign Doctors will manage your treatment every step of the way.
   <div className=" text-center ">
     <div>
 
-<h3><br/>What can Invisalign treat?</h3>
-<h5 className="turtle" >At MyClinique, we have Invisalign specialists that can treat a wide range of issues.<br/> Here are the types of misalignment that Invisalign clear aligners can help with</h5>
+<h3 className="brace"><br/>What can Invisalign treat?</h3>
+<h5 className="brace-1 turtle" >At MyClinique, we have Invisalign specialists that can treat a wide range of issues.<br/> Here are the types of misalignment that Invisalign clear aligners can help with</h5>
 <div className ='row'>
-  <div className ="col-10 mx-auto text-center">
+  <div className ="col-10 mx-auto text-center"id="open">
     <div className ="row gy-2" >
     <div className="col-md-6 col-10 mx-auto">
     <img src={Cl11} alt=''style={{width:"30.83rem"}}/>
@@ -328,7 +328,7 @@ Invisalign Doctors will manage your treatment every step of the way.
 
 </section>
 
-<section className="we-are container-fluid mt-2" >
+<section className="we-are container-fluid mt-2"id="open" >
   <div className=" text-center ">
     <div>
 
@@ -354,7 +354,7 @@ Invisalign Doctors will manage your treatment every step of the way.
 </div>
 </section>
 
-<section className="we-are container-fluid mt-2" >
+<section className="we-are container-fluid mt-2"id="open" >
   <div className=" text-center ">
     <div>
 
@@ -380,10 +380,10 @@ Invisalign Doctors will manage your treatment every step of the way.
 </div>
 </section>
 
-<h2 className="beautiful text-center" >
+<h2 className="beautiful text-center brace" >
     The Invisalign product range<br/><br/>
     </h2>
-   <div className="container-fluid mt-0 d-flex justify-content-center">
+   <div className="notreal container-fluid mt-0 d-flex justify-content-center">
    <div className ="row">
    <div className="col-lg-4 col-md-4 mb-5">
    <div class="card text-center"style={{width:"18.83rem",height:"8.83rem"}}>
@@ -399,7 +399,7 @@ Invisalign Doctors will manage your treatment every step of the way.
 </div>
 </div>
    </div>
-   <div className="col-lg-4 col-md-4">
+   <div className=" memaxm2 col-lg-4 col-md-4">
    <div class="card text-center"style={{width:"18.83rem",height:"8.83rem"}}>
   
  
@@ -415,7 +415,7 @@ Invisalign Doctors will manage your treatment every step of the way.
 </div>
 </div>
    </div>
-   <div className="col-lg-4 col-md-4">
+   <div className="memaxm2 col-lg-4 col-md-4">
    <div class="card text-center"style={{width:"18.83rem",height:"8.83rem"}}>
   
   <img src={Ine} className="img-fluid border-radius mid p-4" alt=" 5"style={{width:"10.83rem",height:"6.83rem"}}/>
@@ -430,7 +430,7 @@ Invisalign Doctors will manage your treatment every step of the way.
    </div>
   </div>
  </div>
- <div className="space"></div>
+ <div className="space hide"></div>
  <div className="space"></div>
  <div className="space"></div>
 

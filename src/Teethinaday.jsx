@@ -41,14 +41,14 @@ const Teethinaday = () => {
   
    <div className ="col-md-12 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center "> 
    <div className ='row'>
-    <h1 className="hard"> Teeth in a Day dental implants in<br/> Northampton</h1>
+    <h1 className="hard"><br/> Teeth in a Day dental implants in<br/> Northampton</h1>
  <h3 className="hard" >Teeth in a Day, the most permanent & lifelike<br/> solution to replacing a single or both <br/>arches of missing teeth in one day (Start from£99)
  
  </h3>
   <div className="row">
    
 
- <img src={Head} className="img-fluid dant" alt=" surgery"/>
+ <br/><img src={Head} className="img-fluid dant" alt=" surgery"/>
 </div>
 </div>
       </div>
@@ -73,7 +73,7 @@ const Teethinaday = () => {
   <div className="card-body ">Award winning affordable dentistry at its best</div>
   </div>
    </div>
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5 mid1">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5 mid1">
    <div className="card text-center"style={{height:"8.83rem",width:"8.83rem"}}>
   
   <img src={I2} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
@@ -81,7 +81,7 @@ const Teethinaday = () => {
  
 </div>
    </div>
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5">
    <div className="card text-center add2"style={{width:"8.83rem",height:"8.83rem"}}>
 
   <img src={I3} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
@@ -99,7 +99,7 @@ const Teethinaday = () => {
    </div>
 
   
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5">
    <div className="card text-center add3"style={{width:"8.83rem",height:"8.83rem"}}>
   
   <img src={I5} className="img-fluid border-radius p-4" alt=" surgery"style={{height:"5.83rem",width:"8.83rem"}}/>
@@ -115,14 +115,14 @@ const Teethinaday = () => {
 <div className="cure">
 
 
-<h3 className ="text-center beautiful"><br/><br/><br/><br/><br/>Discover the power of Teeth in a Day</h3>
-<h5 className="beautiful text-center pl-5 pr-5" ><br/>Teeth in a Day is a procedure that replaces all your  <br/>teeth (on both jaws) with dental implants in just one day. <br/> You walk away with a brand new smile on the same day, which is <br/> why Teeth in a Day is a hugely popular treatment. Here is what you need to know to decide <br/> whether or not Teeth in a Day is right for you.</h5>
-<div className="container-fluid mb-5 d-flex justify-content-center">
+<h3 className ="brace text-center beautiful"><br/><br/><br/><br/><br/>Discover the power of Teeth in a Day</h3>
+<h5 className="brace-1 beautiful text-center pl-5 pr-5" ><br/>Teeth in a Day is a procedure that replaces all your  <br/>teeth (on both jaws) with dental implants in just one day. <br/> You walk away with a brand new smile on the same day, which is <br/> why Teeth in a Day is a hugely popular treatment. Here is what you need to know to decide <br/> whether or not Teeth in a Day is right for you.</h5>
+<div className="notreal container-fluid mb-5 d-flex justify-content-center">
 
 
    <div className ="row d-flex justify-content-center">
   
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
   
   <div className="card-body"> Quick</div>
@@ -131,7 +131,7 @@ const Teethinaday = () => {
 </div>
    </div>
 
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
   
   <div className="card-body">Durable</div>
@@ -139,7 +139,7 @@ const Teethinaday = () => {
    </div>
 </div>
    </div>
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
 
   <div className="card-body">Cost Effective</div>
@@ -170,7 +170,7 @@ Temporary overdentures are generally made of resin. This is not particularly dur
 
 <div className="row">
 
-   <img src={Teeth1} className="img-fluid side" alt=" surgery"/>
+  <br/><br/> <img src={Teeth1} className="img-fluid side" alt=" surgery"/>
    <div className="row">
    </div>
    </div>
@@ -182,7 +182,7 @@ Temporary overdentures are generally made of resin. This is not particularly dur
 
 <section  id="agee" className="mt-5 reviews-ib">
 <h3 className=" text-center beautiful"><br/>Pros & cons</h3>
-<p className=" text-center  beautiful" >Here is a quick guide to the pros and cons of the Teeth in a Day procedure </p>
+<p className="hide text-center  beautiful" >Here is a quick guide to the pros and cons of the Teeth in a Day procedure </p>
 <div className="iskob exactly mt-2 d-flex justify-content-center">
   <div className="column " >
     <h4 className="paright text-center beautiful "><br/>You get a new smile in one day
@@ -204,7 +204,7 @@ Temporary overdentures are generally made of resin. This is not particularly dur
 
 
   </div>
-  <div className="column" >
+  <div className="column hide" >
     <h4 className="line-2 text-center  beautiful" ><br/>A lot of dental work will be done in a day</h4>
     <p className="beautiful">The Teeth in a Day procedure will require a lot of dental<br/> work to be done in one day, so you should prepare <br/>for the healing times afterwards</p>
    
@@ -220,7 +220,7 @@ Temporary overdentures are generally made of resin. This is not particularly dur
 </section>
 
 
- <h3 className="text-center beautiful"><br/><br/>  Teeth in a Day dental implant procedure
+ <h3 className="brace text-center beautiful"><br/><br/>  Teeth in a Day dental implant procedure
   </h3>
  
 <div className="container-fluid mt-5  d-flex justify-content-center ">
@@ -318,7 +318,7 @@ Temporary overdentures are generally made of resin. This is not particularly dur
     </div>
 </div>
   </div>
-  <h3 className="text-center ">Is Teeth In A Day right for me?<br/><br/><br/><br/></h3>
+  <h3 className="brace beautiful text-center ">Is Teeth In A Day right for me?<br/><br/><br/><br/></h3>
   <section id="bismillah">
  <div className="col-lg-6 col-md-6 cell ">
    <div className="row">
@@ -332,12 +332,12 @@ Temporary overdentures are generally made of resin. This is not particularly dur
   <li className="pl-5">Providing real-looking results that appear to be real teeth</li>
   <li className="pl-5">Giving the same levels of functionality that real teeth do</li>
   
-  <li  className="pl-5 spabove">Preserving bone density within the jaw</li>
+  <li  className="pl-5 spabove hide">Preserving bone density within the jaw</li>
   
 
 </ul>
 </div>
-<p className="pl-5">As the Teeth in a Day procedure enables you to have both arches fitted on the same day, there is no extra healing times that may be present if you opt for separate upper and lower arch procedures. Both arches will heal at the same time, meaning the overall process is a lot quicker and will see you with your new, fully healed smile in a short timeframe.
+<p className="pl-5 hide">As the Teeth in a Day procedure enables you to have both arches fitted on the same day, there is no extra healing times that may be present if you opt for separate upper and lower arch procedures. Both arches will heal at the same time, meaning the overall process is a lot quicker and will see you with your new, fully healed smile in a short timeframe.
   </p>
 <div className ="mt-3 gbtn">
     
@@ -355,9 +355,9 @@ Temporary overdentures are generally made of resin. This is not particularly dur
    </div>
 </section>
 <section id="mark">
-<h4 className="text-center line-3 spabove">Teeth in a Day Pricing</h4>
+<h4 className=" brace beautiful text-center line-3 spabove">Teeth in a Day Pricing</h4>
 <div className="row">
-<div className="col-lg-6 col-md-6  spacedown">
+<div className="col-lg-6 col-md-6  spacedown"id="day">
    
 <br/><br/><br/><br/><br/><div class="card text-center"style={{width:"30.83rem",height:"21.83rem"}}>
   
@@ -391,7 +391,7 @@ Take a look at our pricing page to view the costs for Teeth in a Day in Northamp
 </section>
 
 <div className="cure">
-<section className="we-are container " >
+<section className="we-are container "id="product" >
   <div className="py-2 text-center mb-5">
     <div>
     <h3 className="line"><br/>Dental implants product range</h3>
@@ -432,7 +432,7 @@ Take a look at our pricing page to view the costs for Teeth in a Day in Northamp
 
 </section>
 
-<section className="we-are container mt-5" >
+<section className="we-are container mt-5"id="product" >
   <div className="py-2 text-center mb-5">
     <div>
 

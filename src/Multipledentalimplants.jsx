@@ -38,7 +38,7 @@ return (
   
    <div className ="col-md-12 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center "> 
    <div className ='row'>
-    <h1 className="hard">  Multiple dental implants in<br/> Northampton</h1>
+    <h1 className="hard"> <br/><br/> Multiple dental implants in<br/> Northampton</h1>
   <div className="row">
    <h2 className =" hard my-3">  The most permanent & lifelike solution to replacing<br/> multiple missing teeth (Start from£25)
  </h2>
@@ -55,7 +55,7 @@ return (
 </div>
 
        </section >
-       <div className="cure">
+       <div className=" hide cure">
        <div className="container mt-5  ">
  
  <div className ="row">
@@ -114,7 +114,7 @@ return (
 
 
 
-<section className="reviews-ib container-fluid " id='reviews-ib'>
+<section className=" console reviews-ib container-fluid " id='reviews-ib'>
   <div className="py-5 text-center">
     <div>
 
@@ -147,13 +147,13 @@ Sue Green</h5>
 
 </section>
 
-<div className="container-fluid mb-5 reviews-ib d-flex justify-content-center">
+<div className=" real container-fluid mb-5 reviews-ib d-flex justify-content-center">
    <div className ="row d-flex justify-content-center">
   
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className=" col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
   
-  <div className="card-body"> Realistic</div>
+  <div className="real-1 card-body"> Realistic</div>
   <div className="card-footer bg-primary">Multiple dental implants offer a natural-looking solution for more than one missing tooth
 
 
@@ -161,7 +161,7 @@ Sue Green</h5>
 </div>
    </div>
 
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className=" real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
   
   <div className="card-body">Cost-effective</div>
@@ -171,7 +171,7 @@ Sue Green</h5>
    </div>
 </div>
    </div>
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className=" real-1col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
 
   <div className="card-body">Strong</div>
@@ -210,7 +210,7 @@ Dental implant screws are generally made of titanium and acrylic.<br/>  This mea
 </section>
 <section  id="agee" className="mt-5 reviews-ib">
 <h3 className=" text-center beautiful"><br/>Pros & cons</h3>
-<p className=" text-center beautiful " >Here is a quick guide to the pros and cons of multiple dental implants </p>
+<p className="hide text-center beautiful " >Here is a quick guide to the pros and cons of multiple dental implants </p>
 <div className="iskob exactly mt-2 d-flex justify-content-center">
   <div className="column " >
     <h4 className="paright text-center beautiful "><br/>Look and work just like real teeth,<br/> so you can smile with confidence</h4>
@@ -222,16 +222,22 @@ Dental implant screws are generally made of titanium and acrylic.<br/>  This mea
     <h4 className="paright  text-center beautiful" >Prevent the bone loss which comes with dentures</h4>
     <p className="paright  text-center beautiful">Multiple dental implants preserve bone density and prevent any further<br/> bone loss that dentures can cause</p>
   </div>
-  <div className="column" >
+  <div className="column hide" >
     <h4 className="line-2 text-center beautiful" ><br/><br/><br/><br/>Do require surgery (unlike dentures)</h4>
     <p></p>
     <h4 className="line-2 text-center beautiful" >Multiple points of healing in the mouth</h4>
     <p className="line-2 text-center beautiful ">As you will be replacing 3 or more missing teeth, <br/>you'll need to be prepared to have</p>
   </div>
 </div>
- </section>  
+ </section>
+ <section id="enlarge2">
+  <div className="cure">
 
- <h3 className="text-center mt-5 beautiful ">Multiple Dental implant procedure     </h3>
+  </div>
+</section>
+
+
+ <h3 className="multiple text-center mt-5 beautiful ">Multiple Dental implant procedure     </h3>
  
 
 <div className="container-fluid mt-5  d-flex justify-content-center ">
@@ -269,7 +275,7 @@ Dental implant screws are generally made of titanium and acrylic.<br/>  This mea
 </div>
 </div>
    </div>
-   <div className="col-lg-6 col-md-6 col-12 bg-light ">
+   <div className="hide col-lg-6 col-md-6 col-12 bg-light ">
    <div class="card text-center"style={{width:"30.83rem",height:"25.83rem"}}>
   
   <img src={N2} className="img-fluid border-radius p-4 function" alt=" surgery"style={{width:"6.83rem",height:"6.83rem"}}/>
@@ -342,11 +348,11 @@ Dental implant screws are generally made of titanium and acrylic.<br/>  This mea
   <li className="pl-5" >Providing a cost-effective solution to replacing3 or more missing teeth</li>
   <li className="pl-5">The most natural-looking option for replacement teeth</li>
   <li  className="pl-5">Preserving bone density within the jaw</li>
-  <li className="pl-5 spabove" >Stopping the surrounding teeth from drifting into the gap left by missing teeth</li>
+  <li className="pl-5 spabove hide" >Stopping the surrounding teeth from drifting into the gap left by missing teeth</li>
  
 </ul>
 </div>
-<p className="pl-5 ">Many patients are initially unsure as multiple dental<br/> implants require surgery, however the alternative is to opt for <br/>removable dentures as a non-surgical solution. Unfortunately, they neither look nor <br/>feel like real teeth. This means that the difference between your dentures<br/> and your real teeth could be very obvious, which is why opting for <br/>multiple dental implants is the preferred route for many.
+<p className="pl-5 hide ">Many patients are initially unsure as multiple dental<br/> implants require surgery, however the alternative is to opt for <br/>removable dentures as a non-surgical solution. Unfortunately, they neither look nor <br/>feel like real teeth. This means that the difference between your dentures<br/> and your real teeth could be very obvious, which is why opting for <br/>multiple dental implants is the preferred route for many.
 
 </p>
 
@@ -390,7 +396,7 @@ View our pricing page to see our costs for multiple dental implants in Northampt
 </section>
 
 <div className="cure">
-<section className="we-are container " >
+<section className="we-are container "id="product" >
   <div className="py-2 text-center mb-5">
     <div>
     <h3 className="line" > <br/>Dental implants product range
@@ -432,7 +438,7 @@ View our pricing page to see our costs for multiple dental implants in Northampt
 
 </section>
 
-<section className="we-are container mt-5" >
+<section className="we-are container mt-5" id="product" >
   <div className="py-2 text-center mb-5">
     <div>
 

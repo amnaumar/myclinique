@@ -66,7 +66,7 @@ const Veneerssinglearch = () => {
   <div className="card-body ">Transparent pricing</div>
   </div>
    </div>
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5 mid1">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5 mid1">
    <div className="card text-center"style={{height:"8.83rem",width:"8.83rem"}}>
   
   <img src={Ven2} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
@@ -78,11 +78,11 @@ const Veneerssinglearch = () => {
    <div className="card text-center add2"style={{width:"8.83rem",height:"8.83rem"}}>
 
   <img src={Ven3} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
-  <div className="card-body beautiful  ">0% Finance</div>
+  <div className="card-body beautiful  "><br/>0% Finance</div>
   
 </div>
    </div>
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5">
    <div className="card text-center add2"style={{width:"8.83rem",height:"8.83rem"}}>
 
   <img src={Ven4} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
@@ -92,7 +92,7 @@ const Veneerssinglearch = () => {
    </div>
 
   
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5">
    <div className="card text-center add3"style={{width:"8.83rem",height:"8.83rem"}}>
   
   <img src={Ven5} className="img-fluid border-radius p-4" alt=" surgery"style={{height:"5.83rem",width:"8.83rem"}}/>
@@ -110,15 +110,15 @@ const Veneerssinglearch = () => {
 <div className="cure">
 
 
-<h3 className ="text-center beautiful"><br/><br/><br/><br/><br/>Discuss the power of Veneer</h3>
-<h5 className="beautiful text-center pl-5 pr-5" ><br/>Veneers are thin porcelain coverings that are fitted to the front<br/> of your teeth in order to improve their appearance. They are custom made to fit <br/>the size, shape and colour that you want. Patients looking for veneers in Northampton<br/> are welcome at MyClinique to pursue their ideal smile. <br/></h5>
+<h3 className ="brace text-center beautiful"><br/><br/><br/><br/><br/>Discuss the power of Veneer</h3>
+<h5 className="brace-1 beautiful text-center pl-5 pr-5" ><br/>Veneers are thin porcelain coverings that are fitted to the front<br/> of your teeth in order to improve their appearance. They are custom made to fit <br/>the size, shape and colour that you want. Patients looking for veneers in Northampton<br/> are welcome at MyClinique to pursue their ideal smile. <br/></h5>
 
-<div className="container-fluid mb-5 d-flex justify-content-center">
+<div className="notreal container-fluid mb-5 d-flex justify-content-center">
 
 
    <div className ="row d-flex justify-content-center">
   
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
   
   <div className="card-body"> Natural-Looking</div>
@@ -129,7 +129,7 @@ const Veneerssinglearch = () => {
 </div>
    </div>
 
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
   
   <div className="card-body">Long-lasting</div>
@@ -139,7 +139,7 @@ const Veneerssinglearch = () => {
    </div>
 </div>
    </div>
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
 
   <div className="card-body">Strong</div>
@@ -179,7 +179,7 @@ const Veneerssinglearch = () => {
 
 <section  id="agee" className="mt-5 reviews-ib">
 <h3 className=" text-center beautiful"><br/>Pros & cons</h3>
-<p className=" text-center  beautiful" >Here are some of the pros and cons of veneer treatment </p>
+<p className=" hide text-center  beautiful" >Here are some of the pros and cons of veneer treatment </p>
 <div className="iskob exactly mt-2 d-flex justify-content-center">
   <div className="column " >
     <h4 className="paright text-center beautiful "><br/>Composite veneers are an inexpensive<br/> way to enhance your smile
@@ -196,7 +196,7 @@ const Veneerssinglearch = () => {
 
 
   </div>
-  <div className="column" >
+  <div className="column hide" >
     <h4 className="line-2 text-center  beautiful" ><br/><br/><br/>Veneers are non-reversible<br/></h4>
     <p className="beautiful">Once you've had veneers fitted, you can't undo the procedure</p>
     <h4 className="line-2 text-center  beautiful" >Some enamel will need to be removed before having veneers fitted</h4>
@@ -305,7 +305,7 @@ const Veneerssinglearch = () => {
     </div>
 </div>
   </div>
-  <h3 className="text-center ">Are veneers right for me?<br/><br/><br/><br/></h3>
+  <h3 className="brace beautiful text-center ">Are veneers right for me?<br/><br/><br/><br/></h3>
   <section id="bismillah">
  
  <div className="col-lg-6 col-md-6 cell ">
@@ -317,11 +317,11 @@ const Veneerssinglearch = () => {
   <li className="pl-5" >Covering teeth that are cracked or chipped</li>
   <li className="pl-5">Making teeth appear more straight</li>
   
-  <li className="pl-5 spabove" >Protecting teeth from further staining</li>
+  <li className="pl-5 spabove hide" >Protecting teeth from further staining</li>
  
 </ul>
 </div>
-<p className="pl-5 ">Veneers are the perfect solution for drastically enhancing your smile, whether that be by correcting the appearance of misaligned teeth or by covering minor cracks. Improve your confidence and raise your self-esteem by creating a smile you are proud of.
+<p className="pl-5 hide">Veneers are the perfect solution for drastically enhancing your smile, whether that be by correcting the appearance of misaligned teeth or by covering minor cracks. Improve your confidence and raise your self-esteem by creating a smile you are proud of.
 </p>
 
 <div className ="mt-3 gbtn">
@@ -364,10 +364,10 @@ Visit our pricing page to see the cost of veneers in Northampton.</p>
 </section>
 
 
-<h2 className="beautiful text-center" >
+<h2 className="brace beautiful text-center" >
     Veneers product range<br/><br/>
     </h2>
-   <div className="container-fluid mt-0 d-flex justify-content-center">
+   <div className="notreal container-fluid mt-0 d-flex justify-content-center">
    <div className ="row">
    <div className="col-lg-4 col-md-4 mb-5">
    <div class="card text-center"style={{width:"18.83rem",height:"8.83rem"}}>
@@ -381,7 +381,7 @@ Visit our pricing page to see the cost of veneers in Northampton.</p>
 </div>
 </div>
    </div>
-   <div className="col-lg-4 col-md-4">
+   <div className="memaxm2 col-lg-4 col-md-4">
    <div class="card text-center"style={{width:"18.83rem",height:"8.83rem"}}>
   
  
@@ -395,7 +395,7 @@ Visit our pricing page to see the cost of veneers in Northampton.</p>
 </div>
 </div>
    </div>
-   <div className="col-lg-4 col-md-4">
+   <div className="memaxm2 col-lg-4 col-md-4">
    <div class="card text-center"style={{width:"18.83rem",height:"8.83rem"}}>
   
   <img src={Smile4} className="img-fluid border-radius mid p-4" alt=" 5"style={{width:"10.83rem",height:"6.83rem"}}/>

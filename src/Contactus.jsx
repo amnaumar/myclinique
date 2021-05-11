@@ -38,7 +38,7 @@ return (
       
       
        <div className="my-5">
-         <h1 className="text-center beautiful ">Contact Us   </h1>
+         <h1 className="noma text-center beautiful ">Contact Us   </h1>
        </div>
        <div className="container contact-div">
          <div className="row">
@@ -70,9 +70,9 @@ return (
     placeholder="name@example.com" required/>
   </div>
 
-  <div class="form-group s-big">
+  <div className="form-group s-big ">
     <label for="exampleFormControlInput1 ">Message </label>
-    <input type="message" class="form-control" id="exampleFormControlInput1"
+    <input type="message" class="form-control appoint" id="exampleFormControlInput1"
     name="message"
     value={data.message}
     onChange={InputEvent}

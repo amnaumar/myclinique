@@ -54,7 +54,7 @@ const Footer = () => {
 <div class="input-group mb-3">
     <input type="text" class="form-control news-input" placeholder="Your Email"/>
     <div class="input-group-append">
-      <span class="input-group-text">Make a request</span>
+      <span className=" make input-group-text">Make a request</span>
     </div>
   </div>
 </div>
@@ -106,7 +106,7 @@ const Footer = () => {
 </div>
 <div className="col-lg-4 col-md-4 col-12 financediv py-3 ">
 
-<h3 > Our Finance Provuider <a href=" https://lead.tabeo.co.uk/myclinique-1/finance"> https://lead.tabeo.co.uk/myclinique-1/finance</a></h3>
+<h3 > Our Finance Provider <a href=" https://lead.tabeo.co.uk/myclinique-1/finance"> https://lead.tabeo.co.uk/myclinique-1/finance</a></h3>
 </div>
 </div>
 

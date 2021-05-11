@@ -1,5 +1,6 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom';
+import Mn from "../src/images/menu bar.png";
 const Navbar =() => {
 
 return (
@@ -133,9 +134,37 @@ return (
     </div>
     </div>
   </div>
+
+
+
+
+
 </nav>
 </div>
 </div>
+
+</div>
+
+<img src={Mn} activeClassName ='dropdown-toggle' className=" menupic" alt=""style={{height:"1.83rem",width:"1.83rem"}}/>
+
+<div className="menu-bar" id="iconbar">
+
+
+<nav>
+<ul>
+<li><a href="http://localhost:3000/"> Home </a>   </li>
+<li><a href="">Treatments  </a>   </li>
+<li><a href="http://localhost:3000/Aboutus"> Aboutus </a>   </li>
+<li><a href="http://localhost:3000/Pricing">Pricing  </a>   </li>
+<li><a href="http://localhost:3000/Faqs"> Faqs </a>   </li>
+<li><a href="http://localhost:3000/Contactus">Contactus  </a>   </li>
+
+
+
+
+</ul>
+
+</nav>
 
 </div>
 

@@ -32,7 +32,7 @@ return (
   
    <div className ="col-md-12 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center "> 
    <div className ='row'>
-    <h1 className="hard">  Anti-wrinkle injections and fillers<br/> in Northampton</h1>
+    <h1 className="hard"> <br/><br/> Anti-wrinkle injections and fillers<br/> in Northampton</h1>
   <div className="row">
    <h2 className =" hard my-3">  The non-surgical approach to removing wrinkles<br/> and improving facial aesthetics (start from £3)
 </h2>
@@ -62,7 +62,7 @@ return (
   <div className="card-body ">Transparent pricing</div>
   </div>
    </div>
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5 mid1">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5 mid1">
    <div className="card text-center"style={{height:"8.83rem",width:"8.83rem"}}>
   
   <img src={Anti2} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
@@ -78,7 +78,7 @@ return (
   
 </div>
    </div>
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5">
    <div className="card text-center add2"style={{width:"8.83rem",height:"8.83rem"}}>
 
   <img src={Anti4} className="img-fluid border-radius p-4 perfect" alt=" surgery"style={{height:"5.83rem",width:"6.83rem"}}/>
@@ -88,7 +88,7 @@ return (
    </div>
 
   
-   <div className="col-lg-2 col-md-2 col-4 mb-5 gy-5">
+   <div className="hide col-lg-2 col-md-2 col-4 mb-5 gy-5">
    <div className="card text-center add3"style={{width:"8.83rem",height:"8.83rem"}}>
   
   <img src={Anti5} className="img-fluid border-radius p-4" alt=" surgery"style={{height:"5.83rem",width:"8.83rem"}}/>
@@ -110,7 +110,7 @@ return (
 
 
 
-<section className="reviews-ib container-fluid " id='reviews-ib'>
+<section className=" console reviews-ib container-fluid " id='reviews-ib'>
   <div className="py-5 text-center">
     <div>
 
@@ -142,10 +142,10 @@ Sue Green</h5>
 
 
 </section>
-<div className="container-fluid mb-5 reviews-ib d-flex justify-content-center">
+<div className="notreal container-fluid mb-5 reviews-ib d-flex justify-content-center">
    <div className ="row d-flex justify-content-center">
   
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
   
   <div className="card-body"> Quick</div>
@@ -156,7 +156,7 @@ Sue Green</h5>
 </div>
    </div>
 
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
   
   <div className="card-body">No surgery</div>
@@ -166,7 +166,7 @@ Sue Green</h5>
    </div>
 </div>
    </div>
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="real-1 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
 
   <div className="card-body">Safe</div>
@@ -205,13 +205,13 @@ Sue Green</h5>
 </section>
 <section id="mark">
 <div className="row">
-<div className="col-lg-6 col-md-6  ">
+<div className="col-lg-6 col-md-6 hide ">
    
 
   <img src={Mb} className="img-fluid side2" alt=" surgery"/>
 
 </div>
-   <div className="col-lg-6 col-md-6 cell ">
+   <div className="col-lg-6 col-md-6 cell hide ">
 <h3 className="line-5 ml-5 spabove">Dr. Mark Buddha DDMS</h3>
 <p className="text-align: right abb"><br/><br/>"Every patient is unique & has individual expectations. I’ve treated thousands of happy patients and understand the importance of both honestly managing & fulfilling patients expectations. It is of the upmost importance that every patient leaves my clinic with the smile they’ve always wanted. We don’t cut corners & we don’t settle for less than the very best when it comes to patient care & results".</p>
   
@@ -223,14 +223,14 @@ Sue Green</h5>
    </div>
   
 </section>
-<h3 className="text-center beautiful">Anti-wrinkle injections & fillers product range <br/><br/></h3>
+<h3 className=" brace text-center beautiful">Anti-wrinkle injections & fillers product range <br/><br/></h3>
 <section className="we-are container mt-5" >
   <div className="py-2 text-center mb-5">
     <div>
 
 
 <div className ='row'>
-  <div className ="col-10 mx-auto text-center">
+  <div className ="col-10 mx-auto text-center"id="product">
     <div className ="row gy-2" >
     <div className="col-md-6 col-10 mx-auto">
     <h4 className="line beautiful" >Anti Wrinkle Injections</h4>
