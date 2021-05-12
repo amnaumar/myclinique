@@ -199,7 +199,7 @@ We began in Northampton in 2006 and have now been working to help create perfect
        
 <div className ='row'>
   <div className ="col-10 treatment">
-   <h2 className="mb-3"> Treatments</h2> 
+   <h2 className="mb-3 hide"> Treatments</h2> 
    <h6 className="mb-5 hide" >At MyClinique, we offer a wide range of treatments covering all areas of dentistry, from Invisalign clear aligners, to dental implants and veneers. We are committed to delivering the highest standards of treatment and will keep you informed throughout every step of your journey with us. Our CBCT and intraoral scanners are state of the art, as we use the latest technology to ensure you get the best treatment possible. Our gold standard sterilisation facilities are a testament to our commitment to providing top quality service in our Northampton clinic.<br/><br/><br/> </h6> <br/>                         
   
 </div>
@@ -286,7 +286,7 @@ MyClinique has free parking at the clinic, with disabled access and a fully air 
        
        </div>
 
-    <br/>   <div className="section-out" >
+    <br/>   <div className="section-out hide" >
     
     <a href= "http://localhost:3000/Contactus" className =" btn-primary button-1  ">Book your FREE consultation Now</a>                                                             
 </div>
