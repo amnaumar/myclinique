@@ -30,7 +30,7 @@ const Multipledentalimplants = () => {
 
 return (   
      <>
-     <section id = "thund" className ="d-flex align-items-center easy mt-5" >  
+     <section id = "pedic" className ="d-flex align-items-center easy mt-5" >  
        <div className ="container">
 <div className ='row'>
   <div className ="col-10 mx-auto">
@@ -38,12 +38,12 @@ return (
   
    <div className ="col-md-12 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center "> 
    <div className ='row'>
-    <h1 className="hard"> <br/><br/> Multiple dental implants in<br/> Northampton</h1>
+    <h1 className="hard">  Multiple dental implants in Northampton</h1>
   <div className="row">
    <h2 className =" hard my-3">  The most permanent & lifelike solution to replacing<br/> multiple missing teeth (Start from£25)
  </h2>
  
- <img src={Im} className="img-fluid dant" alt=" surgery"/>
+ <img src={Im} className="img-fluid " alt=" surgery"style={{height:"15.83rem",width: "26.83rem"}}/>
 </div>
 </div>
       </div>
@@ -187,11 +187,11 @@ Sue Green</h5>
  <section id="bismillah">
  <div className="col-lg-6 col-md-6 cell ">
    <div className="row">
-<p> Multiple dental implants give you realistic teeth on a<br/> minimal number of dental implants. This means that <br/> multiple dental implants are a cost-effective option<br/>  for replacing several missing teeth.
+<p> Multiple dental implants give you realistic teeth on a minimal number<br/> of dental implants. This means that  multiple dental implants are a cost <br/>effective option  for replacing several missing teeth.
 
-With<br/>  multiple dental implants,  three (or more) dental implant screws are used<br/>  to replace more than one missing tooth in different areas of the mouth.<br/> 
+With  multiple dental<br/> implants,  three (or more) dental implant screws are used to replace more<br/> than one missing tooth in different areas of the mouth.
 
-Dental implant screws are generally made of titanium and acrylic.<br/>  This means that you can be confident that they are both hygienic and strong<br/>  and if you take care of them properly, they will<br/>  last for years. The part of the implant that is visible, replicating the actual tooth, is made<br/>  of zirconia with a porcelain veneer. This gives a balance <br/> of strength (zirconia) and aesthetics (porcelain) to look and<br/>  act as close to real teeth as possible.</p>
+Dental implant<br/> screws are generally made of titanium and acrylic. This means that you can<br/> be confident that they are both hygienic and strong  and if you take  care of<br/> them properly, they will  last for years. The part of the implant that is visible, <br/>replicating the actual tooth, is made  of zirconia with a porcelain veneer. This<br/> gives a balance  of strength (zirconia) and aesthetics (porcelain) to look and<br/>  act as close to real teeth as possible.</p>
 
     <div className ="mt-3 place">
     
@@ -199,7 +199,7 @@ Dental implant screws are generally made of titanium and acrylic.<br/>  This mea
 
 <div className="row">
   
-   <img src={Ds} className="img-fluid side" alt=" surgery"/>
+   <img src={Ds} className="img-fluid side" alt=" surgery"style={{height:"14.83rem",width: "24.83rem"}}/>
    <div className="row">
    </div>
    </div>
@@ -341,7 +341,7 @@ Dental implant screws are generally made of titanium and acrylic.<br/>  This mea
  <div className="col-lg-6 col-md-6 cell ">
    <div className="row">
    <div className="leftside">
-     <h6  className="pl-5">Multiple dental implants are perfect for</h6>
+     <h6  className="pl-5 brand-name">Multiple dental implants are perfect for</h6>
 
 <ul >
   <li className="pl-5">Safely replacing several missing teeth</li>
@@ -352,7 +352,7 @@ Dental implant screws are generally made of titanium and acrylic.<br/>  This mea
  
 </ul>
 </div>
-<p className="pl-5 hide ">Many patients are initially unsure as multiple dental<br/> implants require surgery, however the alternative is to opt for <br/>removable dentures as a non-surgical solution. Unfortunately, they neither look nor <br/>feel like real teeth. This means that the difference between your dentures<br/> and your real teeth could be very obvious, which is why opting for <br/>multiple dental implants is the preferred route for many.
+<p className="pl-5 hide ">Many patients are initially unsure as multiple dental implants require <br/> surgery, however the alternative is   to opt for removable dentures as <br/>  a non-surgical solution. Unfortunately, they neither look nor feel <br/> like real teeth. This means that the difference between your dentures<br/> and your real teeth could be very obvious, which is why opting for <br/>multiple dental implants is the preferred route for many.
 
 </p>
 
@@ -378,12 +378,12 @@ Dental implant screws are generally made of titanium and acrylic.<br/>  This mea
  
 <h4 className="brand-name"> <br/><span className="change-content brand-name proper"></span> (£25)</h4>
 
-   <img src={Lo2} className="img-fluid side2 " alt=" surgery"/>
+   <img src={Lo2} className="img-fluid all-on2 " alt=" surgery"/>
 
 </div>
    <div className="col-lg-6 col-md-6 cell ">
 
-<p className="text-center ">Multiple dental implants generally cost more than dentures. They do, however, generally last a lot longer and provide a higher level of functionality. Multiple dental implants are more cost-effective compared to single dental implants when replacing several missing teeth.
+<p className="mr-5 text-center">Multiple dental implants generally cost more than dentures. They do, however, generally last a lot longer and provide a higher level of functionality. Multiple dental implants are more cost-effective compared to single dental implants when replacing several missing teeth.
 
 The cost of multiple dental implants can be paid in instalments through a dental finance plan, allowing you to spread the cost of your treatment over a longer period of time.
 
@@ -395,7 +395,7 @@ View our pricing page to see our costs for multiple dental implants in Northampt
 
 </section>
 
-<div className="cure">
+<div className="cure mt-5">
 <section className="we-are container "id="product" >
   <div className="py-2 text-center mb-5">
     <div>

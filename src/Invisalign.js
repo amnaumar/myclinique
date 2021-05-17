@@ -31,7 +31,7 @@ return (
      <>
        
  
-       <section id = "thund" className ="d-flex align-items-center easy mt-5" >  
+       <section id = "pedic" className ="d-flex align-items-center easy mt-5" >  
        <div className ="container">
 <div className ='row'>
   <div className ="col-10 mx-auto">
@@ -39,13 +39,13 @@ return (
   
    <div className ="col-md-12 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center "> 
    <div className ='row'>
-    <h1 className="hard"> <br/>  Invisalign in<br/> Northampton
+    <h1 className="hard">  Invisalign in Northampton
 </h1>
   <div className="row">
-   <h2 className =" hard my-3"> The invisible solution to a perfectly straight smile<br/> in as little as 3 months (Starts from£25)
+   <h2 className =" hard "> The invisible solution to a perfectly straight smile<br/> in as little as 3 months (Starts from£25)
  </h2>
  
- <img src={Inb} className="img-fluid dant" alt=" surgery"/>
+ <img src={Inb} className="img-fluid " alt=" surgery"/>
 </div>
 </div>
       </div>
@@ -151,7 +151,7 @@ return (
 <section id="bismillah">
  <div className="col-lg-6 col-md-6 cell ">
    <div className="row">
-<p>Not all clear aligners are the same, only Invisalign clear aligners are made of <br/>SmartTrack material, so they are more comfortable to wear and easier to put on and take off.<br/><br/>
+<p className="pl-5 text-center">Not all clear aligners are the same, only Invisalign clear aligners are made of <br/>SmartTrack material, so they are more comfortable to wear and easier to put on and take off.<br/><br/>
 
 Invisalign Clear Aligners straighten teeth more predictably<br/> and comfortably than other aligners and braces.<br/>
 Invisalign Doctors will manage your treatment every step of the way.
@@ -164,7 +164,7 @@ Invisalign Doctors will manage your treatment every step of the way.
 
 <div className="row">
   
- <br/><br/> <br/><br/> <img src={Iw} className="img-fluid side" alt=" surgery"/>
+ <br/><br/> <br/><br/> <img src={Iw} className="img-fluid side pr-5 pb-5" alt=" surgery"/>
    <div className="row">
    </div>
    </div>
@@ -174,17 +174,17 @@ Invisalign Doctors will manage your treatment every step of the way.
    </div>
 </section>
 <section id="mark">
-<h4 className="noma text-center line-3"> <br/>Dr. Mark Buddha DDMS</h4>
+<h4 className="noma text-center line-3 beautiful"> <br/>Dr. Mark Buddha DDMS</h4>
 <div className="row">
 <div className="col-lg-6 col-md-6  ">
  
 
-   <img src={Lo2} className="img-fluid side2" alt=" surgery"/>
+   <img src={Lo2} className="img-fluid all-on2 pt-5" alt=" surgery"style={{width:"25.83rem",height:"16.83rem"}}/>
 
 </div>
    <div className="col-lg-6 col-md-6 cell ">
 
-<p className="text-align: right ">Every patient is unique & has individual expectations. I’ve treated thousands of happy patients and understand the importance of both honestly managing & fulfilling patients expectations. It is of the upmost importance that every patient leaves my clinic with the smile they’ve always wanted. We don’t cut corners & we don’t settle for less than the very best when it comes to patient care & resul</p>
+<p className="pr-5 text-center">Every patient is unique & has individual expectations. I’ve treated thousands of happy patients and understand the importance of both honestly managing & fulfilling patients expectations. It is of the upmost importance that every patient leaves my clinic with the smile they’ve always wanted. We don’t cut corners & we don’t settle for less than the very best when it comes to patient care & resul</p>
 
   
    </div>
@@ -206,7 +206,7 @@ Invisalign Doctors will manage your treatment every step of the way.
    <div class="card text-center"style={{width:"30.83rem",height:"30.83rem"}}>
   
   <img src={Inex} className="img-fluid border-radius p-4" alt=" 6"style={{width:"13.83rem"}}/>
-  <div class="card-body leftsi">Invisalign express<h4 className="brand-name"> <br/><span className="change-content brand-name proper"></span> (£28)</h4> </div>
+  <div class="card-body  leftsi">Invisalign express<h4 className="brand-name"> <br/><span className="change-content brand-name proper"></span> (£28)</h4> </div>
   <img src={Inl} className="img-fluid border-radius p-4" alt=" 6"style={{width:"13.83rem"}}/>
   <div class="card-body leftsi">Invisalign lite<h4 className="brand-name"> <br/><span className="change-content brand-name proper"></span> (£53)</h4> </div>
   <img src={Ine} className="img-fluid border-radius p-4" alt=" 6"style={{width:"13.83rem"}}/>
@@ -380,7 +380,7 @@ Invisalign Doctors will manage your treatment every step of the way.
 </div>
 </section>
 
-<h2 className="beautiful text-center brace" >
+<h2 className="beautiful text-center brace mt-5" >
     The Invisalign product range<br/><br/>
     </h2>
    <div className="notreal container-fluid mt-0 d-flex justify-content-center">

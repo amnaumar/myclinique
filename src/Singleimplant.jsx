@@ -32,24 +32,24 @@ const Singleimplant = () => {
     return (   
          <>
 
-<section id = "thund" className ="d-flex align-items-center easy mt-5" >  
+<section id = "pedic" className ="d-flex align-items-center easy mt-5" >  
        <div className ="container">
 <div className ='row'>
   <div className ="col-10 mx-auto">
     <div className ="row">                                
   
-   <div className ="col-md-12 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center "> 
+   <div className ="col-md-12 d-flex justify-content-center"> 
    <div className ='row'>
-    <h1 className="hard"> Single dental implants in<br/> Northampton
+    <h1 className="hard"> Single dental implants in Northampton
  </h1>
  <div className="row">
- <h3 className="hard" >
+ <h2 className="hard" >
  The most permanent & lifelike solution to<br/> replacing a missing tooth (Start from£29)
- </h3>
+ </h2>
   <div className="row">
    
 
- <br/><img src={Singlehed} className="img-fluid dant" alt=" surgery"/>
+ <img src={Singlehed} className="img-fluid" alt=" surgery"style={{height:"19.83rem",width:"32.83rem"}}/>
 </div>
 </div>
       </div>
@@ -155,20 +155,20 @@ const Singleimplant = () => {
  <section id="bismillah">
  <div className="col-lg-6 col-md-6 cell ">
    <div className="row">
-<p>Dental implants look and work just like your<br/> real teeth. Nobody will see the difference when you <br/>smile. Nobody will notice anything odd when<br/> you eat.
+<p className="pl-5 text-center">Dental implants look and work just like your<br/> real teeth. Nobody will see the difference when you <br/>smile. Nobody will notice anything odd when<br/> you eat.
 
 Single dental implants use one dental implant<br/> screw per implant. These screws are usually made of<br/> titanium coated in acrylic, meaning that they <br/>are both hygienic and long-lasting. The dental implant <br/>screws work just like teeth roots to keep your tooth firmly in place,<br/> no matter what you eat.
 
 Implants are made from zirconia, a strong and therefore<br/> robust material. They are contoured and coloured to fit<br/> in exactly with the surrounding teeth<br/> to produce the most natural-looking results .
 </p>
                                                                
-    <div className ="mt-3 place">
+    <div className ="mt-5 place">
     
     <a href= "http://localhost:3000/Contactus" className ="swagButton">Discuss how you want to proceed </a>                                                             
 
 <div className="row">
 
-   <img src={Singlei1} className="img-fluid side1" alt=" surgery"/>
+   <img src={Singlei1} className="img-fluid side pl-5 pb-5" alt=" surgery"/>
    <div className="row">
    </div>
    </div>
@@ -321,7 +321,7 @@ Implants are made from zirconia, a strong and therefore<br/> robust material. Th
  <div className="col-lg-6 col-md-6 cell ">
    <div className="row">
    <div className="leftside">
-     <h6  className="pl-5">Single Dental Implant is perfect for</h6>
+     <h6  className="pl-5 brand-name">Single Dental Implant is perfect for</h6>
 
 <ul >
   <li className="pl-5">If you are missing a tooth near the front of your mouth</li>
@@ -343,7 +343,7 @@ Implants are made from zirconia, a strong and therefore<br/> robust material. Th
 
 <div className="row">
   
-   <img src={Singlei2} className="img-fluid side" alt=" surgery"/>
+   <img src={Singlei2} className="img-fluid side pb-5 pr-5" alt=" surgery"/>
    <div className="row">
    </div>
    </div>
@@ -353,18 +353,18 @@ Implants are made from zirconia, a strong and therefore<br/> robust material. Th
    </div>
 </section>
 <section id="mark">
-<h4 className=" brace text-center line-3">Single dental implant pricing Northampton</h4>
+<h4 className=" brace text-center beautiful ">Single dental implant pricing Northampton</h4>
 <div className="row">
 <div className="col-lg-6 col-md-6  spacedown">
    
 <h4 className="brand-name"> <br/><span className="change-content brand-name proper"></span> (£29)</h4>
-   <img src={Singlei3} className="img-fluid side2" alt=" surgery"/>
+   <img src={Singlei3} className="img-fluid all-on2" alt=" surgery"/>
 
 </div>
 
    <div className="col-lg-6 col-md-6 cell ">
    
-<p className="text-align: right abb">When replacing missing teeth, single dental implants are a more effective solution than regular dentures and veneers. Single dental implants are a cost-effective way to achieve long-lasting, natural-looking replacement teeth. You have the option of using a dental finance plan to spread the cost of your implant over a longer period of time.
+<p className="pr-5">When replacing missing teeth, single dental implants are a more effective solution than regular dentures and veneers. Single dental implants are a cost-effective way to achieve long-lasting, natural-looking replacement teeth. You have the option of using a dental finance plan to spread the cost of your implant over a longer period of time.
 
 Single dental implants are available through a dental finance plan, allowing you to spread the cost of your treatment over a long period of time. Ig you choose to, you can pay in monthly instalments to avoid a large upfront cost.
 

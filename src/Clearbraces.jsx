@@ -35,21 +35,21 @@ const Clearbraces = () => {
 
 return (   
      <>
-       <section id = "thund" className ="d-flex align-items-center easy mt-5" >  
+       <section id = "pedic" className ="d-flex align-items-center easy mt-5" >  
        <div className ="container">
 <div className ='row'>
   <div className ="col-10 mx-auto">
     <div className ="row">                                
   
-   <div className ="col-md-12 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center "> 
+   <div className =" d-flex justify-content-center "> 
    <div className ='row'>
-    <h1 className="hard"><br/>  Clear braces in<br/> Northampton </h1>
+    <h1 className="hard"> Clear braces in Northampton </h1>
   <div className="row">
    <h2 className =" hard my-3"> The quickest & most cost-effective, invisible <br/>solution for your perfect smile (start from £27)
 
 </h2>
 
- <img src={Clb1} className="img-fluid dant" alt=" surgery"/>
+<br/> <img src={Clb1} className="img-fluid " alt=" surgery"style={{height:"14.83rem",width:"29.83rem"}}/>
 </div>
 </div>
       </div>
@@ -196,7 +196,7 @@ Sue Green</h5>
  <section id="bismillah">
  <div className="col-lg-6 col-md-6 cell ">
    <div className="row">
-<p className="mi-5">In addition to the perfect smile, your clear braces can also help you achieve fantastic dental health. When your teeth are misaligned, certain areas become difficult to clean. Unfortunately, this can lead to a build-up of plaque, which can then cause cavities and a whole host of other dental problems. Fortunately, once your clear braces have straightened your smile, it becomes much easier to clean, greatly reducing the risk of all the problems.
+<p className="pl-5 text-center">In addition to the perfect smile, your clear braces can also help you achieve fantastic dental health. When your teeth are misaligned, certain areas become difficult to clean. Unfortunately, this can lead to a build-up of plaque, which can then cause cavities and a whole host of other dental problems. Fortunately, once your clear braces have straightened your smile, it becomes much easier to clean, greatly reducing the risk of all the problems.
 
 </p>
 
@@ -209,7 +209,7 @@ Sue Green</h5>
 
 <div className="row">
   
- <br/><br/> <br/><br/> <img src={White} className="img-fluid side" alt=" surgery"/>
+ <br/><br/> <br/><br/> <img src={White} className="img-fluid side" alt=" surgery"style={{width:"25.83rem",height:"15.83rem"}}/>
    <div className="row">
    </div>
    </div>
@@ -240,7 +240,7 @@ Sue Green</h5>
   </div>
 </div>
  </section>
- <h3 className=" noma text-center"><br/> Clear brace procedure     </h3>
+ <h3 className=" noma text-center beautiful"><br/> Clear brace procedure     </h3>
   <p className="  text-center " >For patients receiving dental implant treatment, here's a guide to how the procedure usually goes </p>
 
 <div className="container-fluid mt-5  d-flex justify-content-center ">
@@ -420,7 +420,7 @@ Sue Green</h5>
  <div className="col-lg-6 col-md-6 cell ">
    <div className="row">
    <div className="leftside">
-     <h6  className="pl-5"><br/>Clear braces are perfect for</h6>
+     <h6  className="brand-name pl-5"><br/>Clear braces are perfect for</h6>
 
 <ul >
   <li className="pl-5">Straightening teeth to achieve a perfect smile</li>
@@ -431,7 +431,7 @@ Sue Green</h5>
 </ul>
 </div>
 
-<p className="pl-5 hide">With recent advances in orthodontic treatment, there are now a number of fantastic invisible orthodontic treatments available. For those wishing to achieve a perfectly straight smile without drawing attention to their treatment, clear braces are a great option. Made largely from see through materials, they're virtually invisible to onlookers. They're also an affordable option, being less expensive than many alternate orthodontic treatments.
+<p className="pr-5 text-center hide pr-4">With recent advances in orthodontic treatment, there are now a number of fantastic invisible orthodontic treatments available. For those wishing to achieve a perfectly straight smile without drawing attention to their treatment, clear braces are a great option. Made largely from see through materials, they're virtually invisible to onlookers. They're also an affordable option, being less expensive than many alternate orthodontic treatments.
   </p>
 <div className ="mt-3 gbtn">
     
@@ -439,7 +439,7 @@ Sue Green</h5>
 
 <div className="row">
   
- <br/><br/>  <img src={Clearbb1} className="img-fluid side" alt=" surgery"/>
+ <br/><br/>  <img src={Clearbb1} className="img-fluid all-on pr-5" alt=" surgery"style={{width:"20.83rem",height:"13.83rem"}}/>
    <div className="row">
    </div>
    </div>
@@ -449,18 +449,18 @@ Sue Green</h5>
    </div>
 </section>
 <section id="mark">
-<h4 className="text-center line-3">Clear braces pricing</h4> 
+<h4 className="beautiful text-center line-3">Clear braces pricing</h4> 
 <div className="row">
 <div className="col-lg-6 col-md-6  ">
  
 <h4 className="brand-name"> <br/><span className="change-content brand-name proper"></span> (£27)</h4>
 
-   <img src={Clearbb2} className="img-fluid side2" alt=" surgery"/>
+   <img src={Clearbb2} className="img-fluid all-on2" alt=" surgery"style={{width:"22.83rem",height:"15.83rem"}}/>
 
 </div>
    <div className="col-lg-6 col-md-6 cell ">
 
-<p className="text-align: right ">Clear braces can be more expensive than traditional wire braces, however the benefits often outweigh the cost due to their subtle appearance and brilliant straightening abilities. Clear braces are quickly becoming one of the most popular options for those looking to straighten their teeth, especially for adults who do not want the metal braces they may once have had as a teenager.
+<p className="pr-5 text-center ">Clear braces can be more expensive than traditional wire braces, however the benefits often outweigh the cost due to their subtle appearance and brilliant straightening abilities. Clear braces are quickly becoming one of the most popular options for those looking to straighten their teeth, especially for adults who do not want the metal braces they may once have had as a teenager.
 
 Clear braces are available to be accessed on a 0% dental finance plan, giving you the opportunity to spread the cost of your treatment over a longer period of time. You are able to pay in monthly instalments, rather than in one large upfront cost.
 

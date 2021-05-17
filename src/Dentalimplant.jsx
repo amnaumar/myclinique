@@ -33,7 +33,7 @@ const Dentalimplant = () => {
 return (   
      <>
       
-      <section id = "thund" className ="d-flex justify-content-center easy mt-5" >  
+      <section id = "pedic" className ="d-flex justify-content-center easy mt-5" >  
        <div className ="container">
 <div className ='row'>
   <div className ="col-10 mx-auto">
@@ -41,11 +41,11 @@ return (
   
    <div className =" dentali col-md-12 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center "> 
    <div className ='row'>
-    <h1 className="hard">  Dental implants in<br/> Northampton </h1>
+    <h1 className="hard mt-5">  Dental implants in Northampton </h1>
   <div className="row">
-   <h2 className =" hard my-3">   The most permanent & lifelike solution<br/> to replacing missing teeth (start from£29)<br/><br/> </h2>
+   <h2 className =" hard ">   The most permanent & lifelike solution<br/> to replacing missing teeth (start from£29)<br/><br/> </h2>
  
- <img src={Ib} className="slide img-fluid dateli " alt=" surgery"/>
+ <img src={Ib} className=" img-fluid  " alt=" surgery"style={{height:"16.83rem",width:"29.83rem"}}/>
 </div>
 </div>
       </div>
@@ -195,15 +195,15 @@ Discover the power of dental implants<br/><br/>
 <section id="bismillah">
  <div className="col-lg-6 col-md-6 cell ">
    <div className="row">
-<p>Dental implants are a long-term solution used<br/> to replace missing or damaged teeth. The implants<br/> are small screws that act as a base for replacement teeth. <br/>They are placed into the jawbone and act like roots by supporting the tooth,<br/> denture or bridge. Options include single tooth implants,<br/> multiple tooth implants, implant retained denture, implant<br/> supported bridge and teeth in a day. The dental implant screw fits into the bone <br/>and has a clip (abutment) that the tooth (crown) attaches on to.</p>
+<p className="mt-5">Dental implants are a long-term solution used to<br/> replace missing or damaged teeth. The implants are <br/>small screws that act as a base for replacement teeth. <br/>They are placed into the jawbone and act like roots by<br/> supporting the tooth, denture or bridge. Options include <br/>single tooth implants, multiple tooth implants, implant<br/> retained denture, implant supported bridge and teeth in <br/> a day. The dental implant screw fits into the bone and <br/> has a clip (abutment) that the tooth (crown) attaches on to.</p>
 
-<div className ="mt-3 place">
+<div className ="mt-2 mb-5 place">
     
     <a href= "http://localhost:3000/Contactus" className ="swagButton">Discuss how you want to proceed </a>                                                             
 
 <div className="row">
   
- <br/><br/>  <img src={Da} className="img-fluid side" alt=" surgery"/>
+ <br/><br/>  <img src={Da} className="mr-5 img-fluid side" alt=" surgery"style={{width:"32.83rem",height:"15.83rem"}}/>
    <div className="row">
    </div>
    </div>
@@ -212,17 +212,17 @@ Discover the power of dental implants<br/><br/>
    </div>
    </div>
 </section>
-<section id="mark hide">
+<section id="mark">
 <div className="row">
-<div className="col-lg-6 col-md-6  ">
+<div className="col-lg-6 col-md-6 hide ">
    
 
-   <img src={Mb} className="img-fluid maxm" alt=" surgery"/><br/><br/><br/>
+   <img src={Mb} className="img-fluid all-on2 maxm" alt=" surgery"style={{width:"25.83rem",height:"14.83rem"}}/><br/><br/><br/>
 
 </div>
    <div className="col-lg-6 col-md-6 cell ">
-<h3 className="slight ">Dr. Mark Buddha DDMS</h3>
-<p className=" text-align: right abb">"Every patient is unique & has individual expectations. I’ve treated thousands of happy patients and understand the importance of both honestly managing & fulfilling patients expectations. It is of the upmost importance that every patient leaves my clinic with the smile they’ve always wanted. We don’t cut corners & we don’t settle for less than the very best when it comes to patient care & results".</p>
+<h3 className="slight beautiful pl-5">Dr. Mark Buddha DDMS</h3>
+<p className=" mb-5 ml-5">"Every patient is unique & has individual expectations. I’ve  treated thousands of happy patients and understand the importance of both honestly managing & fulfilling patients expectations. It is of the upmost importance that every patient leaves my clinic with the smile they’ve always wanted. We don’t cut corners & we don’t settle for less than the <br/>very best when it comes to patient care & results".</p>
   
    <div className="row">
    

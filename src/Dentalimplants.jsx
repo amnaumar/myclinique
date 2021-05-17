@@ -35,7 +35,7 @@ const  Dentalimplants = () => {
 return (   
      <>
 
-<section id = "thund" className ="d-flex align-items-center easy mt-5" >  
+<section id = "orth" className ="d-flex align-items-center easy mt-5" >  
        <div className ="container">
 <div className ='row'>
   <div className ="col-10 mx-auto">
@@ -45,13 +45,13 @@ return (
    <div className ='row'>
     <h1 className="hard">  Dental implants in Northampton </h1>
   <div className="row">
-   <h2 className =" hard my-3">  Over 20,000 Cosmetic Cases Completed  </h2>
+   <h2 className ="hard">  Over 20,000 Cosmetic Cases Completed  </h2>
  <h4 className="hard" >  The most permanent & lifelike solution to replacing<br/> missing teeth</h4>
 
-  <h4 className="hard"> <br/><span className="change-content hard proper"></span> just </h4>
 
 
- <img src={Ib} className="img-fluid dant" alt=" surgery"/>
+
+ <img src={Ib} className="img-fluid " alt=" surgery"/>
  
 </div>
 </div>
@@ -220,46 +220,53 @@ Sue Green</h5>
   </div> 
 </div>
  </div>
-<section id="bismillah">
+<section id="">
+<div className="row">
+ <div className=" col-lg-6 col-md-6 cell ">
+  
+<p className="ml-5">Dental implants are a long-term solution used to replace missing or damaged teeth. The implants are small screws that act as a base for replacement teeth. They are placed into the jawbone and act like roots by supporting the tooth, denture or bridge. Options include single tooth implants, multiple tooth implants, implant retained denture, implant supported bridge and teeth in a day. The dental implant screw fits into the bone and has a clip (abutment) that the tooth (crown) attaches on to.</p>
+</div>
+
+    <div className="col-lg-6 col-md-6 cell ">
+
+    <div className="row">
+  
+   <img src={Da} className="img-fluid implant-day" alt=" surgery"style={{width:"28.83rem"}}/>
+
+  
+   
+   </div>
+  
+   </div>
+  
+   </div>
+</section>
+<section id="">
+<div className="row">
  <div className="col-lg-6 col-md-6 cell ">
-   <div className="row">
-<p>Dental implants are a long-term solution used to replace missing or damaged teeth. The implants are small screws that act as a base for replacement teeth. They are placed into the jawbone and act like roots by supporting the tooth, denture or bridge. Options include single tooth implants, multiple tooth implants, implant retained denture, implant supported bridge and teeth in a day. The dental implant screw fits into the bone and has a clip (abutment) that the tooth (crown) attaches on to.</p>
+   
+   <img src={Da} className="img-fluid  teeth-day" alt=" surgery"style={{width:"28.83rem"}}/>
+</div>
+   <div className="col-lg-6 col-md-6 cell ">
+
+<p className="mr-5">Dental implants are a long-term solution used to replace missing or damaged teeth. The implants are small screws that act as a base for replacement teeth. They are placed into the jawbone and act like roots by supporting the tooth, denture or bridge. Options include single tooth implants, multiple tooth implants, implant retained denture, implant supported bridge and teeth in a day. The dental implant screw fits into the bone and has a clip (abutment) that the tooth (crown) attaches on to.</p>
+
+                                                      
+
+   </div>
+   </div>
+</section>
 
 <div className ="mt-3 gbtn">
     
     <a href= "" className ="btn- btn">Book your FREE consultation Now</a>                                                             
 
-<div className="row">
-  
-   <img src={Da} className="img-fluid side" alt=" surgery"/>
-   <div className="row">
-   </div>
-   </div>
-  
-   </div>
-   </div>
-   </div>
-</section>
-<section id="mark">
-<div className="row">
-<div className="col-lg-6 col-md-6  ">
-   
 
-   <img src={Mb} className="img-fluid " alt=" surgery"/>
+   </div>
 
-</div>
-   <div className="col-lg-6 col-md-6 cell ">
+<div id="extra-space"></div>
 
-<p className="text-align: right abb">"Every patient is unique & has individual expectations. I’ve treated thousands of happy patients and understand the importance of both honestly managing & fulfilling patients expectations. It is of the upmost importance that every patient leaves my clinic with the smile they’ve always wanted. We don’t cut corners & we don’t settle for less than the very best when it comes to patient care & results".</p>
-  
-   <div className="row">
-   
-   </div>
-  
-   </div>
-   </div>
-  
-</section>
+
 <div className="cure">
 <section className="we-are container " >
   <div className="py-2 text-center mb-5">

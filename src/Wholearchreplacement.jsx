@@ -28,7 +28,7 @@ const Wholearchreplacement = () => {
 
     return (   
          <>
-<section id = "thund" className ="d-flex align-items-center easy mt-5" >  
+<section id = "pedic" className ="d-flex align-items-center easy mt-5" >  
        <div className ="container">
 <div className ='row'>
   <div className ="col-10 mx-auto">
@@ -36,15 +36,15 @@ const Wholearchreplacement = () => {
   
    <div className ="col-md-12 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center "> 
    <div className ='row'>
-    <h1 className="hard"><br/>  Whole arch replacement dental implants <br/>in Northampton
+    <h1 className="hard"> Whole arch replacement dental <br/>implants in Northampton
  </h1>
- <h3 className="hard" >
+ <h2 className="hard" >
  The most permanent & lifelike solution<br/> to replacing a whole arch<br/> of missing teeth (Start from£144)
- </h3>
+ </h2>
   <div className="row">
    
 
- <img src={Wholehed} className="img-fluid dant" alt=" surgery"/>
+ <img src={Wholehed} className="img-fluid " alt=" surgery"style={{height:"15.83rem",width:"32.83rem"}}/>
 </div>
 </div>
       </div>
@@ -150,7 +150,7 @@ const Wholearchreplacement = () => {
  <section id="bismillah">
  <div className="col-lg-6 col-md-6 cell ">
    <div className="row">
-<p>Whole-arch replacements replace an entire jaw of teeth.<br/> The most common forms of whole-arch replacements are<br/> known as All-on-4 and All-on-6, and these names<br/> refer to the number of dental implants used for the<br/> procedure. A major benefit of whole-arch replacements <br/>is that they are cost-effective, attractive and functional.<br/> They are much more affordable than single <br/>dental implants, whilst also looking and working better<br/> than traditional removable dentures.
+<p className="pl-5 text-center">Whole-arch replacements replace an entire jaw of teeth.<br/> The most common forms of whole-arch replacements are<br/> known as All-on-4 and All-on-6, and these names<br/> refer to the number of dental implants used for the<br/> procedure. A major benefit of whole-arch replacements <br/>is that they are cost-effective, attractive and functional.<br/> They are much more affordable than single <br/>dental implants, whilst also looking and working better<br/> than traditional removable dentures.
 
 Whole-arch replacements use either 4 or 6 <br/>dental implant screws. These are generally made <br/>of titanium coated with acrylic, meaning that they are<br/> both strong and hygienic. The teeth themselves are<br/> generally made of zirconia with a porcelain veneer, with zirconia being used for its <br/>strength and porcelain for its aesthetic qualities.
 </p>
@@ -162,7 +162,7 @@ Whole-arch replacements use either 4 or 6 <br/>dental implant screws. These are 
 
 <div className="row">
 
-   <img src={Whole1} className="img-fluid side" alt=" surgery"/>
+   <img src={Whole1} className="img-fluid side pr-5 pb-5" alt=" surgery"style={{width:"25.83rem",height:"15.83rem"}}/>
    <div className="row">
    </div>
    </div>
@@ -222,7 +222,7 @@ Whole-arch replacements use either 4 or 6 <br/>dental implant screws. These are 
   
   <img src={Ta} className="img-fluid border-radius p-4 function" alt=" surgery"style={{width:"6.83rem",height:"6.83rem"}}/>
   <div class="card-body">Consultation</div>
-  <div class="card-footer "> At the consultation, your dentist will assess your mouth, including the health of your gums, to ensure you are suitable for having a whole-arch replacement. Your dentist will explain the procedure to you, so you are able to decide whether or not you want to go ahead with the whole-arch replacements treatment.
+  <div class="card-footer  "> At the consultation, your dentist will assess your mouth, including the health of your gums, to ensure you are suitable for having a whole-arch replacement. Your dentist will explain the procedure to you, so you are able to decide whether or not you want to go ahead with the whole-arch replacements treatment.
 </div>
 </div>
    </div>
@@ -231,7 +231,7 @@ Whole-arch replacements use either 4 or 6 <br/>dental implant screws. These are 
   
   <img src={Xr} className="img-fluid border-radius p-4 function" alt=" surgery"style={{width:"6.83rem",height:"6.83rem"}}/>
   <div class="card-body">Laboratory </div>
-  <div class="card-footer ">The length of your appointment will depend on which whole-arch replacement procedure you choose as it should take 2.5 to 4 hours per arch. It is quite common to have two whole-arch replacement procedures done on the same day with a procedure called Teeth in a Day. Even if you do not have Teeth in a Day, you may wish to keep a whole day clear for the whole-arch replacement procedure to allow you plenty of time to recover from the anaesthetic.
+  <div class="card-footer  ">The length of your appointment will depend on which whole-arch replacement procedure you choose as it should take 2.5 to 4 hours per arch. It is quite common to have two whole-arch replacement procedures done on the same day with a procedure called Teeth in a Day. Even if you do not have Teeth in a Day, you may wish to keep a whole day clear for the whole-arch replacement procedure to allow you plenty of time to recover from the anaesthetic.
 
 
     </div>
@@ -247,7 +247,7 @@ Whole-arch replacements use either 4 or 6 <br/>dental implant screws. These are 
   
   <img src={N1} className="img-fluid border-radius p-4 function" alt=" surgery"style={{width:"6.83rem",height:"6.83rem"}}/>
   <div class="card-body">Fitted Whole Arch Replacement</div>
-  <div class="card-footer bg-light"> During the implant fitting, your dentist will make either 4 or 6 holes in your jaw for the implants. If they use 4 holes, there will be 2 at the front and 2 at the back. If they use 6, they will be spaced across the arch at roughly equal distances. The holes will be fitted with dental implant screws. If 4 are used, the back 2 dental implant screws will be tilted, but if 6 are used they will be fitted at right angles to your jaw. Abutments will be placed on top of these and then these will be topped with your overdenture. You will be fitted with a temporary overdenture, usually made from a resin. Using a temporary overdenture helps to limit the amount of pressure on your jaws while they are healing.
+  <div class="card-footer bg-light mb-5"> During the implant fitting, your dentist will make either 4 or 6 holes in your jaw for the implants. If they use 4 holes, there will be 2 at the front and 2 at the back. If they use 6, they will be spaced across the arch at roughly equal distances. The holes will be fitted with dental implant screws. If 4 are used, the back 2 dental implant screws will be tilted, but if 6 are used they will be fitted at right angles to your jaw. Abutments will be placed on top of these and then these will be topped with your overdenture. You will be fitted with a temporary overdenture, usually made from a resin. Using a temporary overdenture helps to limit the amount of pressure on your jaws while they are healing.
 </div>
 </div>
    </div>
@@ -268,7 +268,7 @@ Whole-arch replacements use either 4 or 6 <br/>dental implant screws. These are 
 
  <section>
       <div className=" sobia mt-5" >
-      <h3 className=" brace beautiful line-5">Dental implant patients</h3>
+      <h3 className="space brace beautiful line-5">Dental implant patients</h3>
       <h6 className="beautiful text-center"> From A-listers to the general public, everyone gets the same level of care & attention to detail at my clinic. If you think you may want dental implants in Northampton, book your free consultation today </h6>
 </div>
 </section>
@@ -312,12 +312,12 @@ Whole-arch replacements use either 4 or 6 <br/>dental implant screws. These are 
     </div>
 </div>
   </div>
-  <h3 className="beautiful brace text-center">Is a whole-arch replacement right for me?</h3>
+  <h3 className="mb-5 beautiful brace text-center space">Is a whole-arch replacement right for me?</h3>
   <section id="bismillah">
- <div className="col-lg-6 col-md-6 cell space ">
+ <div className="col-lg-6 col-md-6 cell  ">
    <div className="row">
    <div className="leftside">
-     <h6  className="noma pl-5">Whole-arch replacements are perfect for</h6>
+     <h6  className="brand-name noma pl-5">Whole-arch replacements are perfect for</h6>
 
 <ul >
   <li className="pl-5">Replacing a large number of missing teeth</li>
@@ -338,7 +338,7 @@ Whole-arch replacements use either 4 or 6 <br/>dental implant screws. These are 
 
 <div className="row">
   
-   <img src={Whole2} className="img-fluid lside" alt=" surgery"/>
+   <img src={Whole2} className="img-fluid side pr-5 pb-5" alt=" surgery"/>
    <div className="row">
    </div>
    </div>
@@ -348,13 +348,13 @@ Whole-arch replacements use either 4 or 6 <br/>dental implant screws. These are 
    </div>
 </section>
 <section id="mark">
-<h4 className="text-center line-3">Whole arch replacement pricing</h4>
+<h4 className="text-center beautiful">Whole arch replacement pricing</h4>
 <div className="row">
 <div className="col-lg-6 col-md-6  spacedown">
 <h4 className="brand-name"> <br/><span className="change-content brand-name proper"></span> (£144)</h4>
 
 
-   <img src={Whole3} className="img-fluid side2 " alt=" surgery"/>
+   <img src={Whole3} className="img-fluid all-on2 " alt=" surgery"/>
    
    
 
@@ -362,7 +362,7 @@ Whole-arch replacements use either 4 or 6 <br/>dental implant screws. These are 
 
    <div className="col-lg-6 col-md-6 cell ">
 
-<p className="text-align: right abb"><br/><br/> Whole-arch replacements are more cost-effective than single dental implants or even multiple dental implants. Whole-arch replacements do cost more than dentures, but they also last longer.
+<p className="pr-5"><br/><br/> Whole-arch replacements are more cost-effective than single dental implants or even multiple dental implants. Whole-arch replacements do cost more than dentures, but they also last longer.
 
 What’s more, it’s possible for you to pay for your treatment in convenient instalments using a dental finance plan. This spreads the cost of your treatment over a longer period of time.
 

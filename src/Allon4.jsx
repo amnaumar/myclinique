@@ -31,7 +31,7 @@ const Allon4 = () => {
     return (   
          <>
 
-<section id = "thund" className ="d-flex align-items-center easy mt-5" >  
+<section id = "pedic" className ="d-flex align-items-center easy mt-5" >  
        <div className ="container">
 <div className ='row'>
   <div className ="col-10 mx-auto">
@@ -39,12 +39,12 @@ const Allon4 = () => {
   
    <div className ="col-md-12 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center "> 
    <div className ='row'>
-    <h1 className="hard mt-3"> <br/><br/> All-on-4 dental implants in <br/>Northampton </h1>
+    <h1 className="hard "> All-on-4 dental implants in <br/>Northampton </h1>
   <div className="row">
-   <h2 className =" hard mb-3 maxm"> All-on-4, the most permanent & lifelike solution <br/>to replacing a single or both arches<br/> of missing teeth. (start from £98)
+   <h2 className =" hard "> All-on-4, the most permanent & lifelike solution <br/>to replacing a single or both arches<br/> of missing teeth. (start from £98)
 
 </h2>
- <img src={Allhed} className="img-fluid dant mb-5" alt=" surgery"/><br/><br/>
+ <img src={Allhed} className="img-fluid  mb-5" alt=" surgery"style={{height:"15.83rem",width:"29.83rem"}}/><br/><br/>
 </div>
 </div>
       </div>
@@ -183,36 +183,43 @@ Sue Green</h5>
 </div>
  </div>
 
- <section id="bismillah">
- <div className="col-lg-6 col-md-6 cell ">
-   <div className="row">
-<p>All-on-4 dental implants allow you to have realistic teeth at a minimal cost and little inconvenience.
+        <section id="bismillah">
+       
+          <div className="col-lg-6 col-md-6 cell ">
+          <div className="row">
+              <p className="pl-5 text-center">All-on-4 dental implants allow you to have realistic teeth at a minimal cost and little inconvenience.
 
-In the All-on-4 procedure, two dental implant screws are placed front and centre. The other two are placed at the back, one on each side. The front screws are fitted at right angles to the jaw, with the back screws tilted 30º to 45º from the biting plane.
+              In the All-on-4 procedure, two dental implant screws are placed front and centre. The other two are placed at the back, one on each side. The front screws are fitted at right angles to the jaw, with the back screws tilted 30º to 45º from the biting plane.
 
-This tilt gives a lot more grip than the traditional right-angled fitting. It’s the main reason why All-on-4 dental implants are so secure, even though they use half as many screws as traditional dental implants. Your jawbone will continue to grow over the All-on-4 dental implants, making them even more secure.
+              This tilt gives a lot more grip than the traditional right-angled fitting. It’s the main reason why All-on-4 dental implants are so secure, even though they use half as many screws as traditional dental implants. Your jawbone will continue to grow over the All-on-4 dental implants, making them even more secure.
 
-The dental implant screws are made from titanium and coated in acrylic, whilst the teeth themselves have a zirconia core with a porcelain veneer covering. Zirconia gives strength, while porcelain can be contoured and coloured to suit your needs.
+              The dental implant screws are made from titanium and coated in acrylic, whilst the teeth themselves have a zirconia core with a porcelain veneer covering. Zirconia gives strength, while porcelain can be contoured and coloured to suit your needs.
 
 </p>
-                                                           
+<div className="mt-3 place">
 
-    <div className ="mt-3 place">
-    
-    <a href= "http://localhost:3000/Contactus" className ="swagButton">Discuss how you want to proceed </a>                                                             
+<a href="http://localhost:3000/Contactus" className=" mgt-5 swagButton">Discuss how you want to proceed </a>
 
+                
+                
+                  
 
-<div className="row">
+               <div className="col-lg-6 col-md-6 cell">
+
+                <div className="row">
+
+                 <img src={All41} className="img-fluid side pb-5 pl-5" alt=" surgery"style={{width:"52.83rem"}}/>
+                
+                </div>
+
+             </div>
+              </div>
+            </div>
+          </div>
+        </section>
   
- <br/><br/>  <img src={All41} className="img-fluid side " alt=" surgery"/>
-   <div className="row">
-   </div>
-   </div>
-  
-   </div>
-   </div>
-   </div>
-</section>
+       
+
 <section  id="agee" className="mt-5 reviews-ib">
 <h3 className=" text-center beautiful"><br/>Pros & cons</h3>
 <p className="hide text-center beautiful " >Here's a quick guide to some of the pros and cons of All-on-4</p>
@@ -339,12 +346,13 @@ The dental implant screws are made from titanium and coated in acrylic, whilst t
     </div>
 </div>
   </div>
-  <h3 className="text-center beautiful">Is All-On-4 right for me?</h3>
+  <h3 className="text-center beautiful pt-5">Is All-On-4 right for me?</h3>
   <section id="bismillah">
+  <div className="row">
  <div className="col-lg-6 col-md-6 cell ">
-   <div className="row">
+  
    <div className="leftside">
-     <h6  className="pl-5"><br/><br/>All-On-4 is perfect for</h6>
+     <h6  className="pl-5 brand-name"><br/><br/>All-On-4 is perfect for</h6>
 
 <ul >
   <li className="pl-5">Replacing a whole arch of missing teeth</li>
@@ -356,17 +364,19 @@ The dental implant screws are made from titanium and coated in acrylic, whilst t
 </ul>
 </div>
 
-<p className="pl-5 hide">Having All-on-4 dental implants as an alternative to<br/> traditional dentures is not only going to improve the appearance <br/>of your smile, but also the functionality of your bite. <br/>Dentures have a tendency to encourage bone loss within the jaw, whereas All-on-4<br/> implants actually help to preserve the bone density to prevent it<br/> shrinking over time.
+<p className="pl-5 hide">Having All-on-4 dental implants as an alternative to<br/> traditional dentures is not only going to improve the <br/>appearance of your smile, but also the functionality<br/> of your bite.Dentures have a tendency to encourage <br/>bone loss within the jaw, whereas All-on-4 implants<br/> actually help to preserve the bone density to prevent<br/> it shrinking over time.
   </p>
-<div className ="mt-3 gbtn">
-    
-    <a href= "" className ="btn- btn">Book your FREE consultation Now</a>                                                             
+  <div className ="mt-3 gbtn">
+  <div className="row">
+    <a href= "" className ="btn- btn">Book your FREE consultation Now</a>       
+                                                  
 
-<div className="row">
+
+   <img src={All42} className="img-fluid side pl-5 pb-5" alt=" surgery"/>
   
-   <img src={All42} className="img-fluid side" alt=" surgery"/>
-   <div className="row">
-   </div>
+  
+   
+ 
    </div>
   
    </div>
@@ -374,27 +384,25 @@ The dental implant screws are made from titanium and coated in acrylic, whilst t
    </div>
 </section>
 <section id="mark">
-<h4 className="text-center line-3">All-on-4 pricing</h4> 
+<h4 className="text-center line-3 beautiful">All-on-4 pricing</h4> 
  
 <div className="row">
 <div className="col-lg-6 col-md-6  ">
    
 <h4 className="brand-name"> <br/><span className="change-content brand-name proper"></span> (£98)</h4>
 
-   <img src={All43} className="img-fluid side2" alt=" surgery"/>
+   <img src={All43} className="img-fluid all-on2" alt=" surgery"/>
 
 </div>
    <div className="col-lg-6 col-md-6 cell ">
 
 
-<p className="text-align: right abb">The fact that the All-on-4 procedure is so quick and simple means that All-on-4 is both convenient and cost-effective. Though more expensive than dentures, All-on-4 implants are more reliable and allow you to go back to enjoying the foods you love.
+<p className="ml-5 mb-5">The fact that the All-on-4 procedure is so quick and simple means that All-on-4 is both convenient and cost-effective. Though more expensive than dentures, All-on-4 implants are more reliable and allow you to go back to enjoying the foods you love.
 
 It is possible to pay for the All-on-4 treatment in affordable instalments by using our dental finance plan. This means you can spread the cost of your treatment over a longer period of time in manageable payments.
 
 View our pricing page to see our costs for All-on-4 in Northampton.</p>
-   <div className="row">
-   
-   </div>
+  
   
    </div>
    </div>

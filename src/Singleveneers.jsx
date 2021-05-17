@@ -23,7 +23,7 @@ const Singleveneers = () => {
     return (   
          <>
 
-<section id = "thund" className ="d-flex align-items-center easy mt-5" >  
+<section id = "pedic" className ="d-flex align-items-center easy mt-5" >  
        <div className ="container">
 <div className ='row'>
   <div className ="col-10 mx-auto">
@@ -34,14 +34,14 @@ const Singleveneers = () => {
    <h1 className="hard"> Single veneers in Northampton
  </h1>
  <div className="row">
- <h3 className="hard" >
+ <h2 className="hard" >
  Create your perfect smile with single<br/> veneers at MyClinique
  (Start from£17)
- </h3>
+ </h2>
   <div className="row">
    
 
-<br/> <img src={Singleh} className="img-fluid dant" alt=" surgery"/>
+<br/> <img src={Singleh} className="img-fluid " alt=" surgery"style={{height:"15.83rem",width:"35.83rem"}}/>
 </div>
 </div>
   </div>    
@@ -147,7 +147,7 @@ const Singleveneers = () => {
  <section id="bismillah">
  <div className="col-lg-6 col-md-6 cell ">
    <div className="row">
-<p> Single veneers have been used to improve the appearance<br/> of teeth for decades and are extremely effective.<br/>  They can address multiple issues at once, as they can cover up<br/>  teeth that are cracked, chipped or discoloured to the point<br/>  that whitening treatments don't work.<br/>  A single veneer can also make a tooth appear more straight,<br/>  without the need for braces or aligners.
+<p className="text-center pl-5"> Single veneers have been used to improve the appearance<br/> of teeth for decades and are extremely effective.<br/>  They can address multiple issues at once, as they can cover up<br/>  teeth that are cracked, chipped or discoloured to the point<br/>  that whitening treatments don't work.<br/>  A single veneer can also make a tooth appear more straight,<br/>  without the need for braces or aligners.
 </p>
                                                            
     <div className ="mt-3 place">
@@ -157,7 +157,7 @@ const Singleveneers = () => {
 
 <div className="row">
 
-   <img src={Single1} className="img-fluid side" alt=" surgery"/>
+   <br/><br/><img src={Single1} className="img-fluid side pt-5 pl-5" alt=" surgery"style={{width:"22.83rem",height:"14.83rem"}}/>
    <div className="row">
    </div>
    </div>
@@ -245,7 +245,7 @@ const Singleveneers = () => {
    <section></section>
    <section>
       <div className=" sobia mt-5" >
-      <h3 className="line-4">Veneers patients</h3>
+      <h3 className="line-4 beautiful">Veneers patients</h3>
      
 </div>
 </section>
@@ -283,7 +283,7 @@ const Singleveneers = () => {
  <div className="col-lg-6 col-md-6 cell ">
    <div className="row">
    <div className="leftside">
-     <h6  className="pl-5">Single veneers are perfect for</h6>
+     <h6  className="pl-5 brand-name">Single veneers are perfect for</h6>
 
 <ul >
   <li className="pl-5">Enhancing the appearance of teeth that are heavily discoloured</li>
@@ -304,7 +304,7 @@ const Singleveneers = () => {
 
 <div className="row">
 
-   <img src={Single2} className="img-fluid side" alt=" surgery"/>
+   <img src={Single2} className="img-fluid all-on pb-4 pr-5" alt=" surgery"style={{width:"22.83rem",height:"14.83rem"}}/>
    <div className="row">
    </div>
    </div>
@@ -322,12 +322,12 @@ const Singleveneers = () => {
 <h4 className="brand-name"> <br/><span className="change-content brand-name proper"></span> (£17)</h4>
 
 
-   <img src={Holly3} className="img-fluid  side2" alt=" surgery"/>
+   <img src={Holly3} className="img-fluid  all-on2 pr-5" alt=" surgery"/>
 
 </div>
    <div className="col-lg-6 col-md-6 cell ">
 
-<p className="text-align: right abb">Veneers are an extremely versatile treatment, as they can improve the appearance of teeth by covering any cracks, chips or discolouration, as well as making the tooth appear more straight. This makes veneers a cost-effective solution to teeth that have more than one issue that affects their appearance.
+<p className="pr-2 text-center">Veneers are an extremely versatile treatment, as they can improve the appearance of teeth by covering any cracks, chips or discolouration, as well as making the tooth appear more straight. This makes veneers a cost-effective solution to teeth that have more than one issue that affects their appearance.
 
 Many treatments are available on a 0% dental finance plan, allowing you to spread the cost over several months. This means that you can pay for your treatment in instalments and avoid one large cost.
 

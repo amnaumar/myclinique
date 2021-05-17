@@ -32,7 +32,7 @@ const Allon6 = () => {
     return (   
          <>
 
-<section id = "thund" className ="d-flex align-items-center easy mt-5" >  
+<section id = "pedic" className ="d-flex align-items-center easy mt-5" >  
        <div className ="container">
 <div className ='row'>
   <div className ="col-10 mx-auto">
@@ -40,17 +40,17 @@ const Allon6 = () => {
   
    <div className ="col-md-12 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center "> 
    <div className ='row'>
-    <h1 className="hard"> All-on-6 dental implants in <br/> Northampton
+    <h1 className="hard"> All-on-6 dental implants in  Northampton
  </h1>
- <h3 className="hard" >
+ <h2 className="hard" >
  
  All-on-6, the most permanent & lifelike solution to replacing <br/>a single or both arches of missing teeth (start from £99)
 
- </h3>
+ </h2>
   <div className="row">
    
 
- <img src={Allhed} className="img-fluid dant" alt=" surgery"/>
+ <img src={Allhed} className="img-fluid " alt=" surgery"/>
 </div>
 </div>
       </div>
@@ -154,25 +154,28 @@ const Allon6 = () => {
  </div>
  </div>
  <section id="bismillah">
+ 
  <div className="col-lg-6 col-md-6 cell ">
-   <div className="row">
-<p className="">The All-on-6 procedure is simpler and faster than <br/>the procedure for traditional dental implants.<br/> At the same time, All-on-6 dental implants create <br/>more strength in the jaw than All-on-4 dental implants.
+ <div className="row">
+<p className="ml-5 text-center">The All-on-6 procedure is simpler and faster than <br/>the procedure for traditional dental implants. At <br/>the same time, All-on-6 dental implants create more<br/> strength in the jaw than All-on-4 dental implants.
 
-<br/>In the All-on-6 procedure, six dental screws are placed<br/> around the jaw at roughly equal distances. These dental<br/> screws are usually made of titanium, meaning that<br/> they are both hygienic and robust.
+<br/>In the All-on-6 procedure, six dental screws are placed<br/> around the jaw at roughly equal distances. These dental<br/> screws are usually made of titanium, meaning that they <br/>are both hygienic and robust.
 
-Modern prosthetic <br/>teeth are generally made of zirconia with a porcelain veneer.<br/> Zirconia is very strong, allowing you to eat what you like without<br/> having to worry about breaking a tooth. Porcelain is used<br/> for aesthetic reasons, as it can be customised to a person’s choice<br/> of tooth style and shade
+Modern prosthetic teeth <br/> are generally made of zirconia with a porcelain veneer.<br/> Zirconia is very strong, allowing you to eat what you like <br/> having to worry about breaking a tooth. Porcelain is used<br/> for aesthetic reasons, as it can be customised to a person’s <br/>choice of tooth style and shade
 </p>
-                                                            
-    <div className ="mt-3 place">
+<div className ="mt-3 place">
     
     <a href= "http://localhost:3000/Contactus" className ="swagButton">Discuss how you want to proceed </a>                                                             
 
-<div className="row">
+  
+   </div>                                                        
+   
 
-   <img src={All61} className="img-fluid side1" alt=" surgery"/>
-   <div className="row">
-   </div>
-   </div>
+<div className="row">
+   <img src={All61} className="img-fluid pr-5 all-on " alt=" surgery"style={{width:"30.83rem"}}/>
+  
+  
+   
   
    </div>
    </div>
@@ -211,6 +214,7 @@ Modern prosthetic <br/>teeth are generally made of zirconia with a porcelain ven
 
   </div>
 </section>
+<div id="enlarge0"></div>
 
  <h3 className="text-center beautiful maxm mt-5"> <br/><br/> All-on-6 procedure   </h3>
   <p className="text-center" ></p>
@@ -313,7 +317,7 @@ Modern prosthetic <br/>teeth are generally made of zirconia with a porcelain ven
    
  
    <div className="leftside">
-     <h6  className="pl-5"><br/><br/>All-On-6 is perfect for</h6>
+     <h6  className="pl-5 brand-name"><br/><br/>All-On-6 is perfect for</h6>
 
 <ul >
   <li className="pl-5">Replacing a whole arch of teeth</li>
@@ -325,14 +329,14 @@ Modern prosthetic <br/>teeth are generally made of zirconia with a porcelain ven
 </div>
 
 
-<p className="pl-5 hide">Also, the additional implants give extra strength to<br/> the jaw. This helps to prevent (further) bone loss. <br/>Not only is this a desirable outcome in itself, <br/>but it can also be very useful if the dental implants<br/> need to be replaced. The extra strength of All-in-6<br/> dental implants can also be reassuring to <br/>people who lead particularly active lives.</p>
+<p className="pl-5 hide">Also, the additional implants give extra strength to<br/> the jaw. This helps to prevent (further) bone loss. <br/>Not only is this a desirable outcome in itself, but it<br/> can also be very useful if the dental implants need<br/> to be replaced. The extra strength of All-in-6 dental<br/> implants can also be reassuring to people who lead<br/> particularly active lives.</p>
 <div className ="mt-3 gbtn">
     
     <a href= "" className ="btn- btn">Book your FREE consultation Now</a>                                                             
 
 <div className="row">
   
-   <img src={All62} className="img-fluid side" alt=" surgery"/>
+   <img src={All62} className="img-fluid side" alt=" surgery"style={{width:"29.83rem",height:"15.83rem"}}/>
    <div className="row">
    </div>
    </div>
@@ -348,12 +352,12 @@ Modern prosthetic <br/>teeth are generally made of zirconia with a porcelain ven
    
 <h4 className="brand-name"> <br/><span className="change-content brand-name proper"></span> (£99)</h4>
 
-   <img src={All63} className="img-fluid side2" alt=" surgery"/>
+   <img src={All63} className="img-fluid all-on2" alt=" surgery"/>
 
 </div>
    <div className="col-lg-6 col-md-6 cell ">
 
-<p className="text-align: right abb">All-on-6 pricing is generally higher than All-in-4 pricing. This is due to the additional work involved in fitting the extra dental implant screws used in the procedure. That being said, All-on-6 is a cost-effective solution for a whole arch of missing teeth compared to traditional dental implants.
+<p className="ml-5 mb-5">All-on-6 pricing is generally higher than All-in-4 pricing. This is due to the additional work involved in fitting the extra dental implant screws used in the procedure. That being said, All-on-6 is a cost-effective solution for a whole arch of missing teeth compared to traditional dental implants.
 
 What’s more, you may be eligible for a dental finance plan, allowing you to spread the cost of your treatment over a longer time period.
 

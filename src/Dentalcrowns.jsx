@@ -23,7 +23,7 @@ const  Dentalcrowns = () => {
     return (   
          <>
 
-<section id = "thund" className ="d-flex align-items-center easy mt-5" >  
+<section id = "pedic" className ="d-flex align-items-center easy mt-5" >  
        <div className ="container">
 <div className ='row'>
   <div className ="col-10 mx-auto">
@@ -31,15 +31,15 @@ const  Dentalcrowns = () => {
   
    <div className ="col-md-12 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center "> 
    <div className ='row'>
-    <h1 className="hard"> <br/>Dental crowns and bridges in <br/>Northampton
+    <h1 className="hard"> Dental crowns and bridges  <br/> in Northampton
  </h1>
- <h4 className="hard maxm "> The most cost-effective yet permanent solution to <br/> repairing & replacing  damaged and missing teeth  (start from£12)<br/><br/> 
+ <h4 className="hard "> The most cost-effective yet permanent solution to <br/> repairing & replacing  damaged and missing teeth  (start from£12)<br/><br/> 
  
  </h4>
   <div className="row">
    
 
- <img src={Caaa} className="img-fluid dant" alt=" surgery"/>
+ <img src={Caaa} className="img-fluid pl-5" alt=" surgery"style={{height:"15.83rem",width:"29.83rem"}}/>
 </div>
 </div>
       </div>
@@ -139,7 +139,7 @@ const  Dentalcrowns = () => {
 
 <div className="d-flex justify-content-center">
   
-   <img src={Aaa} className="img-fluid " alt=" surgery"style={{width:"38.83rem",height:"18.83rem"}}/>
+   <img src={Aaa} className="img-fluid pt-5 pb-5" alt=" surgery"style={{width:"30.83rem",height:"16.83rem"}}/>
    
 </div>
 <section  id="agee" className="mt-5 reviews-ib">
@@ -216,7 +216,7 @@ const  Dentalcrowns = () => {
 
  <section>
  <div className=" sobia mt-5" >
-      <h3 className="line-5 beautiful">Crowns and Bridges patients</h3>
+      <h3 className="line-4 pr-5 beautiful ">Crowns and Bridges patients</h3>
       <h6 className="text-center beautiful"> From A-listers to the general public, everyone gets the same level of care & attention to detail at my clinic </h6>
 </div>
 </section>
@@ -232,7 +232,7 @@ const  Dentalcrowns = () => {
   </div>
      </div>
      <div className="carousel-item ">
-     <img src={Cdd2} className="img-fluid"alt="slide2"style={{width:"45.83rem",height:"23.83rem"}}/>
+     <img src={Cdd2} className="img-fluid"alt="all-on2 pr-5"style={{width:"45.83rem",height:"23.83rem"}}/>
      <div className="carousel-caption">
    
   </div>
@@ -240,13 +240,13 @@ const  Dentalcrowns = () => {
      </div>
      </div>
      </div>
-     <h3 className="text-center beautiful brace"><br/><br/>Are  dental Bridges right for me?<br/><br/><br/></h3>
+     <h3 className="text-center beautiful brace pl-5"><br/><br/>Are  dental Bridges right for me?<br/><br/><br/></h3>
      <section id="bismillah">
  
  <div className="col-lg-6 col-md-6 cell ">
    <div className="row">
    <div className="leftside">
-     <h6  className="pl-5">Dental Bridges are perfect for<br/></h6>
+     <h6  className="pl-5 brand-name">Dental Bridges are perfect for<br/></h6>
 <ul >
   
   <li className="pl-5">Restoring the form, function and appearance of badly worn or fractured teeth</li>
@@ -255,20 +255,20 @@ const  Dentalcrowns = () => {
  
 </ul>
 </div>
-<p className="pl-5 hide">If you have a damaged or discoloured tooth, a crown is the least invasive way to restore its appearance and prevent further decay.
+<p className="pl-5 hide text-center">If you have a damaged or discoloured tooth, a crown is the least invasive way to restore its appearance and prevent further decay.
 
 </p>
 
                                                      
 
-    <div className ="mt-3 place">
+    <div className ="mt-5 pr-5 place">
     
     <a href= "http://localhost:3000/Contactus" className ="swagButton">Discuss how you want to proceed </a> 
 
 
 <div className="row">
   
- <br/><br/><br/>  <img src={Dentalcs1} className="img-fluid side" alt=" surgery"/>
+ <br/><br/><br/>  <img src={Dentalcs1} className="img-fluid side pt-5 pl-5" alt=" surgery"style={{width:"24.83rem",height:"12.83rem"}}/>
    <div className="row">
    </div>
    </div>
@@ -284,12 +284,12 @@ const  Dentalcrowns = () => {
  
 <h4 className="brand-name"> <br/><span className="change-content brand-name proper"></span> (£12)</h4>
 
-   <img src={Dentalcs2} className="img-fluid side2 " alt=" surgery"/>
+   <img src={Dentalcs2} className="img-fluid all-on2 pr-5 " alt=" surgery"/>
 
 </div>
    <div className="col-lg-6 col-md-6 cell ">
 
-<p className="text-center ">Dental crowns may seem expensive, but considering their long-lasting capabilities and minimally invasive approach, many people opt for crowns when looking to improve their smile.
+<p className="text-center pr-5 ">Dental crowns may seem expensive, but considering their long-lasting capabilities and minimally invasive approach, many people opt for crowns when looking to improve their smile.
 
 Dental crowns are available on a finance plan, allowing you to spread the cost of your treatment over a longer period of time and avoid a large one-off payment.</p>
 
@@ -329,7 +329,7 @@ Dental crowns are available on a finance plan, allowing you to spread the cost o
    </div>
   </div>
  </div>
-
+<div className="space"></div>
 <Footer/>
 
 (</>);

@@ -34,7 +34,7 @@ return (
 
 <>
 
-<section id = "thund" className ="d-flex align-items-center easy mt-5" >  
+<section id = "pedic" className ="d-flex align-items-center easy mt-5" >  
        <div className ="container">
 <div className ='row'>
   <div className ="col-10 mx-auto">
@@ -42,11 +42,11 @@ return (
   
    <div className ="col-md-12 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center "> 
    <div className ='row'>
-    <h1 className="hard"> <br/> <br/>Implant retained denture<br/> dental implants in<br/> Northampton </h1>
+    <h1 className="hard"> Implant retained denture<br/> dental implants in Northampton </h1>
   <div className="row">
-   <h4 className =" hard ">  The cost-effective, most permanent & lifelike <br/>solution to replacing a single or both <br/>arches of missing teeth (Starts from£83) </h4>
+   <h2 className =" hard ">  The cost-effective, most permanent & lifelike <br/>solution to replacing a single or both <br/>arches of missing teeth (Starts from£83) </h2>
 
- <img src={Reb} className="img-fluid dant mb-5" alt=" surgery"/>
+ <img src={Reb} className="img-fluid  " alt=" surgery"style={{height:"15.83rem",width:"29.83rem"}}/>
 </div>
 </div>
       </div>
@@ -188,7 +188,7 @@ Sue Green</h5>
  <section id="bismillah">
  <div className="col-lg-6 col-md-6 cell ">
    <div className="row">
-<p>Implant retained dentures provide better performance than regular dentures at a lower cost than other forms of dental implants.
+<p className="pl-5 text-center">Implant retained dentures provide better performance than regular dentures at a lower cost than other forms of dental implants.
 
 Implant retained dentures often require only two dental implants. This makes them even simpler and more affordable than All-on-4 dental implants. Implant retained dentures cannot provide the same “real-teeth” feeling as implant supported dentures, but they look more realistic than traditional removable dentures.
 
@@ -198,12 +198,12 @@ Implant retained dentures use much the same materials as implant-supported dentu
                                                             
     <div className ="mt-3 place">
     
-    <a href= "http://localhost:3000/Contactus" className ="swagButton">Discuss how you want to proceed </a>                                                             
+    <a href= "http://localhost:3000/Contactus" className ="mt-5 swagButton">Discuss how you want to proceed </a>                                                             
 
 
 <div className="row">
   
-  <br/><br/><br/> <img src={Imrd1} className="img-fluid side" alt=" surgery"/>
+   <img src={Imrd1} className="pl-5 img-fluid side pb-5" alt=" surgery"style={{width:"25.83rem"}}/>
    <div className="row">
    </div>
    </div>
@@ -246,6 +246,8 @@ Implant retained dentures use much the same materials as implant-supported dentu
 
   </div>
 </section>
+
+<div id="enlarge0"></div>
  <h3 className="brace text-center mt-5 beautiful  ">Multiple Dental implant procedure     </h3>
  
 
@@ -351,7 +353,7 @@ Implant retained dentures use much the same materials as implant-supported dentu
  <div className="col-lg-6 col-md-6 cell ">
    <div className="row">
    <div className="leftside">
-     <h6  className="pl-5">Implant retained dentures are perfect for</h6>
+     <h6  className="brand-name pl-5">Implant retained dentures are perfect for</h6>
 
 <ul >
   <li className="pl-5">Replacing a whole arch of missing teeth</li>
@@ -372,7 +374,7 @@ Implant retained dentures use much the same materials as implant-supported dentu
 
 <div className="row">
   
-   <img src={Imrd2} className="img-fluid side" alt=" surgery"/>
+   <img src={Imrd2} className="pl-5 pb-5 img-fluid side" alt=" surgery"style={{width:"30.83rem",height:"15.83rem"}}/>
    <div className="row">
    </div>
    </div>
@@ -382,21 +384,21 @@ Implant retained dentures use much the same materials as implant-supported dentu
    </div>
 </section>
 <section id="mark">
-<h4 className="text-center line-3">Implant Retained Denture Prices</h4>
+<h4 className="text-center beautiful line-3">Implant Retained Denture Prices</h4>
 <div className="row">
 <div className="col-lg-6 col-md-6  ">
 <h4 className="brand-name"> <br/><span className="change-content brand-name proper"></span> (£83)</h4>
 
-   <img src={Imrd3} className="img-fluid side2" alt=" surgery"/>
+   <img src={Imrd3} className="img-fluid all-on2" alt=" surgery"style={{width:"30.83rem",height:"15.83rem"}}/>
 
 </div>
    <div className="col-lg-6 col-md-6 cell ">
 
-<p className="text-align: right abb">Implant retained dentures are generally more expensive than regular dentures. They are, however, more affordable than other solutions to missing teeth, such as All-on-4 dental implants, and are generally preferred as an alternative to traditional removable dentures.
+<p className="text-align: right abb">Implant retained dentures are generally more expensive than regular dentures. They are, however, more affordable than other solutions<br/> to missing teeth, such as All-on-4 dental implants, and are generally<br/> preferred as an alternative to traditional removable dentures.
 
-What’s more, you may be eligible for a dental finance plan, allowing you to spread the cost of your treatment over a longer period of time.
+What’s<br/> more, you may be eligible for a dental finance plan, allowing you to <br/>spread the cost of your treatment over a longer period of time.
 
-View our pricing page to see our prices for an implant retained denture in Northampton.</p>
+View<br/> our pricing page to see our prices for an implant retained denture in Northampton.</p>
    <div className="row">
    
    </div>
@@ -405,11 +407,11 @@ View our pricing page to see our prices for an implant retained denture in North
    </div>
   
 </section>
-<div className="cure">
-<section className="we-are container"id="product" >
+<div className="cure mt-5">
+<section className="we-are container"id="product mt-5" >
   <div className="py-2 text-center mb-5">
     <div>
-    <h3 className="line" > <br/>Dental implants product range
+    <h3 className="text-center " > <br/>Dental implants product range
  </h3>
 
 <div className ='row'>

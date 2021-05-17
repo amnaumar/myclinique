@@ -33,7 +33,7 @@ const Teethinaday = () => {
     return (   
          <>
 
-<section id = "thund" className ="d-flex align-items-center easy mt-5" >  
+<section id = "pedic" className ="d-flex align-items-center easy mt-5" >  
        <div className ="container">
 <div className ='row'>
   <div className ="col-10 mx-auto">
@@ -41,14 +41,14 @@ const Teethinaday = () => {
   
    <div className ="col-md-12 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center "> 
    <div className ='row'>
-    <h1 className="hard"><br/> Teeth in a Day dental implants in<br/> Northampton</h1>
+    <h1 className="hard"> Teeth in a Day dental implants<br/> in Northampton</h1>
  <h3 className="hard" >Teeth in a Day, the most permanent & lifelike<br/> solution to replacing a single or both <br/>arches of missing teeth in one day (Start from£99)
  
  </h3>
   <div className="row">
    
 
- <br/><img src={Head} className="img-fluid dant" alt=" surgery"/>
+ <br/><img src={Head} className="img-fluid dant" alt=" surgery"style={{height:"17.83rem",width:"32.83rem"}}/>
 </div>
 </div>
       </div>
@@ -154,7 +154,7 @@ const Teethinaday = () => {
  <section id="bismillah">
  <div className="col-lg-6 col-md-6 cell ">
    <div className="row">
-<p>Teeth in a Day is an affordable, quick and effective way of getting your smile back. You will look and feel like you have real teeth again.
+<p className="pl-5 text-center">Teeth in a Day is an affordable, quick and effective way of getting your smile back. You will look and feel like you have real teeth again.
 
 Dental implant screws are placed into the jaw and an overdenture will go on top. Dental implants are considered to be a permanent solution to missing teeth as with proper care, they can last up to 25 years. For this reason, they will usually be made of titanium coated in acrylic. Your initial overdenture will, however, generally be a temporary placeholder until you have your permanent one fitted.
 
@@ -170,7 +170,7 @@ Temporary overdentures are generally made of resin. This is not particularly dur
 
 <div className="row">
 
-  <br/><br/> <img src={Teeth1} className="img-fluid side" alt=" surgery"/>
+  <br/><br/> <img src={Teeth1} className="img-fluid side pb-5 pr-5" alt=" surgery"/>
    <div className="row">
    </div>
    </div>
@@ -273,8 +273,8 @@ Temporary overdentures are generally made of resin. This is not particularly dur
 
  <section></section>
  <section>
-      <div className=" sobia mt-5" >
-      <h3 className="line-5 beautiful">Dental implant patients</h3>
+      <div className=" sobia " >
+      <h3 className="line-5 beautiful space">Dental implant patients</h3>
       <h6 className="text-center beautiful"> From A-listers to the general public, everyone gets the same level of care & attention to detail at my clinic. If you think you may want dental implants in Northampton, book your free consultation today </h6>
 </div>
 </section>
@@ -318,12 +318,12 @@ Temporary overdentures are generally made of resin. This is not particularly dur
     </div>
 </div>
   </div>
-  <h3 className="brace beautiful text-center ">Is Teeth In A Day right for me?<br/><br/><br/><br/></h3>
+  <h3 className="beautiful brace text-center "><br/>Is Teeth In A Day right for me?<br/><br/><br/><br/></h3>
   <section id="bismillah">
  <div className="col-lg-6 col-md-6 cell ">
    <div className="row">
    <div className="leftside">
-     <h6  className="pl-5">Teeth In A Day is perfect for</h6>
+     <h6  className="brand-name pl-5">Teeth In A Day is perfect for</h6>
 
 <ul >
   <li className="pl-5">Replacing both upper and lower arches of teeth</li>
@@ -345,7 +345,7 @@ Temporary overdentures are generally made of resin. This is not particularly dur
 
 <div className="row">
   
-   <img src={Teeth2} className="img-fluid side" alt=" surgery"/>
+   <img src={Teeth2} className="img-fluid side pl-5 pb-5" alt=" surgery"/>
    <div className="row">
    </div>
    </div>
@@ -355,7 +355,7 @@ Temporary overdentures are generally made of resin. This is not particularly dur
    </div>
 </section>
 <section id="mark">
-<h4 className=" brace beautiful text-center line-3 spabove">Teeth in a Day Pricing</h4>
+<h4 className=" pb-5 brace beautiful text-center line-3 spabove">Teeth in a Day Pricing</h4>
 <div className="row">
 <div className="col-lg-6 col-md-6  spacedown"id="day">
    
@@ -375,7 +375,7 @@ Temporary overdentures are generally made of resin. This is not particularly dur
 </div>
    <div className="col-lg-6 col-md-6 cell mt-5">
 
-<p className="">The Teeth in a Day procedure is more expensive than other options, such as traditional dentures or All-on-4 treatment. This is because the procedure is all completed on the same day, allowing you to benefit from the full effect of your smile much sooner.
+<p className="pr-5 pt-5">The Teeth in a Day procedure is more expensive than other options, such as traditional dentures or All-on-4 treatment. This is because the procedure is all completed on the same day, allowing you to benefit from the full effect of your smile much sooner.
 
 You can spread the cost of your Teeth in a Day treatment over a longer period of time by using our 0% dental finance plan. This allows you to avoid a large upfront cost and instead pay in instalments.
 
@@ -389,7 +389,7 @@ Take a look at our pricing page to view the costs for Teeth in a Day in Northamp
    </div>
   
 </section>
-
+<div className="space"></div>
 <div className="cure">
 <section className="we-are container "id="product" >
   <div className="py-2 text-center mb-5">

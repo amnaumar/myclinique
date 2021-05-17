@@ -27,7 +27,7 @@ const Hollywoodsmile = () => {
          <>
 
 
-<section id = "thund" className ="d-flex align-items-center easy mt-5" >  
+<section id = "pedic" className ="d-flex align-items-center easy mt-5" >  
        <div className ="container">
 <div className ='row'>
   <div className ="col-10 mx-auto">
@@ -35,12 +35,12 @@ const Hollywoodsmile = () => {
   
    <div className ="col-md-12 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center "> 
    <div className ='row'>
-    <h1 className="hard mb-3 maxb "><br/> Hollywood smile in<br/> Northampton<br/>
+    <h1 className="hard mb-3 maxb "> Hollywood smile in Northampton<br/>
  </h1>
- <h3 className="extralotsof hard new maxm" >
- <br/>Design your Hollywood smile with our<br/>instant smile makeovers (Starts from £153) 
+ <h2 className= "hard " >
+ Design your Hollywood smile with our<br/>instant smile makeovers (Starts from £153) 
 
- </h3>
+ </h2>
   <div className="row">
    
 
@@ -151,7 +151,7 @@ const Hollywoodsmile = () => {
  <section id="bismillah">
  <div className="col-lg-6 col-md-6 cell ">
    <div className="row">
-<p>A Hollywood smile is an extremely effective way of completely reinventing your smile.<br/>Double arch veneers are used to create a perfectly uniform and natural-looking<br/> smile, with no surgery and, therefore, no healing times. Veneers are fitted to the front of<br/> your teeth to cover any discolouration, cracks or chips that may be visible<br/> and create that perfect smile you may have thought was unattainable.
+<p className="pl-5 text-center">A Hollywood smile is an extremely effective way of completely reinventing your smile.<br/>Double arch veneers are used to create a perfectly uniform and natural-looking<br/> smile, with no surgery and, therefore, no healing times. Veneers are fitted to the front of<br/> your teeth to cover any discolouration, cracks or chips that may be visible<br/> and create that perfect smile you may have thought was unattainable.
 </p>
                                                            
 
@@ -162,7 +162,7 @@ const Hollywoodsmile = () => {
 
 <div className="row">
 
-<br/><br/><br/><img src={Holly1} className="img-fluid side" alt=" surgery"/>
+<br/><br/><br/><br/><img src={Holly1} className="img-fluid side pt-5 pl-5" alt=" surgery"style={{width:"22.83rem",height:"14.83rem"}}/>
    <div className="row">
    </div>
    </div>
@@ -305,7 +305,7 @@ const Hollywoodsmile = () => {
  <div className="row">
 
    <div className="leftside">
-     <h6  className="pl-5">Hollywood smile veneers are perfect for</h6>
+     <h6  className="pl-5 brand-name">Hollywood smile veneers are perfect for</h6>
 <ul >
   <li className="pl-5">Covering teeth that are cracked or chipped</li>
   <li className="pl-5" >Achieving a shade of white that teeth whitening cannot</li>
@@ -324,7 +324,7 @@ const Hollywoodsmile = () => {
 
 <div className="row">
   
-   <img src={Holly2} className="img-fluid side " alt=" surgery"/>
+   <img src={Holly2} className="img-fluid side pl-5 " alt=" surgery"style={{width:"22.83rem",height:"14.83rem"}}/>
    <div className="row">
    </div>
    </div>
@@ -341,12 +341,12 @@ const Hollywoodsmile = () => {
 <h4 className="brand-name"> <br/><span className="change-content brand-name proper"></span> (£153)</h4>
 
 
-   <img src={Holly3} className="img-fluid side2 " alt=" surgery"/>
+   <img src={Holly3} className="img-fluid all-on2 pr-5 " alt=" surgery"/>
 
 </div>
    <div className="col-lg-6 col-md-6 cell ">
 
-<p className="text-center ">Despite the name, a Hollywood smile is no longer reserved for those who are in the limelight. Although the treatment may seem costly, a Hollywood smile is a cost-effective way to remedy multiple issues all at once. Whiten, straighten and protect your teeth with one treatment.
+<p className="text-center pr-5 pt-5">Despite the name, a Hollywood smile is no longer reserved for those who are in the limelight. Although the treatment may seem costly, a Hollywood smile is a cost-effective way to remedy multiple issues all at once. Whiten, straighten and protect your teeth with one treatment.
 
 The Hollywood smile treatment is available on dental finance, which allows you to spread the cost of your treatment over a longer period of time.
 
@@ -407,7 +407,7 @@ Please see our pricing page to view the cost for a Hollywood smile in Northampto
  <div className="space noma"></div>
  <div className="space noma"></div>
  
-
+<div className="space"></div>
 <Footer/>
 </>);
 

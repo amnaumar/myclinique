@@ -22,7 +22,7 @@ const  Crownsandbridges = () => {
     return (   
          <>
 
-<section id = "thund" className ="d-flex align-items-center easy mt-5" >  
+<section id = "pedic" className ="d-flex align-items-center easy mt-5" >  
        <div className ="container">
 <div className ='row'>
   <div className ="col-10 mx-auto">
@@ -32,14 +32,14 @@ const  Crownsandbridges = () => {
    <div className ='row'>
     <h1 className="hard"> Dental crowns and bridges in<br/> Northampton
  </h1>
- <h4 className="hard"> The most cost-effective yet permanent <br/>solution to repairing & replacing damaged and missing teeth(start from £12) 
- The quickest & most cost-effective, invisible solution for your perfect smile
+ <h2 className="hard"> The most cost-effective yet permanent <br/>solution to repairing & replacing damaged<br/> and missing teeth 
+ The quickest & most cost-effective,<br/> invisible solution for your perfect smile (start from £12)
 
- </h4>
-  <div className=" dant row">
+ </h2>
+  <div className="row">
    
 
- <img src={Cabb} className="img-fluid dant" alt=" surgery"/>
+ <img src={Cabb} className="img-fluid pl-5 " alt=" surgery"style={{height:"15.83rem",width:"25.83rem"}}/>
 </div>
 </div>
       </div>
@@ -151,7 +151,7 @@ const  Crownsandbridges = () => {
 <section id="bismillah">
  <div className="col-lg-6 col-md-6 cell ">
    <div className="row">
-<p>If you have more than one damaged tooth or there is a gap where a tooth previously existed, a bridge can provide a solution. The caps are attached to the surrounding teeth and fill the empty space where the tooth should be. The neighbouring teeth act as anchors for the bridge and provide a natural looking reconstruction.
+<p className="pl-5 text-center">If you have more than one damaged tooth or there is a gap where a tooth previously existed, a bridge can provide a solution. The caps are attached to the surrounding teeth and fill the empty space where the tooth should be. The neighbouring teeth act as anchors for the bridge and provide a natural looking reconstruction.
 
 </p>
 
@@ -162,7 +162,7 @@ const  Crownsandbridges = () => {
 
 <div className="row">
   
- <br/><br/><br/>  <img src={Cab6} className="img-fluid side" alt=" surgery"/>
+ <br/><br/><br/> <br/> <img src={Cab6} className="img-fluid side pt-5 pl-2" alt=" surgery"style={{width:"25.83rem",height:"14.83rem"}}/>
    <div className="row">
    </div>
    </div>
@@ -177,13 +177,11 @@ const  Crownsandbridges = () => {
 
 <div className="col-lg-6 col-md-6  ">
 
-
-<br/><br/><br/>  <img src={Cab7} className="img-fluid side2" alt=" surgery"/>
-
+<br/><br/><br/>  <img src={Cab7} className="img-fluid all-on2" alt=" surgery"/>
 </div>
    <div className="col-lg-6 col-md-6 cell ">
-   <h4 className="text-center line-3">Dr. Mark Buddha DDMS</h4>
-<p className="text-align: right abb">"Every patient is unique & has individual expectations. I’ve treated thousands of happy patients and understand the importance of both honestly managing & fulfilling patients expectations. It is of the upmost importance that every patient leaves my clinic with the smile they’ve always wanted. We don’t cut corners & we don’t settle for less than the very best when it comes to patient care & results".</p>
+   <h5 className="beautiful text-center line-3 pl-5">Dr. Mark Buddha DDMS</h5>
+<p className="pr-5 text-center ">"Every patient is unique & has individual expectations. I’ve treated thousands of happy patients and understand the importance of both honestly managing & fulfilling patients expectations. It is of the upmost importance that every patient leaves my clinic with the smile they’ve always wanted. We don’t cut corners & we don’t settle for less than the very best when it comes to patient care & results".</p>
   
    <div className="row">
    
@@ -194,13 +192,13 @@ const  Crownsandbridges = () => {
   
 </section>
 
-<h2 className="beautiful text-center brace" >
+<h2 className="beautiful text-center brace pt-5" >
     Crowns & bridges product range <br/><br/>
     </h2>
    <div className="real container-fluid mt-0 d-flex justify-content-center">
    <div className ="row">
    <div className="col-lg-6 col-md-6 col-12 mb-5">
-   <div class="card text-center"style={{width:"18.83rem"}}>
+   <div class="card text-center"style={{width:"16.83rem"}}>
   
   <img src={Cab8} className="img-fluid border-radius p-4" alt=" 5"/>
 
@@ -281,7 +279,7 @@ const  Crownsandbridges = () => {
 
    <section>
  <div className=" sobia mt-5" >
-      <h3 className="brace line-5 beautiful">Crowns and Bridges patients</h3>
+      <h3 className="brace line-5 mr-5 beautiful">Crowns and Bridges patients</h3>
       <h6 className="brace-1 text-center beautiful"> From A-listers to the general public, everyone gets the same level of care & attention to detail at my clinic </h6>
 </div>
 </section>

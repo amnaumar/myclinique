@@ -28,7 +28,7 @@ const Veneerssinglearch = () => {
     return (   
          <>
 
-<section id = "thund" className ="d-flex align-items-center easy mt-5" >  
+<section id = "pedic" className ="d-flex align-items-center easy mt-5" >  
        <div className ="container">
 <div className ='row'>
   <div className ="col-10 mx-auto">
@@ -41,7 +41,7 @@ const Veneerssinglearch = () => {
   <div className="row">
    
 
- <img src={Venb} className="img-fluid dant" alt=" surgery"/>
+ <img src={Venb} className="img-fluid dant" alt=" surgery"style={{height:"15.83rem",width:"25.83rem"}}/>
 </div>
 </div>
       </div>
@@ -157,7 +157,7 @@ const Veneerssinglearch = () => {
 <section id="bismillah">
  <div className="col-lg-6 col-md-6 cell ">
    <div className="row">
-<p> Veneers have been around for a long time, as they were invented in 1928 for use in television<br/> and film. Since then, they have drastically improved in both<br/> appearance and quality and are now extremely popular with those looking to<br/> improve their smile. Many people now opt for veneers to disguise minor cracks in their <br/>teeth, or to brighten their smile to an extent that teeth whitening cannot achieve. Veneers can<br/> also be used to correct misaligned teeth for those who do not want to opt for braces.
+<p className="pl-5 text-center"> Veneers have been around for a long time, as they were invented in 1928 for use in television<br/> and film. Since then, they have drastically improved in both<br/> appearance and quality and are now extremely popular with those looking to<br/> improve their smile. Many people now opt for veneers to disguise minor cracks in their <br/>teeth, or to brighten their smile to an extent that teeth whitening cannot achieve. Veneers can<br/> also be used to correct misaligned teeth for those who do not want to opt for braces.
 
 </p>                                                          
     <div className ="mt-3 place">
@@ -167,7 +167,7 @@ const Veneerssinglearch = () => {
 
 <div className="row">
   
-   <img src={Ven6} className="img-fluid side" alt=" surgery"/>
+   <img src={Ven6} className="img-fluid side pt-5" alt=" surgery"style={{width:"22.83rem",height:"13.83rem"}}/>
    <div className="row">
    </div>
    </div>
@@ -311,7 +311,7 @@ const Veneerssinglearch = () => {
  <div className="col-lg-6 col-md-6 cell ">
    <div className="row">
    <div className="leftside">
-     <h6  className="pl-5">Veneers are perfect for</h6>
+     <h6  className="pl-5 brand-name">Veneers are perfect for</h6>
 <ul >
   <li className="pl-5">Improving the appearance of discoloured teeth</li>
   <li className="pl-5" >Covering teeth that are cracked or chipped</li>
@@ -321,7 +321,7 @@ const Veneerssinglearch = () => {
  
 </ul>
 </div>
-<p className="pl-5 hide">Veneers are the perfect solution for drastically enhancing your smile, whether that be by correcting the appearance of misaligned teeth or by covering minor cracks. Improve your confidence and raise your self-esteem by creating a smile you are proud of.
+<p className="pl-5 hide pr-4">Veneers are the perfect solution for drastically enhancing your smile, whether that be by correcting the appearance of misaligned teeth or by covering minor cracks. Improve your confidence and raise your self-esteem by creating a smile you are proud of.
 </p>
 
 <div className ="mt-3 gbtn">
@@ -330,7 +330,7 @@ const Veneerssinglearch = () => {
 
 <div className="row">
   
-   <img src={Rat1} className="img-fluid side" alt=" surgery"/>
+   <img src={Rat1} className="img-fluid side pl-5" alt=" surgery"style={{width:"22.83rem",height:"13.83rem"}}/>
    <div className="row">
    </div>
    </div>
@@ -340,18 +340,18 @@ const Veneerssinglearch = () => {
    </div>
 </section>
 <section id="mark">
-  <h4 className="text-center line-3">Fixed braces pricing</h4>
+  <h4 className="text-center line-3 beautiful">Fixed braces pricing</h4>
 <div className="row">
 <div className="col-lg-6 col-md-6  ">
 <h4 className="brand-name"> <br/><span className="change-content brand-name proper"></span> (£85)</h4>
 
 
-   <img src={Rat2} className="img-fluid side2 " alt=" surgery"/>
+   <img src={Rat2} className="img-fluid all-on2 pr-5" alt=" surgery"/>
 
 </div>
    <div className="col-lg-6 col-md-6 cell ">
 
-<p className="text-center ">Composite veneers are generally less expensive than porcelain veneers, but are less durable and are generally used as a temporary option. Porcelain veneers are more costly, but are long-lasting and far stronger.
+<p className="text-center pr-5 pt-5 ">Composite veneers are generally less expensive than porcelain veneers, but are less durable and are generally used as a temporary option. Porcelain veneers are more costly, but are long-lasting and far stronger.
 
 Veneers are available on a 0% dental finance plan, allowing you to pay in smaller monthly instalments. Spreading the cost of your treatment over a longer period of time allows you to avoid a large upfront cost.
 
@@ -410,6 +410,7 @@ Visit our pricing page to see the cost of veneers in Northampton.</p>
    </div>
   </div>
  </div>
+ <div className="space"></div>
  <div className="space"></div>
  <div className="space"></div>
 <Footer/>

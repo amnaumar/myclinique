@@ -31,7 +31,7 @@ const Lingualbraces = () => {
 
     return (   
          <>
-<section id = "thund" className ="d-flex align-items-center easy mt-5" >  
+<section id = "pedic" className ="d-flex align-items-center easy mt-5" >  
        <div className ="container">
 <div className ='row'>
   <div className ="col-10 mx-auto">
@@ -39,13 +39,13 @@ const Lingualbraces = () => {
   
    <div className ="col-md-12 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center "> 
    <div className ='row'>
-    <h1 className="hard"><br/><br/> Lingual braces in<br/> Northampton </h1>
+    <h1 className="hard"> Lingual braces in Northampton </h1>
   <div className="row">
    <h2 className =" hard my-3"> Straighten your teeth with<br/> lingual braces (Start from£66)
 
 </h2>
 
- <img src={Lban} className="img-fluid dant" alt=" surgery"/>
+ <img src={Lban} className="img-fluid dant" alt=" surgery"style={{height:"20.83rem",width:"37.83rem"}}/>
 </div>
 </div>
       </div>
@@ -159,16 +159,16 @@ const Lingualbraces = () => {
 <div className="row">
  <div className="maxm col-lg-6 col-md-6 cell balance ">
    
-<p className="oer1"><br/><br/> As well as being incredibly discreet, lingual braces are <br/>also a highly effective orthodontic solution. Over a period of time,<br/> their metal wires and brackets gradually push your teeth into<br/> the correct position. They're fixed to your teeth, meaning you won't need to <br/>worry about them falling out of place. And because we schedule<br/> check-ups every few weeks, you can rest assured that your<br/> lingual braces are working correctly and that you're on your way to<br/> the perfect smile.
+<p className="text-center pl-5"><br/><br/> As well as being incredibly discreet, lingual braces are <br/>also a highly effective orthodontic solution. Over a period of time,<br/> their metal wires and brackets gradually push your teeth into<br/> the correct position. They're fixed to your teeth, meaning you won't need to <br/>worry about them falling out of place. And because we schedule<br/> check-ups every few weeks, you can rest assured that your<br/> lingual braces are working correctly and that you're on your way to<br/> the perfect smile.
 
 What's more, as well as granting you a<br/> perfectly straight smile, your lingual braces will<br/> also help you achieve great dental health. When your teeth are misaligned,<br/> it can become difficult to reach certain places with your toothbrush.<br/> This can lead to a build-up of plaque, which can then lead to cavities<br/> and a whole host of other issues. A straight smile,<br/> on the other hand, is far easier to clean, meaning the risk <br/>of these issues is greatly reduced. With lingual braces,<br/> you'll get a smile that looks great, and is incredibly healthy.</p>
 
-    <div className ="mt-3 place">
+    <div className ="mt-5 place">
     
     <a href= "http://localhost:3000/Contactus" className ="swagButton">Discuss how you want to proceed </a>                                                             
 
   
-   <img src={Power} className="img-fluid oer2" alt=" surgery"/>
+   <img src={Power} className="img-fluid oer2 pt-5" alt=" surgery"style={{width:"23.83rem",height:"15.83rem"}}/>
    <div className="row">
    </div>
   
@@ -372,7 +372,7 @@ What's more, as well as granting you a<br/> perfectly straight smile, your lingu
    <div className="leftside">
 <ul >
 <li className="pl-5"><br/><strong className="brand-name"> Lingual braces are prefect for</strong></li>
-  <li className="pl-5"><br/>Fixing misaligned teeth</li>
+  <li className="pl-5">Fixing misaligned teeth</li>
   <li className="pl-5" >Providing a discreet alternative to traditional braces</li>
   <li className="pl-5 spabove hide">Closing gaps between teeth</li>
   
@@ -391,8 +391,8 @@ What's more, as well as granting you a perfectly straight smile, your lingual br
 
 <div className="row">
 
-   <img src={Lin4} className="img-fluid side" alt=" surgery"/>
-   <h4 className="brand-name"> <br/><span className="change-content brand-name proper"></span> (£66)</h4>
+   <img src={Lin4} className="img-fluid side pb-5 pl-5" alt=" surgery"style={{width:"23.83rem",height:"14.83rem"}}/>
+   
    <div className="row">
    </div>
    </div>
@@ -407,12 +407,12 @@ What's more, as well as granting you a perfectly straight smile, your lingual br
 <div className="col-lg-6 col-md-6  ">
  
 
-   <img src={Lin5} className="img-fluid side2 " alt=" surgery"/>
-
+   <img src={Lin5} className="img-fluid all-on2 pt-5 " alt=" surgery"style={{width:"25.83rem",height:"15.83rem"}}/>
+   <h4 className="brand-name"> <br/><span className="change-content brand-name proper"></span> (£66)</h4>
 </div>
    <div className="col-lg-6 col-md-6 cell ">
 
-<p className="text-center ">Although lingual braces can be more expensive than some alternative teeth straightening treatments, they are a popular choice for those who want a discreet solution to their crooked teeth.
+<p className="text-center pr-5 pb-5">Although lingual braces can be more expensive than some alternative teeth straightening treatments, they are a popular choice for those who want a discreet solution to their crooked teeth.
 
 Lingual braces are available on our 0% dental finance plans, giving you the option to spread the cost of your treatment over a longer period of time. You can choose to pay in monthly instalments to make the cost of lingual braces more manageable.
 

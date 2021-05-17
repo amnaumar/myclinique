@@ -12,6 +12,7 @@ import Faqs from './Faqs';
 
 import Multipledentalimplants from './Multipledentalimplants';
 import Dentalimplant from './Dentalimplant';
+import Dentalimplants from './Dentalimplants';
 import Invisalign from './Invisalign';
 import Implantretaineddentures from './Implantretaineddentures';
 import Antiwrinkleinjectionandfillers from './Antiwrinkleinjectionandfillers';
@@ -53,6 +54,7 @@ const App = () => {
      
      <Route exact path = "/Multipledentalimplants" component = {Multipledentalimplants}/>
       <Route exact path = "/Dentalimplant" component = {Dentalimplant}/>
+      <Route exact path = "/Dentalimplants" component = {Dentalimplants}/>
       <Route exact path = "/Invisalign" component = {Invisalign}/>
       <Route exact path = "/Implantretaineddentures" component = {Implantretaineddentures}/>
       <Route exact path = "/Antiwrinkleinjectionandfillers" component = {Antiwrinkleinjectionandfillers}/>

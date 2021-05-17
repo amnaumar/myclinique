@@ -24,7 +24,7 @@ const Antiwrinkleinjectionandfillers =() => {
 return (
 
 <>
-<section id = "thund" className ="d-flex align-items-center easy mt-5" >  
+<section id = "pedic" className ="d-flex align-items-center easy mt-5" >  
        <div className ="container">
 <div className ='row'>
   <div className ="col-10 mx-auto">
@@ -32,12 +32,12 @@ return (
   
    <div className ="col-md-12 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center "> 
    <div className ='row'>
-    <h1 className="hard"> <br/><br/> Anti-wrinkle injections and fillers<br/> in Northampton</h1>
+    <h1 className="hard">  Anti-wrinkle injections and fillers<br/> in Northampton</h1>
   <div className="row">
-   <h2 className =" hard my-3">  The non-surgical approach to removing wrinkles<br/> and improving facial aesthetics (start from £3)
+   <h2 className =" hard ">  The non-surgical approach to removing wrinkles<br/> and improving facial aesthetics (start from £3)
 </h2>
  
- <img src={Anti} className="img-fluid dant" alt=" surgery"/>
+ <img src={Anti} className="img-fluid pl-5" alt=" surgery"style={{height:"15.83rem",width:"32.83rem"}}/>
 </div>
 </div>
       </div>
@@ -180,9 +180,10 @@ Sue Green</h5>
  </div>
 
  <section id="bismillah">
+   
  <div className="col-lg-6 col-md-6 cell ">
    <div className="row">
-<p>Anti-wrinkle injections and dermal fillers are both treatments that should only<br/> ever be administered by qualified professionals to reduce signs <br/>of ageing. Both these options are a non-surgical way to enhance the appearance of<br/> different areas of your face, with a low level of invasiveness.<br/> This means that once you've had your anti-wrinkle injections or<br/> fillers, you can leave the clinic and go about your day as normal.<br/> Aside from the aesthetic benefits, anti-wrinkle injections have been known to work<br/> well as an anti-migraine treatment, as the nerve-endings are blocked<br/> from sending pain signals. This stops the headaches before they even begin.
+<p className="pl-5 text-center">Anti-wrinkle injections and dermal fillers are both treatments that should only<br/> ever be administered by qualified professionals to reduce signs <br/>of ageing. Both these options are a non-surgical way to enhance the appearance of<br/> different areas of your face, with a low level of invasiveness.<br/> This means that once you've had your anti-wrinkle injections or<br/> fillers, you can leave the clinic and go about your day as normal.<br/> Aside from the aesthetic benefits, anti-wrinkle injections have been known to work<br/> well as an anti-migraine treatment, as the nerve-endings are blocked<br/> from sending pain signals. This stops the headaches before they even begin.
 
 </p>
 
@@ -194,7 +195,7 @@ Sue Green</h5>
 
 <div className="row">
   
- <br/><br/>  <img src={Arr} className="img-fluid side" alt=" surgery"/>
+ <br/><br/>  <img src={Arr} className="img-fluid side pt-5 pl-5" alt=" surgery"style={{width:"25.83rem",height:"14.83rem"}}/>
    <div className="row">
    </div>
    </div>
@@ -208,12 +209,12 @@ Sue Green</h5>
 <div className="col-lg-6 col-md-6 hide ">
    
 
-  <img src={Mb} className="img-fluid side2" alt=" surgery"/>
+  <img src={Mb} className="img-fluid all-on2 pr-5" alt=" surgery"style={{width:"25.83rem",height:"14.83rem"}}/>
 
 </div>
    <div className="col-lg-6 col-md-6 cell hide ">
-<h3 className="line-5 ml-5 spabove">Dr. Mark Buddha DDMS</h3>
-<p className="text-align: right abb"><br/><br/>"Every patient is unique & has individual expectations. I’ve treated thousands of happy patients and understand the importance of both honestly managing & fulfilling patients expectations. It is of the upmost importance that every patient leaves my clinic with the smile they’ve always wanted. We don’t cut corners & we don’t settle for less than the very best when it comes to patient care & results".</p>
+<h3 className="line-5 ml-5 spabove beautiful pl-5">Dr. Mark Buddha DDMS</h3>
+<p className="text-center pr-5"><br/><br/>"Every patient is unique & has individual expectations. I’ve treated thousands of happy patients and understand the importance of both honestly managing & fulfilling patients expectations. It is of the upmost importance that every patient leaves my clinic with the smile they’ve always wanted. We don’t cut corners & we don’t settle for less than the very best when it comes to patient care & results".</p>
   
    <div className="row">
    
@@ -223,7 +224,7 @@ Sue Green</h5>
    </div>
   
 </section>
-<h3 className=" brace text-center beautiful">Anti-wrinkle injections & fillers product range <br/><br/></h3>
+<h3 className=" brace text-center beautiful space">Anti-wrinkle injections & fillers product range <br/><br/></h3>
 <section className="we-are container mt-5" >
   <div className="py-2 text-center mb-5">
     <div>

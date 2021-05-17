@@ -286,7 +286,7 @@ MyClinique has free parking at the clinic, with disabled access and a fully air 
        
        </div>
 
-    <br/>   <div className="section-out hide" >
+    <br/>   <div className="section-out hide pr-5" >
     
     <a href= "http://localhost:3000/Contactus" className =" btn-primary button-1  ">Book your FREE consultation Now</a>                                                             
 </div>

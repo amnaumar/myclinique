@@ -24,7 +24,7 @@ const  Dentalbridges = () => {
          <>
 
 
-<section id = "thund" className ="d-flex align-items-center easy mt-5" >  
+<section id = "pedic" className ="d-flex align-items-center easy mt-5" >  
        <div className ="container">
 <div className ='row'>
   <div className ="col-10 mx-auto">
@@ -32,15 +32,15 @@ const  Dentalbridges = () => {
   
    <div className ="col-md-12 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center "> 
    <div className ='row'>
-    <h2 className="hard"><br/> Dental bridges in <br/> Northampton
- </h2>
- <h4 className="hard mrleft"> <br/> <br/> <br/> <br/>The most cost-effective yet permanent solution <br/> to replacing missing teeth (start from £8) 
+    <h1 className="hard"> Dental bridges in Northampton
+ </h1>
+ <h4 className="hard">The most cost-effective yet permanent solution <br/> to replacing missing teeth (start from £8) 
  
  </h4>
   <div className="row">
    
 
- <img src={Denb} className="img-fluid dant" alt=" surgery"/>
+ <img src={Denb} className="img-fluid pl-5" alt=" surgery"style={{height:"15.83rem",width:"32.83rem"}}/>
 </div>
 </div>
       </div>
@@ -153,7 +153,7 @@ const  Dentalbridges = () => {
 <section id="bismillah">
  <div className="col-lg-6 col-md-6 cell ">
    <div className="row">
-<p>In addition to restoring your smile, your dental bridge will also grant you a number of crucial, but easily neglected, health benefits. Serious problems can arise for those who have missing teeth. Adjacent teeth can begin to drift into the gap over time, and extra pressure begins to be placed on the jawbone and remaining teeth, which are having to work extra hard. This can eventually lead to the wearing of the bone and a loss of facial structure. In time this can lead to sunken cheeks and a face that appears to be caving in. Filling the gaps in your smile with a dental bridge in Northampton can restore this structure, allowing you to retain your natural face shape.
+<p className="text-center pl-5">In addition to restoring your smile, your dental bridge will also grant you a number of crucial, but easily neglected, health benefits. Serious problems can arise for those who have missing teeth. Adjacent teeth can begin to drift into the gap over time, and extra pressure begins to be placed on the jawbone and remaining teeth, which are having to work extra hard. This can eventually lead to the wearing of the bone and a loss of facial structure. In time this can lead to sunken cheeks and a face that appears to be caving in. Filling the gaps in your smile with a dental bridge in Northampton can restore this structure, allowing you to retain your natural face shape.
 
 </p>
                                                              
@@ -164,7 +164,7 @@ const  Dentalbridges = () => {
 
 <div className="row">
   
- <br/><br/>  <img src={Cab6} className="img-fluid side" alt=" surgery"/>
+ <br/><br/>  <img src={Cab6} className="img-fluid side pt-5 pl-5" alt=" surgery"style={{width:"25.83rem",height:"14.83rem"}}/>
    <div className="row">
    </div>
    </div>
@@ -276,14 +276,14 @@ const  Dentalbridges = () => {
      </div>
      </div>
 
-     <h3 className="brace text-center beautiful"><br/><br/>Are  dental Bridges right for me?<br/></h3>
+     <h3 className="brace text-center beautiful pl-5"><br/><br/>Are  dental Bridges right for me?<br/></h3>
      <section id="bismillah">
  
 
  <div className="col-lg-6 col-md-6 cell ">
    <div className="row">
    <div className="leftside">
-     <h6  className="pl-5">Dental Bridges are perfect for</h6>
+     <h6  className="pl-5 brand-name">Dental Bridges are perfect for</h6>
 <ul >
   <li className="pl-5">Offering a solution to missing teeth without the need for surgery</li>
   <li className="pl-5" >Providing an affordable alternative to dental implants</li>
@@ -293,7 +293,7 @@ const  Dentalbridges = () => {
  
 </ul>
 </div>
-<p className="pl-5 hide ">Your dental crowns will provide a solid foundation for your dental bridge, meaning that your replacement teeth will function just like your natural ones. You'll no longer need to struggle with tougher foods, and because the gaps in your smile will be filled with natural looking prosthetic teeth, you'll be able to smile with confidence. Additionally, you'll never need to worry about them falling out as you would with traditional dentures. The material used to make dental bridges is also highly durable, meaning that, if you take care of your new teeth as you would your natural ones, they can last for up to a decade, or even longer.
+<p className="pl-5 hide pr-5">Your dental crowns will provide a solid foundation for your dental bridge, meaning that your replacement teeth will function just like your natural ones. You'll no longer need to struggle with tougher foods, and because the gaps in your smile will be filled with natural looking prosthetic teeth, you'll be able to smile with confidence. Additionally, you'll never need to worry about them falling out as you would with traditional dentures. The material used to make dental bridges is also highly durable, meaning that, if you take care of your new teeth as you would your natural ones, they can last for up to a decade, or even longer.
 
 </p>
 
@@ -303,7 +303,7 @@ const  Dentalbridges = () => {
 
 <div className="row">
   
- <br/><br/>  <img src={Cdd3} className="img-fluid replace" alt=" surgery"/>
+ <br/><br/>  <img src={Cdd3} className="img-fluid pt-5 pl-5 replace" alt=" surgery"style={{width:"25.83rem",height:"13.83rem"}}/>
    <div className="row">
    </div>
    </div>
@@ -319,12 +319,12 @@ const  Dentalbridges = () => {
  
 <h4 className="brand-name"> <br/><span className="change-content brand-name proper"></span> (£8)</h4>
 
-   <img src={Cdd4} className="maxm img-fluid replace2 " alt=" surgery"/>
+   <img src={Cdd4} className="maxm img-fluid all-on2 pr-5 " alt=" surgery"/>
 
 </div>
    <div className="col-lg-6 col-md-6 cell ">
 
-<p className="text-center ">Many treatments are available on a 0% dental finance plan, which allows you to spread the cost of your treatment over a longer period of time. Pay monthly in smaller instalments and avoid a big upfront cost.
+<p className="text-center pr-5 pt-5 ">Many treatments are available on a 0% dental finance plan, which allows you to spread the cost of your treatment over a longer period of time. Pay monthly in smaller instalments and avoid a big upfront cost.
 
 See our pricing page to view our full pricing for dental bridges in Northampton.</p>
 
@@ -364,6 +364,8 @@ See our pricing page to view our full pricing for dental bridges in Northampton.
    </div>
   </div>
  </div>
+
+ <div className="space"></div>
 <Footer/>
 
 </>);

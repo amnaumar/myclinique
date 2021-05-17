@@ -34,7 +34,7 @@ const Fixedbraces = () => {
     return (   
          <>
 
-<section id = "thund" className ="d-flex align-items-center easy mt-5" >  
+<section id = "pedic" className ="d-flex align-items-center easy mt-5" >  
        <div className ="container">
 <div className ='row'>
   <div className ="col-10 mx-auto">
@@ -47,7 +47,7 @@ const Fixedbraces = () => {
    <h2 className =" hard my-3">  The quickest & most cost-effective solution<br/> for your perfect smile (Starts from £25) 
 </h2>
 
- <img src={Cban} className="img-fluid dant" alt=" surgery"/>
+ <img src={Cban} className="img-fluid " alt=" surgery"style={{height:"14.83rem",width:"29.83rem"}}/>
 </div>
 </div>
       </div>
@@ -157,7 +157,7 @@ const Fixedbraces = () => {
 <section id="bismillah">
  <div className="col-lg-6 col-md-6 cell ">
    <div className="row">
-<p> Fixed braces are the most widely used form of tooth straightening treatment due to their ability to correct almost any type of misalignment. They achieve great results with very little limitations, and as they need to be tweaked and tightened by your dentist, it's easier to predict how the final outcome will look.
+<p className="pl-5 text-center"> Fixed braces are the most widely used form of tooth straightening treatment due to their ability to correct almost any type of misalignment. They achieve great results with very little limitations, and as they need to be tweaked and tightened by your dentist, it's easier to predict how the final outcome will look.
 
 As the name suggest, they are fixed in your mouth, and can only be removed by your dentist. This means that although you will have to take extra care when cleaning them to ensure there is no food left stuck in them, you don't have the risk of losing them or leaving them somewhere why they could get damaged. You will have to be mindful of eating certain foods, but modern braces are extremely durable and will only break if you ignore the advice given to you by your dentist.
 
@@ -168,7 +168,7 @@ As the name suggest, they are fixed in your mouth, and can only be removed by yo
 
 <div className="row">
   
-<br/>  <br/><img src={Fix2} className="img-fluid side" alt=" surgery"/>
+ <br/><img src={Fix2} className="img-fluid side pb-5 pl-5" alt=" surgery"style={{width:"23.83rem",height:"15.83rem"}}/>
    <div className="row">
    </div>
    </div>
@@ -201,7 +201,7 @@ As the name suggest, they are fixed in your mouth, and can only be removed by yo
 </div>
  </section>
 
- <h3 className="noma text-center"><br/> Fixed braces procedure     </h3>
+ <h3 className="noma text-center beautiful"><br/> Fixed braces procedure     </h3>
   
 <div className="container-fluid mt-5  d-flex justify-content-center ">
   
@@ -366,13 +366,13 @@ As the name suggest, they are fixed in your mouth, and can only be removed by yo
 </div>
   </div>
   </div>
-  <h3 className="text-center beautiful"><br/><br/>Are fixed braces right for me?<br/></h3>
+  <h3 className="text-center beautiful"><br/><br/>Are fixed braces right for me?<br/><br/></h3>
   <section id="bismillah">
  
  <div className="col-lg-6 col-md-6 cell ">
    <div className="row">
    <div className="leftside">
-     <h6  className="pl-5">Fixed braces are perfect for</h6>
+     <h6  className="brand-name pl-5">Fixed braces are perfect for</h6>
 <ul >
   <li className="pl-5">Straightening teeth within a relatively short timeframe</li>
   <li className="pl-5" >Fixing bite problems, such as an overbite, underbite or crossbite</li>
@@ -391,7 +391,7 @@ As the name suggest, they are fixed in your mouth, and can only be removed by yo
 
 <div className="row">
   
-  <br/><br/> <img src={Fixx4} className="img-fluid side" alt=" surgery"/>
+  <br/><br/> <img src={Fixx4} className="img-fluid side pb-5 pl-5" alt=" surgery"style={{width:"25.83rem",height:"15.83rem"}}/>
    <div className="row">
    </div>
    </div>
@@ -407,12 +407,12 @@ As the name suggest, they are fixed in your mouth, and can only be removed by yo
 <h4 className="brand-name"> <br/><span className="change-content brand-name proper"></span> (£25)</h4>
 
 
-   <img src={Fixx5} className="img-fluid side2 mr-5 " alt=" surgery"/>
+   <img src={Fixx5} className="img-fluid side2 mr-5 " alt=" surgery"style={{width:"22.83rem",height:"15.83rem"}}/>
 
 </div>
    <div className="col-lg-6 col-md-6 cell ">
 
-<p className="text-center ">Fixed braces are the most commonly used treatment for straightening teeth. Depending on which type of braces you opt for, the prices will differ. At your consultation, your dentist will go through all the options with you so you can choose the braces most suited to you.
+<p className="text-center pr-5 ">Fixed braces are the most commonly used treatment for straightening teeth. Depending on which type of braces you opt for, the prices will differ. At your consultation, your dentist will go through all the options with you so you can choose the braces most suited to you.
 
 Braces are available on a dental finance plan, allowing you to spread the cost of your treatment over a longer period of time.
 

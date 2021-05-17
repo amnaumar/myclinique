@@ -24,7 +24,7 @@ const Smilemakeoverandveneers = () => {
 
     return (   
          <>
-<section id = "thund" className ="d-flex align-items-center easy mt-5" >  
+<section id = "pedic" className ="d-flex align-items-center easy mt-5" >  
        <div className ="container">
 <div className ='row'>
   <div className ="col-10 mx-auto">
@@ -32,17 +32,19 @@ const Smilemakeoverandveneers = () => {
   
    <div className ="col-md-12 pt-5 pt-lg-0 order-2 order-lg-1 d-flex align-items-center "> 
    <div className ='row'>
-  <br/><br/><br/>  <h1 className="hard"><br/><br/> Smile makeovers & veneers in<br/> Northampton
+    <h1 className="hard pl-3"> Smile makeovers & veneers <br/> in Northampton
  </h1>
- <h3 className="hard" >
+ <h2 className="hard " >
  Design your Hollywood Smile & create<br/> your perfect look with veneers & smile<br/> makeovers at MyClinique (Start from£17)
  
 
- </h3>
+ </h2>
   <div className="row">
    
 
- <img src={Smileh} className="img-fluid dant" alt=" surgery"/>
+  
+  
+ <img src={Smileh} className="img-fluid pl-5 " alt=" surgery"style={{height:"17.83rem",width:"29.83rem"}}/>
 </div>
 </div>
       </div>
@@ -152,18 +154,18 @@ const Smilemakeoverandveneers = () => {
 <section id="bismillah">
  <div className="col-lg-6 col-md-6 cell ">
    <div className="row">
-<p> Veneers are thin porcelain covers that are attached to the front surface<br/> of the existing tooth. They are perfect for those looking to<br/> enhance their smile without extractions and implants as porcelain <br/>veneers are a permanent solution to teeth that are chipped, discoloured<br/> or cracked. With a choice of shade ranging from our bright “Hollywood smile”<br/> to a more natural looking finish, you can select <br/>the final look you wish to achieve.
+<p className="text-center pl-5"> Veneers are thin porcelain covers that are attached to the front surface<br/> of the existing tooth. They are perfect for those looking to<br/> enhance their smile without extractions and implants as porcelain <br/>veneers are a permanent solution to teeth that are chipped, discoloured<br/> or cracked. With a choice of shade ranging from our bright “Hollywood smile”<br/> to a more natural looking finish, you can select <br/>the final look you wish to achieve.
 </p>
                                                             
 
-    <div className ="mt-3 place">
+    <div className ="mt-5 place">
     
     <a href= "http://localhost:3000/Contactus" className ="swagButton">Discuss how you want to proceed </a>                                                             
 
 
 <div className="row">
 
-  <br/><br/><br/> <img src={Smile1} className="img-fluid side" alt=" surgery"/>
+  <br/><br/><br/> <img src={Smile1} className="img-fluid side pr-5 pt-3" alt=" surgery"style={{height:"14.83rem",width:"25.83rem"}}/>
    <div className="row">
    </div>
    </div>
@@ -178,14 +180,14 @@ const Smilemakeoverandveneers = () => {
 <div className="hide col-lg-6 col-md-6  spacedown">
 
 
-   <img src={Cab7} className="img-fluid side2" alt=" surgery"/>
+   <img src={Cab7} className="img-fluid side2 pr-5" alt=" surgery"/>
 
 </div>
    <div className="col-lg-6 col-md-6 cell ">
-   <h2 className="beautiful line-5 spabove" >
+   <h2 className="beautiful text-center spabove pr-5" >
     Dr. Mark Buddha DDMS<br/>
     </h2>
-<p className="">"Every patient is unique & has individual expectations. I’ve treated thousands of happy patients and understand the importance of both honestly managing & fulfilling patients expectations. It is of the upmost importance that every patient leaves my clinic with the smile they’ve always wanted. We don’t cut corners & we don’t settle for less than the very best when it comes to patient care & results".</p>
+<p className="pr-5">"Every patient is unique & has individual expectations. I’ve treated thousands of happy patients and understand the importance of both honestly managing & fulfilling patients expectations. It is of the upmost importance that every patient leaves my clinic with the smile they’ve always wanted. We don’t cut corners & we don’t settle for less than the very best when it comes to patient care & results".</p>
   
    <div className="row">
    

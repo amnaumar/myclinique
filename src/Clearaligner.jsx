@@ -31,7 +31,7 @@ return (
    
  
 
-<section id = "thund" className ="d-flex align-items-center easy mt-5" >  
+<section id = "pedic" className ="d-flex align-items-center easy mt-5" >  
        <div className ="container">
 <div className ='row'>
   <div className ="col-10 mx-auto">
@@ -41,10 +41,10 @@ return (
    <div className ='row'>
     <h1 className="hard">  Clear aligners in Northampton </h1>
   <div className="row">
-   <h2 className =" hard my-3"> The most invisible & comfortable solution <br/>for a perfect smile (start from £31)
+   <h2 className =" hard"> The most invisible & comfortable solution <br/>for a perfect smile (start from £31)
 </h2>
 
- <img src={Inb} className="img-fluid dant" alt=" surgery"/>
+ <img src={Inb} className="img-fluid pr-5" alt=" surgery"style={{height:"16.83rem",width:"28.83rem"}}/>
 </div>
 </div>
       </div>
@@ -193,16 +193,16 @@ Sue Green</h5>
  <section id="bismillah">
  <div className="col-lg-6 col-md-6 cell ">
    <div className="row">
-<p>Rather than be fixed to your teeth, clear aligners simply slide <br/>on and off, sort of like an invisible gumshield. This means  <br/>no metal wires, and therefore no discomfort, as the smooth  <br/>plastic material of your aligners sits comfortably in your mouth. <br/> Rather than using wires to push your teeth into the required place with force, <br/> a series of clear aligners will gradually and gently guide your teeth into the correct position. <br/> You'll avoid the aches and pains that come with traditional orthodontic <br/> methods. Day to day life is also made easier, as you'll <br/> be able to remove your clear aligners to eat, brush, and floss. </p>
+<p className="pl-5 text-center"><br/>Rather than be fixed to your teeth, clear aligners simply slide <br/>on and off, sort of like an invisible gumshield. This means  <br/>no metal wires, and therefore no discomfort, as the smooth  <br/>plastic material of your aligners sits comfortably in your mouth. <br/> Rather than using wires to push your teeth into the required place with force, <br/> a series of clear aligners will gradually and gently guide your teeth into the correct position. <br/> You'll avoid the aches and pains that come with traditional orthodontic <br/> methods. Day to day life is also made easier, as you'll <br/> be able to remove your clear aligners to eat, brush, and floss. </p>
                                                           
-    <div className ="mt-3 place">
+    <div className ="mt-5 place">
     
     <a href= "http://localhost:3000/Contactus" className ="swagButton">Discuss how you want to proceed </a>                                                             
 
 
 <div className="row">
   
-<br/><br/> <br/><br/> <img src={Pow} className="img-fluid side" alt=" surgery"/>
+<br/> <img src={Pow} className="img-fluid side pr-5 pb-5 " alt=" surgery"/>
    <div className="row">
    </div>
    </div>
@@ -378,7 +378,7 @@ Sue Green</h5>
 
 <section>
       <div className=" sobia mt-5 review-ib" >
-      <h3 className="line-5"><br/>Clear aligner patients</h3>
+      <h3 className="line-5 beautiful"><br/>Clear aligner patients</h3>
       <h6 className="text-center"> From A-listers to the general public, everyone gets the same level of care & attention to detail at my clinic. If you think you may want dental implants in Northampton, book your free consultation today </h6>
 </div>
 </section>
@@ -418,7 +418,7 @@ Sue Green</h5>
  <div className="col-lg-6 col-md-6 cell ">
    <div className="row">
    <div className="leftside">
-     <h6  className="pl-5"><br/>Clear aligners are perfect for</h6>
+     <h6  className="pl-5 brand-name"><br/>Clear aligners are perfect for</h6>
 
 <ul >
 <li className="pl-5" >Giving you a more aligned smile</li>
@@ -438,7 +438,7 @@ Sue Green</h5>
 
 <div className="row">
   
-   <img src={Clearri1} className="img-fluid side" alt=" surgery"/>
+   <img src={Clearri1} className="img-fluid all-on pr-5 pb-5" alt=" surgery"style={{width:"25.83rem",height:"14.83rem"}}/>
    <div className="row">
    </div>
    </div>
@@ -448,17 +448,17 @@ Sue Green</h5>
    </div>
 </section>
 <section id="mark">
-<h4 className="text-center line-3">Clear aligners pricing</h4> 
+<h4 className="text-center line-3 beautiful">Clear aligners pricing</h4> 
 <div className="row">
 <div className="col-lg-6 col-md-6  ">
  
 <h4 className="brand-name"> <br/><span className="change-content brand-name proper"></span> (£31)</h4>
-   <img src={Clearri2} className="img-fluid side2" alt=" surgery"/>
+   <img src={Clearri2} className="img-fluid all-on2 pr-5" alt=" surgery"/>
 
 </div>
    <div className="col-lg-6 col-md-6 cell ">
 
-<p className="text-align: right ">Clear aligners are an affordable way to straighten your teeth and are certainly worth the cost if discreetness and the ability to remove them is important to you. Clear aligners can achieve the results you are looking for, so therefore are the ideal choice is you are considering teeth straightening treatment.
+<p className="pr-5 pt-3 ">Clear aligners are an affordable way to straighten your teeth and are certainly worth the cost if discreetness and the ability to remove them is important to you. Clear aligners can achieve the results you are looking for, so therefore are the ideal choice is you are considering teeth straightening treatment.
 
 Clear aligners are available on our dental finance plan, allowing you to spread the cost of your treatment over a longer period of time. You can choose to pay in convenient monthly instalments and avoid one large upfront payment.
 
@@ -474,113 +474,8 @@ View our pricing page to see the cost of clear aligners in Northampton</p>
 
 
 
+<Footer/>
 
-  <footer className="footersection" id="footerdiv">
-    <div className="container">
-        <div className="row">
-            <div className="col-lg-4 col-md-4 col-12 footer-div">
-               <div>
-                <h2 className="logo-name">myclinique </h2>
-               <ul>
-                <li><a href="#">Home</a></li>
-                 <li><a href="#">About Us</a></li>
-                 <li><a href="#">Pricing</a></li>
-                 <li><a href="#">FAQS</a></li>
-                 <li><a href="#">Terms & Conditions</a></li>
-                 <li><a href="#">Contact Us</a></li></ul>
-</div>
-  </div>
-  <div className="col-lg-4 col-md-4 col-12 footer-div ">
-               <div>
-                <h2>Useful Links</h2>
-                <ul>
-                 <li><a href="#">Dental Implants</a></li>
-                 <li><a href="#">Invisalign</a></li>
-                 <li><a href="#">Clear Aligners</a></li>
-                 <li><a href="#">Clear Braces</a></li>
-                 <li><a href="#">Fixed Braces</a></li>
-                 <li><a href="#">Lingual Braces</a></li>
-                 <li><a href="#">Fixed Braces</a></li>
-                 <li><a href="#">Smile Makeovers & Veneers</a></li>
-                 <li><a href="#">Crowns & Bridges</a></li>
-                 <li><a href="#">Anti Wrinkle Injections & Fillers</a></li>
-                 <li><a href="#">General Dentistry</a></li>
-                 <li><a href="#">Emergency Treatments</a></li>
-                 
-
-                 </ul>
-                
-</div>
-  </div>
-  
-  <div className="col-lg-4 col-md-4 col-12 footer-div">
-               <div>
-                <h2>NewsLetter</h2>
-                 <p> Get a newsletter and book an appointment for free registration</p>
-                 <div className="container newsletter-main">
-<div className="row">
-<div className="col-lg-12  col-12">
-<div class="input-group mb-3">
-    <input type="text" class="form-control news-input" placeholder="Your Email"/>
-    <div class="input-group-append">
-      <span class="input-group-text">Make a request</span>
-    </div>
-  </div>
-</div>
-
-
-    </div>
-    </div>
-</div>
-  </div>
-
-        </div>
-
-        <div className="row">
-<div className="col-lg-4 col-md-4  centerdiv ">
-  
-  <a href="">
-  <i className="fa fa-2x  fa-facebook"></i>
-  </a>
-  
-  <a href="">
-  <i className="fa fa-2x fa-twitter"></i>
-  </a>
- 
-  <a href="">
-  <i className="fa fa-2x  fa-instagram"></i>
-  </a>
-  
-  <a href="">
-  <i className="fa fa-2x  fa-youtube"></i>
-  </a>
-  
-</div>
-
-<div className="col-lg-4 col-md-4 col-12 addressdiv mb-5">
-  <ul>
-  <li><a href="">
-<i class="fa fa-2x fa-phone" aria-hidden="true">   01604312154  </i>
-</a></li>
-<li>
-<a href="">
-<i class="fa fa-2x fa-map-marker py-4" aria-hidden="true">   My clinique Ltd  7 Cheyne    walk,Northampton NN5PT  </i>
-</a></li>
-<li>
-<a href="">
-<i class="fa fa-2x fa-clock-o " aria-hidden="true">   Monday-Saturday: 9:00-19:00   </i>
-</a></li>
-</ul>
-</div>
-<div className="col-lg-4 col-md-4 col-12 financediv py-3 ">
-
-<h3 > Our Finance Provuider <a href=" https://lead.tabeo.co.uk/myclinique-1/finance"> https://lead.tabeo.co.uk/myclinique-1/finance</a></h3>
-</div>
-</div>
-
-    </div>
-
-   </footer>
 
 
 
