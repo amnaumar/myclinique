@@ -58,7 +58,7 @@ const Allon4 = () => {
        </section >
 
        <div className="cure">
-       <div className="container mt-5  ">
+       <div className="leads container mt-5  ">
  
  <div className ="row">
   
@@ -248,6 +248,7 @@ Sue Green</h5>
   </div>
 </div>
  </section>  
+ <div id="enlarge0"></div>
 
  <h3 className=" noma text-center mt-5 beautiful "> All-on-4 procedure    </h3>
  
@@ -366,7 +367,7 @@ Sue Green</h5>
 
 <p className="pl-5 hide">Having All-on-4 dental implants as an alternative to<br/> traditional dentures is not only going to improve the <br/>appearance of your smile, but also the functionality<br/> of your bite.Dentures have a tendency to encourage <br/>bone loss within the jaw, whereas All-on-4 implants<br/> actually help to preserve the bone density to prevent<br/> it shrinking over time.
   </p>
-  <div className ="mt-3 gbtn">
+  <div className ="mt-3 gbtn hide">
   <div className="row">
     <a href= "" className ="btn- btn">Book your FREE consultation Now</a>       
                                                   

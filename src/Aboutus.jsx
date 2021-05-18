@@ -9,8 +9,8 @@ const Aboutus = () => {
 
 return (   
      <>
-      <div className="content">
-        <div className="content1">
+      
+        
        <section id = "about" className ="d-flex text-center mt-5">
        <div className ="container">
 <div className ='row width= "100%"'>
@@ -27,11 +27,13 @@ Our team is dedicated to providing the very best in both general and cosmetic de
 
 Meet our team and see why we have a consistently high level of patient satisfaction.</p>
 
+<div className ="mt-5  ">
+    
+    <a href= "http://localhost:3000/Contactus" className ="swagButton"> Ask for appointment </a>                                                             
 
 
  
-   <div className ="session-a mt-4">
-      <a href= "" className ="btn-btn-primary button-2"> Order an appointment   </a> </div>
+    </div>
  
 
   </div>
@@ -118,8 +120,8 @@ Sue Green</h5>
 
 
 </section>
-</div>
-</div>
+
+
 <Footer/>
 
 

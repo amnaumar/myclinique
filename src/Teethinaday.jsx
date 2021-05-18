@@ -62,7 +62,7 @@ const Teethinaday = () => {
        </section >
 
        <div className="cure">
-       <div className="container mt-5  ">
+       <div className="leads container mt-5  ">
  
  <div className ="row">
   
@@ -219,7 +219,7 @@ Temporary overdentures are generally made of resin. This is not particularly dur
   </div>
 </section>
 
-
+<div id="enlarge2"></div>
  <h3 className="brace text-center beautiful"><br/><br/>  Teeth in a Day dental implant procedure
   </h3>
  
@@ -341,7 +341,7 @@ Temporary overdentures are generally made of resin. This is not particularly dur
   </p>
 <div className ="mt-3 gbtn">
     
-    <a href= "" className ="btn- btn">Book your FREE consultation Now</a>                                                             
+    <a href= "http://localhost:3000/Contactus" className ="btn- btn hide">Book your FREE consultation Now</a>                                                             
 
 <div className="row">
   
@@ -357,7 +357,7 @@ Temporary overdentures are generally made of resin. This is not particularly dur
 <section id="mark">
 <h4 className=" pb-5 brace beautiful text-center line-3 spabove">Teeth in a Day Pricing</h4>
 <div className="row">
-<div className="col-lg-6 col-md-6  spacedown"id="day">
+<div className="col-lg-6 col-md-6  spacedown"id="day1">
    
 <br/><br/><br/><br/><br/><div class="card text-center"style={{width:"30.83rem",height:"21.83rem"}}>
   

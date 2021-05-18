@@ -1,10 +1,12 @@
 
+
+
 @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;700&display=swap');
 *{
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-font-family: Cabin,sans-serif;;
+font-family: Cabin,sans-serif;
 }
 
 .navbar{
@@ -356,6 +358,7 @@ padding-left: 15px;
     padding: 8px 30px;
     border-radius: 50px;
     transition: 0.5s;
+    border-color: #007bff;
     text-decoration: none;
 }
 
@@ -557,6 +560,10 @@ font-size: 2em;
       box-shadow: 1px 2px 1px 2px;
       background-color:#3498db;
   
+  }
+
+  .leads{
+      padding-left: 6rem;
   }
   
    .we-are h2
@@ -1245,7 +1252,7 @@ display: none;
     height: 70vh;
     background-color: #75f1ed;
 }
-.cure{background-color: #75f1ed;}
+
 
     #consultation h3{
         font-size: 18px;
@@ -1622,6 +1629,15 @@ width: 70%;margin-left: -222px;
 }
 #day img{margin-left: 130px;max-width: 150pxm;}
 
+#start{
+    width: 8rem;margin-right: 90rem;margin-left: -40px;
+    }
+    #start img{margin-left: 10px;max-width: 15pxm;
+    width: -20px;}
+    
+
+
+
 .addressdiv{margin-top: 55px;font-weight: 80;}
 .financediv{margin-top: 125px;font-weight: 80;}
 
@@ -1696,15 +1712,40 @@ font-size:1.5rem;
 }
 .cure{width: 24rem;}
 #agee{
-width: 24rem;
+width: 22rem;
 
 }
 #agee h3{margin-right: 4.9rem;}
+#bismillah {margin-left: -2.5rem;
+width: 29rem;
 
 
+}
 
+.swagButton{margin-left: 2rem;}
+#mark{
 
+    width: 15rem;
+}
+.ask-for{margin-bottom: 4rem;
 
+}
+.we-are {padding-top: 2rem;}
+
+.drm{margin-top: -3rem;}
+
+.ddms{
+
+  margin-top: -5rem; 
+  padding-left: 5rem; 
+  margin-bottom: -14rem;
+
+}
+.ddrs{
+    margin-bottom: -12rem;
+
+}
+.range{margin-left: 2rem;}
 
 
 }

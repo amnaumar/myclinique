@@ -58,7 +58,7 @@ const Wholearchreplacement = () => {
        </section >
 
        <div className="cure">
-       <div className="container mt-5  ">
+       <div className="leads container mt-5  ">
  
  <div className ="row">
   
@@ -332,9 +332,9 @@ Whole-arch replacements use either 4 or 6 <br/>dental implant screws. These are 
 
 <p className="pl-5 hide ">A whole-arch replacement is a cost-effective solution to replacing either one or both arches of teeth. Whether you opt for All-on-4, All-on-6 or Teeth in a Day, your whole-arch replacement will look just like real teeth and nobody will be able to tell you have a whole arch of dental implants in your mouth.</p>
 
-<div className ="mt-3 gbtn">
+<div className ="mt-3 gbtn hide">
     
-    <a href= "" className ="btn- btn">Book your FREE consultation Now</a>                                                             
+    <a href= "http://localhost:3000/Contactus" className ="btn- btn">Book your FREE consultation Now</a>                                                             
 
 <div className="row">
   

@@ -53,7 +53,7 @@ const  Crownsandbridges = () => {
        </section >
 
        <div className="cure">
-       <div className="container mt-5  ">
+       <div className="leads container mt-5  ">
  
  <div className ="row">
   
@@ -197,7 +197,7 @@ const  Crownsandbridges = () => {
     </h2>
    <div className="real container-fluid mt-0 d-flex justify-content-center">
    <div className ="row">
-   <div className="col-lg-6 col-md-6 col-12 mb-5">
+   <div className=" range col-lg-6 col-md-6 col-12 mb-5">
    <div class="card text-center"style={{width:"16.83rem"}}>
   
   <img src={Cab8} className="img-fluid border-radius p-4" alt=" 5"/>
@@ -279,7 +279,7 @@ const  Crownsandbridges = () => {
 
    <section>
  <div className=" sobia mt-5" >
-      <h3 className="brace line-5 mr-5 beautiful">Crowns and Bridges patients</h3>
+      <h3 className="brace range  line-5 mr-5 beautiful">Crowns and Bridges patients</h3>
       <h6 className="brace-1 text-center beautiful"> From A-listers to the general public, everyone gets the same level of care & attention to detail at my clinic </h6>
 </div>
 </section>

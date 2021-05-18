@@ -59,7 +59,7 @@ return (
        </section >
 
        <div className="cure icons">
-       <div className="container mt-5 icons ">
+       <div className="leads container mt-5 icons ">
  
  <div className ="row">
   
@@ -220,7 +220,7 @@ Discover the power of dental implants<br/><br/>
    <img src={Mb} className="img-fluid all-on2 maxm" alt=" surgery"style={{width:"25.83rem",height:"14.83rem"}}/><br/><br/><br/>
 
 </div>
-   <div className="col-lg-6 col-md-6 cell ">
+   <div className="col-lg-6 col-md-6 cell hide">
 <h3 className="slight beautiful pl-5">Dr. Mark Buddha DDMS</h3>
 <p className=" mb-5 ml-5">"Every patient is unique & has individual expectations. I’ve  treated thousands of happy patients and understand the importance of both honestly managing & fulfilling patients expectations. It is of the upmost importance that every patient leaves my clinic with the smile they’ve always wanted. We don’t cut corners & we don’t settle for less than the <br/>very best when it comes to patient care & results".</p>
   

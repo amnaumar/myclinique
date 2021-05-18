@@ -63,7 +63,7 @@ const Singleimplant = () => {
        </section >
 
        <div className="cure">
-       <div className="container mt-5  ">
+       <div className="leads container mt-5  ">
  
  <div className ="row">
   
@@ -337,9 +337,9 @@ Implants are made from zirconia, a strong and therefore<br/> robust material. Th
 <p className="pl-5 hide">Another point to note is that the dental implants function like a tooth root. Tooth roots do more than just hold your teeth in place. They also act as support struts for your jawbone, giving it strength and preventing it from being worn away. Single dental implants Northampton are one of the most popular treatments for replacing a missing tooth and with such a high success rate, it's easy to understand why.
 
 </p>
-<div className ="mt-3 gbtn">
+<div className ="mt-3 gbtn hide">
     
-    <a href= "" className ="btn- btn">Book your FREE consultation Now</a>                                                             
+    <a href= "http://localhost:3000/Contactus" className ="btn- btn">Book your FREE consultation Now</a>                                                             
 
 <div className="row">
   

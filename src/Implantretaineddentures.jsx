@@ -24,6 +24,7 @@ import St3 from "../src/images/implants-retained.jpg";
 import All1 from "../src/images/All-on-6@2x-copy (1).jpg";
 import All2 from "../src/images/all-on-4@2x.jpg";
 import All3 from "../src/images/teeth-in-a-day@2x.jpg";
+import Vid from "../src/images/Implant Retained Dentures At My Clinique.mp4";
 import Footer from './Footer';
 
 
@@ -60,7 +61,7 @@ return (
        </section >
 
        <div className="cure">
-       <div className="container mt-5  ">
+       <div className="leads container mt-5  ">
  
  <div className ="row">
   
@@ -248,6 +249,24 @@ Implant retained dentures use much the same materials as implant-supported dentu
 </section>
 
 <div id="enlarge0"></div>
+
+
+<h3 className="brace text-center mt-5 beautiful  ">Implant retainned denture at<div className="brand-name"> myclinique</div> <br/><br/>    </h3>
+
+<div className="insert d-flex justify-content-center mb-5">
+   <video style={{width:"45.83rem",height:"25.83rem"}}
+    controls>
+     <source src={Vid} type="video/mp4"/>
+  
+   </video>
+
+ </div>
+
+
+
+
+
+
  <h3 className="brace text-center mt-5 beautiful  ">Multiple Dental implant procedure     </h3>
  
 
@@ -368,9 +387,9 @@ Implant retained dentures use much the same materials as implant-supported dentu
 
 <p className="pl-5 hide">The more implants you need to have fitted into your jaw, the longer the procedure will take to perform. This not only increases the costs, but it can also increase the immediate post-surgery bruising and swelling. For some people, this is reason enough to opt for implant retained dentures over other options such as All-on-6 or Teeth in a Day.</p>
 
-<div className ="mt-3 gbtn">
+<div className ="mt-3 gbtn hide">
     
-    <a href= "" className ="btn- btn">Book your FREE consultation Now</a>                                                             
+    <a href= "http://localhost:3000/Contactus" className ="btn- btn">Book your FREE consultation Now</a>                                                             
 
 <div className="row">
   
@@ -387,14 +406,14 @@ Implant retained dentures use much the same materials as implant-supported dentu
 <h4 className="text-center beautiful line-3">Implant Retained Denture Prices</h4>
 <div className="row">
 <div className="col-lg-6 col-md-6  ">
-<h4 className="brand-name"> <br/><span className="change-content brand-name proper"></span> (£83)</h4>
+<h4 className="ddrs brand-name"> <br/><span className=" change-content brand-name proper"></span> (£83)</h4>
 
    <img src={Imrd3} className="img-fluid all-on2" alt=" surgery"style={{width:"30.83rem",height:"15.83rem"}}/>
 
 </div>
    <div className="col-lg-6 col-md-6 cell ">
 
-<p className="text-align: right abb">Implant retained dentures are generally more expensive than regular dentures. They are, however, more affordable than other solutions<br/> to missing teeth, such as All-on-4 dental implants, and are generally<br/> preferred as an alternative to traditional removable dentures.
+<p className="  text-center ">Implant retained dentures are generally more expensive than regular dentures. They are, however, more affordable than other solutions<br/> to missing teeth, such as All-on-4 dental implants, and are generally<br/> preferred as an alternative to traditional removable dentures.
 
 What’s<br/> more, you may be eligible for a dental finance plan, allowing you to <br/>spread the cost of your treatment over a longer period of time.
 

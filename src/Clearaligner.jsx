@@ -60,7 +60,7 @@ return (
 
 
        <div className="  cure">
-       <div className="container mt-5  ">
+       <div className="leads container mt-5  ">
  
  <div className ="row">
   
@@ -432,9 +432,9 @@ Sue Green</h5>
 
 <p className='pl-5 hide'>It may seem difficult to believe that a set of clear plastic aligners could be effective as traditional metal braces, but this really is the case. Clear aligners can, in fact, be used to treat a whole variety of problems, from slightly crooked teeth, all the way to bite misalignment and overcrowding. Straighter teeth are also healthier teeth. When your teeth are overcrowded or misaligned, it can be difficult to clean certain areas with your toothbrush. This can lead to a build of plaque, which can introduce cavities and a whole host of other problems. Straighter teeth, on the other hand, are much easier to clean. Clear aligners therefore make it much less likely that you'll fall prone to these kinds of issues
   </p>
-<div className ="mt-3 gbtn">
+<div className ="mt-3 gbtn hide">
     
-    <a href= "" className ="btn- btn">Book your FREE consultation Now</a>                                                             
+    <a href= "http://localhost:3000/Contactus" className ="btn- btn">Book your FREE consultation Now</a>                                                             
 
 <div className="row">
   

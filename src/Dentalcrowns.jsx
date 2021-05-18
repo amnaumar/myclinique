@@ -53,7 +53,7 @@ const  Dentalcrowns = () => {
        </section >
 
        <div className="cure">
-       <div className="container mt-5  ">
+       <div className="leads container mt-5  ">
  
  <div className ="row">
   
@@ -261,7 +261,7 @@ const  Dentalcrowns = () => {
 
                                                      
 
-    <div className ="mt-5 pr-5 place">
+    <div className ="mt-5 pr-5 place hide">
     
     <a href= "http://localhost:3000/Contactus" className ="swagButton">Discuss how you want to proceed </a> 
 

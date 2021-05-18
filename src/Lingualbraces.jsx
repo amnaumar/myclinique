@@ -23,6 +23,7 @@ import Lin2 from "../src/images/lin2.jpg";
 import Lin3 from "../src/images/lin3.jpg";
 import Lin4 from "../src/images/line4.jpg";
 import Lin5 from "../src/images/lin5.png";
+import Vid from "../src/images/Lingual Braces At My Clinique (1).mp4";
 import Footer from './Footer';
 
 
@@ -59,7 +60,7 @@ const Lingualbraces = () => {
        </section >
 
        <div className="cure">
-       <div className="container mt-5  ">
+       <div className=" leads container mt-5  ">
  
  <div className ="row">
   
@@ -385,9 +386,9 @@ What's more, as well as granting you a<br/> perfectly straight smile, your lingu
 What's more, as well as granting you a perfectly straight smile, your lingual braces will also help you achieve great dental health. When your teeth are misaligned, it can become difficult to reach certain places with your toothbrush. This can lead to a build-up of plaque, which can then lead to cavities and a whole host of other issues. A straight smile, on the other hand, is far easier to clean, meaning the risk of these issues is greatly reduced. With lingual braces, you'll get a smile that looks great, and is incredibly healthy.
 </p>
 
-<div className ="mt-3 gbtn">
+<div className ="mt-3 gbtn hide">
     
-    <a href= "" className ="btn- btn">Book your FREE consultation Now</a>                                                             
+    <a href= "http://localhost:3000/Contactus" className ="btn- btn">Book your FREE consultation Now</a>                                                             
 
 <div className="row">
 
@@ -423,6 +424,21 @@ See our pricing page to view the cost of lingual braces in Northampton..</p>
    </div>
 
 </section>
+
+<h3 className="brace text-center  beautiful  "><br/><br/>Lingual braces at<div className="brand-name"> myclinique</div> <br/><br/>    </h3>
+
+<div className="insert d-flex justify-content-center mb-5">
+   <video style={{width:"45.83rem",height:"25.83rem"}}
+    controls>
+     <source src={Vid} type="video/mp4"/>
+  
+   </video>
+
+ </div>
+
+
+
+
 <Footer/>
 </>);
 

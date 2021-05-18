@@ -55,7 +55,7 @@ const Veneerssinglearch = () => {
        </section >
 
        <div className="cure">
-       <div className="container mt-5  ">
+       <div className="leads container mt-5  ">
  
  <div className ="row">
   
@@ -324,9 +324,9 @@ const Veneerssinglearch = () => {
 <p className="pl-5 hide pr-4">Veneers are the perfect solution for drastically enhancing your smile, whether that be by correcting the appearance of misaligned teeth or by covering minor cracks. Improve your confidence and raise your self-esteem by creating a smile you are proud of.
 </p>
 
-<div className ="mt-3 gbtn">
+<div className ="mt-3 gbtn hide">
     
-    <a href= "" className ="btn- btn">Book your FREE consultation Now</a>                                                             
+    <a href= "http://localhost:3000/Contactus" className ="btn- btn">Book your FREE consultation Now</a>                                                             
 
 <div className="row">
   

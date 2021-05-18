@@ -63,7 +63,7 @@ return (
        </section >
 
        <div className="cure">
-       <div className="container mt-5  ">
+       <div className="leads container mt-5  ">
  
  <div className ="row">
   
@@ -433,9 +433,9 @@ Sue Green</h5>
 
 <p className="pr-5 text-center hide pr-4">With recent advances in orthodontic treatment, there are now a number of fantastic invisible orthodontic treatments available. For those wishing to achieve a perfectly straight smile without drawing attention to their treatment, clear braces are a great option. Made largely from see through materials, they're virtually invisible to onlookers. They're also an affordable option, being less expensive than many alternate orthodontic treatments.
   </p>
-<div className ="mt-3 gbtn">
+<div className ="mt-3 gbtn hide">
     
-    <a href= "" className ="btn- btn">Book your FREE consultation Now</a>                                                             
+    <a href= "http://localhost:3000/Contactus" className ="btn- btn">Book your FREE consultation Now</a>                                                             
 
 <div className="row">
   
@@ -453,14 +453,14 @@ Sue Green</h5>
 <div className="row">
 <div className="col-lg-6 col-md-6  ">
  
-<h4 className="brand-name"> <br/><span className="change-content brand-name proper"></span> (£27)</h4>
+<h4 className="ddrs brand-name"> <br/><span className="change-content brand-name proper"></span> (£27)</h4>
 
    <img src={Clearbb2} className="img-fluid all-on2" alt=" surgery"style={{width:"22.83rem",height:"15.83rem"}}/>
 
 </div>
    <div className="col-lg-6 col-md-6 cell ">
 
-<p className="pr-5 text-center ">Clear braces can be more expensive than traditional wire braces, however the benefits often outweigh the cost due to their subtle appearance and brilliant straightening abilities. Clear braces are quickly becoming one of the most popular options for those looking to straighten their teeth, especially for adults who do not want the metal braces they may once have had as a teenager.
+<p className="  pr-5 text-center ">Clear braces can be more expensive than traditional wire braces, however the benefits often outweigh the cost due to their subtle appearance and brilliant straightening abilities. Clear braces are quickly becoming one of the most popular options for those looking to straighten their teeth, especially for adults who do not want the metal braces they may once have had as a teenager.
 
 Clear braces are available to be accessed on a 0% dental finance plan, giving you the opportunity to spread the cost of your treatment over a longer period of time. You are able to pay in monthly instalments, rather than in one large upfront cost.
 

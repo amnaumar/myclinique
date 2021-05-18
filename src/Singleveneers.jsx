@@ -17,7 +17,9 @@ import Smile13 from "../src/images/smile13.jpg";
 import Single2 from "../src/images/single2.jpg";
 import Holly3 from "../src/images/Holly3.png";
 import Footer from './Footer';
-import Form from './Form';
+import Vid from "../src/images/Single Veneers At My Clinique.mp4";
+
+
 const Singleveneers = () => {
 
     return (   
@@ -56,7 +58,7 @@ const Singleveneers = () => {
 
 
        <div className="cure">
-       <div className="container mt-5  ">
+       <div className="leads container mt-5  ">
  
  <div className ="row">
   
@@ -298,9 +300,9 @@ const Singleveneers = () => {
 
 <p className="pl-5 hide"> A single veneer is the ideal solution to improving<br/> the appearance of a tooth that perhaps doesn't look the same as the <br/>surrounding ones. A veneer can drastically change how your smile looks,<br/> simply by covering the unsightly tooth so that it matches with<br/> the rest, and is protected from further damage.
 </p>
-<div className ="mt-3 gbtn">
+<div className ="mt-3 gbtn hide">
 <br/><br/>
-    <a href= "" className ="btn- btn">Book your FREE consultation Now</a>                                                             
+    <a href= "http://localhost:3000/Contactus" className ="btn- btn">Book your FREE consultation Now</a>                                                             
 
 <div className="row">
 
@@ -341,6 +343,21 @@ Take a look at our pricing page to see the cost for single veneers in Northampto
    </div>
   
 </section>
+
+
+
+<h3 className="brace text-center mt-5 beautiful  "><br/><br/>Single veneers at<div className="brand-name"> myclinique</div> <br/><br/>    </h3>
+
+<div className="insert d-flex justify-content-center mb-5">
+   <video style={{width:"45.83rem",height:"25.83rem"}}
+    controls>
+     <source src={Vid} type="video/mp4"/>
+  
+   </video>
+
+ </div>
+
+
 <Footer/>
 </>
 );

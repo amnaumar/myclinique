@@ -64,7 +64,7 @@ const Allon6 = () => {
        </section >
 
        <div className="cure">
-       <div className="container mt-5  ">
+       <div className=" leads container mt-5  ">
  
  <div className ="row">
   
@@ -215,7 +215,7 @@ Modern prosthetic teeth <br/> are generally made of zirconia with a porcelain ve
   </div>
 </section>
 <div id="enlarge0"></div>
-
+<div id="enlarge0"></div>
  <h3 className="text-center beautiful maxm mt-5"> <br/><br/> All-on-6 procedure   </h3>
   <p className="text-center" ></p>
 <div className="container-fluid mt-5  d-flex justify-content-center ">
@@ -330,7 +330,7 @@ Modern prosthetic teeth <br/> are generally made of zirconia with a porcelain ve
 
 
 <p className="pl-5 hide">Also, the additional implants give extra strength to<br/> the jaw. This helps to prevent (further) bone loss. <br/>Not only is this a desirable outcome in itself, but it<br/> can also be very useful if the dental implants need<br/> to be replaced. The extra strength of All-in-6 dental<br/> implants can also be reassuring to people who lead<br/> particularly active lives.</p>
-<div className ="mt-3 gbtn">
+<div className ="mt-3 gbtn hide">
     
     <a href= "" className ="btn- btn">Book your FREE consultation Now</a>                                                             
 

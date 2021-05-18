@@ -23,6 +23,7 @@ import Cl16 from "../src/images/cosmetic-beforeafter (5).jpg";
 import Img21 from "../src/images/image21.jpg";
 import Img22 from "../src/images/image 22.jpg";
 import Img23 from "../src/images/image23.jpg";
+import Vid from "../src/images/Invisalign At My Clinique (1).mp4";
 import Footer from './Footer';
 
 const Invisalign = () => {
@@ -58,7 +59,7 @@ return (
 
        </section >
        <div className="cure">
-       <div className="container mt-5  ">
+       <div className="leads container mt-5  ">
  
  <div className ="row">
   
@@ -174,7 +175,7 @@ Invisalign Doctors will manage your treatment every step of the way.
    </div>
 </section>
 <section id="mark">
-<h4 className="noma text-center line-3 beautiful"> <br/>Dr. Mark Buddha DDMS</h4>
+<h4 className=" text-center line-3 beautiful ddms"> <br/>Dr. Mark Buddha DDMS</h4>
 <div className="row">
 <div className="col-lg-6 col-md-6  ">
  
@@ -200,7 +201,7 @@ Invisalign Doctors will manage your treatment every step of the way.
    <img src={Pack} className="img-fluid side5" alt=" surgery"style={{width:"25.83rem",height:"20.83rem"}}/>
 
 </div>
-   <div className="col-lg-6 col-md-6 cell  "id="product">
+   <div className="col-lg-6 col-md-6 cell  "id="start">
 
  
    <div class="card text-center"style={{width:"30.83rem",height:"30.83rem"}}>
@@ -221,7 +222,16 @@ Invisalign Doctors will manage your treatment every step of the way.
 
    </div>
 
+   <h3 className="brace text-center mt-5 beautiful  "><br/><br/>Invisalign at<div className="brand-name"> myclinique</div> <br/><br/>    </h3>
 
+<div className="insert d-flex justify-content-center mb-5">
+   <video style={{width:"45.83rem",height:"25.83rem"}}
+    controls>
+     <source src={Vid} type="video/mp4"/>
+  
+   </video>
+
+ </div>
 
   
    <h3 className ="brace text-center beautiful"><br/><br/>Invisalign treatment procedure</h3>

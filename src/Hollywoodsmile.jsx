@@ -59,7 +59,7 @@ const Hollywoodsmile = () => {
 
 
        <div className="cure">
-       <div className="container mt-5  ">
+       <div className=" leads container mt-5  ">
  
  <div className ="row">
   
@@ -318,9 +318,9 @@ const Hollywoodsmile = () => {
 <p className="pl-5 hide ">A Hollywood smile can be tailored to your specific requirements, as you are able to choose the exact size, shade and colour that you want. As everyone is different, your dentist will be able to advise you on what will look best for you before creating your custom veneers and achieving the desired look.
 </p>
 
-<div className ="mt-3 gbtn">
+<div className ="mt-3 gbtn hide">
     
-    <a href= "" className ="btn- btn">Book your FREE consultation Now</a>                                                             
+    <a href= "http://localhost:3000/Contactus" className ="btn- btn">Book your FREE consultation Now</a>                                                             
 
 <div className="row">
   

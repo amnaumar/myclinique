@@ -54,7 +54,7 @@ const  Dentalbridges = () => {
        </section >
 
        <div className="cure">
-       <div className="container mt-5  ">
+       <div className="leads container mt-5  ">
  
  <div className ="row">
   
@@ -297,9 +297,9 @@ const  Dentalbridges = () => {
 
 </p>
 
-<div className ="mpm mt-3 gbtn ">
+<div className ="mpm mt-3 gbtn hide">
     
-    <a href= "" className =" btn- btn">Book your FREE consultation Now</a>                                                             
+    <a href= "http://localhost:3000/Contactus" className =" btn- btn">Book your FREE consultation Now</a>                                                             
 
 <div className="row">
   

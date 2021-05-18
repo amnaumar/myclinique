@@ -56,7 +56,7 @@ return (
 
        </section >
        <div className=" hide cure">
-       <div className="container mt-5  ">
+       <div className="leads container mt-5  ">
  
  <div className ="row">
   
@@ -356,9 +356,9 @@ Dental implant<br/> screws are generally made of titanium and acrylic. This mean
 
 </p>
 
-<div className ="mt-3 gbtn">
+<div className ="mt-3 gbtn hide">
     
-    <a href= "" className ="btn- btn">Book your FREE consultation Now</a>                                                             
+    <a href= "http://localhost:3000/Contactus" className ="btn- btn">Book your FREE consultation Now</a>                                                             
 
 <div className="row">
   
@@ -383,7 +383,7 @@ Dental implant<br/> screws are generally made of titanium and acrylic. This mean
 </div>
    <div className="col-lg-6 col-md-6 cell ">
 
-<p className="mr-5 text-center">Multiple dental implants generally cost more than dentures. They do, however, generally last a lot longer and provide a higher level of functionality. Multiple dental implants are more cost-effective compared to single dental implants when replacing several missing teeth.
+<p className=" hide mr-5 text-center">Multiple dental implants generally cost more than dentures. They do, however, generally last a lot longer and provide a higher level of functionality. Multiple dental implants are more cost-effective compared to single dental implants when replacing several missing teeth.
 
 The cost of multiple dental implants can be paid in instalments through a dental finance plan, allowing you to spread the cost of your treatment over a longer period of time.
 

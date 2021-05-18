@@ -61,7 +61,7 @@ const Fixedbraces = () => {
        </section >
 
        <div className="cure">
-       <div className="container mt-5  ">
+       <div className="leads container mt-5  ">
  
  <div className ="row">
   
@@ -385,9 +385,9 @@ As the name suggest, they are fixed in your mouth, and can only be removed by yo
 <p className="pl-5 hide ">It is important to note that opting for teeth straightening treatment will not only improve the appearance of your smile, but is also a step in the right direction for improving the overall hygiene of your mouth. Teeth that are crowded close together or sit at differing angles are harder to clean, and therefore can lead to staining and a build up of plaque, which can then lead on to decay
 </p>
 
-<div className ="mt-3 gbtn">
+<div className ="mt-3 gbtn hide">
     
-    <a href= "" className ="btn- btn">Book your FREE consultation Now</a>                                                             
+    <a href= "http://localhost:3000/Contactus" className ="btn- btn">Book your FREE consultation Now</a>                                                             
 
 <div className="row">
   
