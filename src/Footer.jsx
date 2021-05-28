@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import Lo from "../src/images/logo-image.png";
 
 
 
@@ -14,29 +14,31 @@ const Footer = () => {
                <div>
                 <h2 className="logo-name">myclinique </h2>
                <ul>
-                <li><a href="http://localhost:3000/">Home</a></li>
-                 <li><a href="http://localhost:3000/Aboutus">About Us</a></li>
-                 <li><a href="http://localhost:3000/Pricing ">Pricing</a></li>
-                 <li><a href="http://localhost:3000/Faqs ">FAQS</a></li>
-                 <li><a href="#">Terms & Conditions</a></li>
-                 <li><a href="http://localhost:3000/Contactus ">Contact Us</a></li></ul>
+                <li><a href="/">Home</a></li>
+                 <li><a href="Aboutus">About Us</a></li>
+                 <li><a href="Pricing ">Pricing</a></li>
+                 <li><a href="Faqs ">FAQS</a></li>
+                 <li><a href="Termsandconditions">Terms & Conditions</a></li>
+                 <li><a href="Contactus">Contact Us</a></li>
+                  <li><a href="Termsandconditions">Terms & Conditions</a></li>
+                 <li><a href="Privacypolicy">Privacy policy</a></li></ul>
 </div>
   </div>
   <div className="col-lg-4 col-md-4 col-12 footer-div ">
                <div>
                 <h2>Useful Links</h2>
                 <ul>
-                 <li><a href="http://localhost:3000/Dentalimplant">Dental Implants</a></li>
-                 <li><a href="http://localhost:3000/Invisalign">Invisalign</a></li>
-                 <li><a href="http://localhost:3000/Clearaligner">Clear Aligners</a></li>
-                 <li><a href="http://localhost:3000/Clearbraces">Clear Braces</a></li>
-                 <li><a href="http://localhost:3000/Fixedbraces">Fixed Braces</a></li>
-                 <li><a href="http://localhost:3000/Lingualbraces">Lingual Braces</a></li>
-                 <li><a href="http://localhost:3000/Smilemakeoverandveneers">Smile Makeovers & Veneers</a></li>
-                 <li><a href="http://localhost:3000/Crownsandbridges">Crowns & Bridges</a></li>
-                 <li><a href="http://localhost:3000/Antiwrinkleinjectionandfillers">Anti Wrinkle Injections & Fillers</a></li>
-                 <li><a href="#">General Dentistry</a></li>
-                 <li><a href="#">Emergency Treatments</a></li>
+                 <li><a href="Dentalimplant">Dental Implants</a></li>
+                 <li><a href="Invisalign">Invisalign</a></li>
+                 <li><a href="Clearaligner">Clear Aligners</a></li>
+                 <li><a href="Clearbraces">Clear Braces</a></li>
+                 <li><a href="Fixedbraces">Fixed Braces</a></li>
+                 <li><a href="Lingualbraces">Lingual Braces</a></li>
+                 <li><a href="Smilemakeoverandveneers">Smile Makeovers & Veneers</a></li>
+                 <li><a href="Crownsandbridges">Crowns & Bridges</a></li>
+                 <li><a href="Antiwrinkleinjectionandfillers">Anti Wrinkle Injections & Fillers</a></li>
+                 <li><a href="Generaldentistry">General Dentistry</a></li>
+                 <li><a href="Emergencytreatments">Emergency Treatments</a></li>
                  
 
                  </ul>
@@ -106,7 +108,7 @@ const Footer = () => {
 </div>
 <div className="col-lg-4 col-md-4 col-12 financediv py-3 ">
 
-<h3 > Our Finance Provider <a href=" https://lead.tabeo.co.uk/myclinique-1/finance"> https://lead.tabeo.co.uk/myclinique-1/finance</a></h3>
+<h3 > Our Finance Provider <a href=" https://lead.tabeo.co.uk/myclinique-1/finance"> <br/>Learn more</a></h3>
 </div>
 </div>
 

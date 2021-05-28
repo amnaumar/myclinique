@@ -164,7 +164,7 @@ Temporary overdentures are generally made of resin. This is not particularly dur
 
     <div className ="mt-3 place">
     
-    <a href= "http://localhost:3000/Contactus" className ="swagButton">Discuss how you want to proceed </a>                                                             
+    <a href= "Contactus" className ="swagButton">Discuss how you want to proceed </a>                                                             
 
 
 
@@ -341,7 +341,7 @@ Temporary overdentures are generally made of resin. This is not particularly dur
   </p>
 <div className ="mt-3 gbtn">
     
-    <a href= "http://localhost:3000/Contactus" className ="btn- btn hide">Book your FREE consultation Now</a>                                                             
+    <a href= "Contactus" className ="btn- btn hide">Book your FREE consultation Now</a>                                                             
 
 <div className="row">
   

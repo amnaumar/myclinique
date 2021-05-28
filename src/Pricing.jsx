@@ -70,38 +70,38 @@ View our complete pricing structure for all treatments on offer at MyClinique No
 </div>
        </section>
 
-<section className="gbtn container notreal">
+<section className="gbtn container drag-section">
 
 <div>
 
   
 
-  <a href="" className="btn btn-1">Dental Implants</a>
-  <a href="" className="btn btn-2">Invisalign</a>
-  <a href="" className="btn btn-3">Veneers</a>
-  <a href="" className="btn btn-4">Clear Braces & Fixed Braces</a>
-  <a href="" className="btn btn-5">Crowns & Bridges</a>
-  <a href="" className="btn btn-6">Anti Wrinkle Injections</a>
+  <a href="#dental-implant" className="btn btn-1">Dental Implants</a>
+  <a href="#invisalign" className="btn btn-2">Invisalign</a>
+  <a href="#veneers" className="btn btn-3">Veneers</a>
+  <a href="#clear-&-fixed-braces" className="btn btn-4">Clear Braces & Fixed Braces</a>
+  <a href="#crowns-&-bridges" className="btn btn-5">Crowns & Bridges</a>
+  <a href="#anti-wrinkle-injections" className="btn btn-6">Anti Wrinkle Injections</a>
 
-  <a href="" className="btn btn-7">Fillers</a>
-  <a href="" className="btn btn-8">Teeth Whitening</a>
-  <a href="" className="btn btn-9">Emergency Appointment</a>
-  <a href="" className="btn btn-10">6 Months Smile Braces</a>
-  <a href="" className="btn btn-11">Fast Braces</a>
-  <a href="" className="btn btn-12"> Incognito Braces</a>
-  <a href="" className="btn btn-13">Secret Smile Aligners</a>
-  <a href="" className="btn btn-14">Damon Clear Aligners</a>
-  <a href="" className="btn btn-15">C-Fast Braces</a>
-  <a href="" className="btn btn-16">Quick Straight Teeth</a>
-  <a href="" className="btn btn-17">Lingual Braces</a>
-  <a href="" className="btn btn-18">6 Months Clear Smile Aligners</a>
-  <a href="" className="btn btn-19">Clear Correct Aligners</a>
-  <a href="" className="btn btn-20">Inman Clear Aligners</a>
+  <a href="#fillers" className="btn btn-7">Fillers</a>
+  <a href="#teeth-whitening" className="btn btn-8">Teeth Whitening</a>
+  <a href="#emergency-appointment" className="btn btn-9">Emergency Appointment</a>
+  <a href="#six-month-smile-braces" className="btn btn-10">6 Months Smile Braces</a>
+  <a href="#fast-braces" className="btn btn-11">Fast Braces</a>
+  <a href="#incognito-braces" className="btn btn-12"> Incognito Braces</a>
+  <a href="#secret-smile-aligners" className="btn btn-13">Secret Smile Aligners</a>
+  <a href="#damon-clear-aligners" className="btn btn-14">Damon Clear Aligners</a>
+  <a href="#c-fast-braces" className="btn btn-15">C-Fast Braces</a>
+  <a href="#quick-straight-teeth" className="btn btn-16">Quick Straight Teeth</a>
+  <a href="#lingual-braces" className="btn btn-17">Lingual Braces</a>
+  <a href="#six-months-clear-smilealigners" className="btn btn-18">6 Months Clear Smile Aligners</a>
+  <a href="#clear-correct-aligners" className="btn btn-19">Clear Correct Aligners</a>
+  <a href="#inman-clear-aligners" className="btn btn-20">Inman Clear Aligners</a>
 </div>
 </section>
 <div className="container mt-3">
 <div className="py-5 text-center">
-    
+  <div id="dental-implant"> 
 <h2 className="beautiful" >
 Dental Implants
 </h2></div>
@@ -153,8 +153,10 @@ From
 
  </div>
  <div className="py-5 text-center">
-    
-<h2 className="beautiful" >
+</div>
+
+<div id="invisalign"> 
+<h2 className=" text-center beautiful" >
 Invisalign
 </h2></div>
 
@@ -196,8 +198,8 @@ From
    
 </div>
  </div>
-
-
+</div>
+<div id="veneers"> 
  <section className="we-are container mt-5" >
   <div className="py-2 text-center mb-5">
     <div>
@@ -230,6 +232,9 @@ From
 
 
 </section>
+</div>
+
+<div id="clear-&-fixed-braces">
 <div className="py-5 text-center">
     
     <h2 className="beautiful brace" >
@@ -285,6 +290,9 @@ From
    </div>
 
  </div>
+ </div>
+
+ <div id="crowns-&-bridges">
  <div className="py-5 text-center">
     
     <h2 className=" ntoreal beautiful brace" >
@@ -316,7 +324,8 @@ From
    </div>
   </div>
  </div>
-
+</div>
+<div id="anti-wrinkle-injections">
  <section className="we-are container mt-5 antir  " >
   <div className="py-2 text-center mb-5">
     <div>
@@ -354,7 +363,9 @@ From
 
 
 </section>
+</div>
 
+<div id="fillers">
 <section className="antir we-are container mt-5" >
   <div className="py-2 text-center mb-5">
     <div>
@@ -387,7 +398,9 @@ From
 
 
 </section>
+</div>
 
+<div id="teeth-whitening">
 <section className="we-are container mt-5" >
   <div className="py-2 text-center mb-5">
     <div>
@@ -420,7 +433,9 @@ From
 
 
 </section>
+</div>
 
+<div id="emergency-appointment">
 <div className="py-5 text-center">
     
     <h2 className="beautiful brace" >
@@ -439,6 +454,10 @@ From
 </div>
 </div>
    </div>
+
+   </div>
+
+   <div id="six-month-smile-braces">
    <div className="py-5 text-center">
     
     <h2 className="beautiful brace" >
@@ -470,6 +489,8 @@ From
    </div>
   </div>
  </div> 
+ </div>
+ <div id="fast-braces">
  <h2 className="text-center beautiful brace"><br/><br/>Fast Braces</h2>
  <div className="container-fluid mt-5 d-flex justify-content-center mb-5">
    <div className ="row">
@@ -497,6 +518,8 @@ From
    </div>
   </div>
  </div>
+ </div>
+ <div id="incognito-braces">
  <h2 className="brace beautiful text-center " >
     <br/><br/><br/><br/>Incognito Braces
     </h2>
@@ -526,7 +549,8 @@ From
    </div>
   </div>
  </div>
-
+ </div>
+ <div id="secret-smile-aligners">
  <section className="we-are container mt-5 pt-5 antir " >
   <div className="py-2 text-center ">
     <div>
@@ -564,7 +588,8 @@ From
 
 
 </section>
-
+</div>
+<div id="damon-clear-aligners">
 <section className="we-are container mt-5 " >
   <div className="py-2 text-center mb-5">
     <div>
@@ -597,6 +622,8 @@ From
 
 
 </section>
+</div>
+<div id="c-fast-braces">
 <h3 className="text-center beautiful">C-Fast Braces</h3>
 <div className="lotsof2 container-fluid mt-5  d-flex justify-content-center ">
    <div className ="row">
@@ -624,6 +651,9 @@ From
    </div>
   </div>
  </div>
+ </div>
+
+ <div id="quick-straight-teeth">
 <br/> <h3 className="text-center beautiful "><br/><br/><br/>Quick Straight Teeth</h3>
  <div className="lotsof2 container-fluid mt-5  d-flex justify-content-center ">
    <div className ="row">
@@ -651,6 +681,9 @@ From
    </div>
   </div>
  </div>
+ </div>
+
+ <div id="lingual-braces">
 <br/> <h3 className="text-center beautiful"><br/><br/><br/>Lingual Braces</h3>
  <div className="notreal container-fluid mt-5  d-flex justify-content-center ">
    <div className ="row">
@@ -678,7 +711,9 @@ From
    </div>
   </div>
  </div>
+ </div>
 
+ <div id="six-months-clear-smilealigners">
  <section className="we-are container mt-5 space" >
   <div className="py-2 text-center mb-5">
     <div>
@@ -712,6 +747,9 @@ From
 
 
 </section>
+</div>
+
+<div id="clear-correct-aligners">
 <h3 className="text-center beautiful">Clear Correct Aligners
 </h3>
 <div className="container-fluid mt-5  d-flex justify-content-center">
@@ -741,7 +779,8 @@ From
    </div>
   </div>
  </div>
-
+ </div>
+ <div id="inman-clear-aligners">
  <section className="we-are container mt-5 space" >
   <div className="py-2 text-center mb-5">
     <div>
@@ -776,6 +815,7 @@ From
 
 </section>
 
+</div>
 <section className="reviews container-fluid mt-3" id='reviews-id'>
   <div className="py-5 text-center">
     <div>

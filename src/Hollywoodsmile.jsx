@@ -8,7 +8,7 @@ import Ven5 from "../src/images/exceptional-aftercare.png";
 import Holly1 from "../src/images/Holly1.jpg";
 import Smilec from "../src/images/talk@2x (1).png";
 import Smile5 from "../src/images/smile5.png";
-import Smile6 from "../src/images/smile4.jpg";
+
 import Smile8 from "../src/images/Follow-up-appointment.png";
 import Smile7 from "../src/images/smile 6.png";
 import Smile11 from "../src/images/Smile11.jpg";
@@ -157,7 +157,7 @@ const Hollywoodsmile = () => {
 
     <div className ="mt-3 place">
     
-    <a href= "http://localhost:3000/Contactus" className ="swagButton">Discuss how you want to proceed </a>                                                             
+    <a href= "#hollywoodsmile" className ="swagButton">Discuss how you want to proceed </a>                                                             
 
 
 <div className="row">
@@ -207,6 +207,14 @@ const Hollywoodsmile = () => {
   </div>
 </section>
 
+<div id="hollywoodsmile">
+<section id="inquary">
+            
+            <Form/> 
+            
+            </section> 
+
+            </div>
  <h3 className="text-center beautiful "><br/>  Hollywood smile veneers procedure  </h3>
   
 
@@ -320,7 +328,7 @@ const Hollywoodsmile = () => {
 
 <div className ="mt-3 gbtn hide">
     
-    <a href= "http://localhost:3000/Contactus" className ="btn- btn">Book your FREE consultation Now</a>                                                             
+    <a href= "#hollywoodsmile" className ="btn- btn">Book your FREE consultation Now</a>                                                             
 
 <div className="row">
   

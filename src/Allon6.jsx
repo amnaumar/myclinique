@@ -165,7 +165,7 @@ Modern prosthetic teeth <br/> are generally made of zirconia with a porcelain ve
 </p>
 <div className ="mt-3 place">
     
-    <a href= "http://localhost:3000/Contactus" className ="swagButton">Discuss how you want to proceed </a>                                                             
+    <a href= "Contactus" className ="swagButton">Discuss how you want to proceed </a>                                                             
 
   
    </div>                                                        
@@ -332,7 +332,7 @@ Modern prosthetic teeth <br/> are generally made of zirconia with a porcelain ve
 <p className="pl-5 hide">Also, the additional implants give extra strength to<br/> the jaw. This helps to prevent (further) bone loss. <br/>Not only is this a desirable outcome in itself, but it<br/> can also be very useful if the dental implants need<br/> to be replaced. The extra strength of All-in-6 dental<br/> implants can also be reassuring to people who lead<br/> particularly active lives.</p>
 <div className ="mt-3 gbtn hide">
     
-    <a href= "" className ="btn- btn">Book your FREE consultation Now</a>                                                             
+    <a href= "Contactus" className ="btn- btn">Book your FREE consultation Now</a>                                                             
 
 <div className="row">
   

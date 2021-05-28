@@ -15,17 +15,17 @@ import Clb13 from "../src/images/underbite-beforeafter (6).jpg";
 import Clb14 from "../src/images/crossbite-beforeafter (5).jpg";
 import Clb15 from "../src/images/gap-beforeafter (8).jpg";
 import Clb16 from "../src/images/cosmetic-beforeafter (5).jpg";
-import Clb17 from "../src/images/clear2.jpg";
+
 import Clearp1 from "../src/images/clearp1.jpg";
 import Clearp2 from "../src/images/clearp2.jpg";
 import Clearp3 from "../src/images/clearp3.jpg";
 import Clearbb1 from "../src/images/clearbbb1.jpg";
 import Clearbb2 from "../src/images/clearbbb2.png";
-import Clearbb3 from "../src/images/clearp3.jpg";
+
 import Footer from './Footer';
 import White from "../src/images/white teeth.jpg";
 
-
+import Form from './Form';
 
 
 
@@ -160,7 +160,7 @@ Sue Green</h5>
    <div className ="real row d-flex justify-content-center">
   
    <div className="real-1 col-lg-4 col-md-4 col-12">
-   <div className="card text-center"style={{width:"18.83rem"}}>
+   <div className="card text-center"style={{width:"18.83rem",height:"11.83rem"}}>
   
   <div className="card-body"> Quick</div>
   <div className="card-footer bg-primary hard">Clear braces can achieve fantastic results in a short timeframe
@@ -204,7 +204,7 @@ Sue Green</h5>
 
     <div className ="mt-3 place">
     
-    <a href= "http://localhost:3000/Contactus" className ="swagButton">Discuss how you want to proceed </a>                                                             
+    <a href= "#clearbraces" className ="swagButton">Discuss how you want to proceed </a>                                                             
 
 
 <div className="row">
@@ -240,6 +240,15 @@ Sue Green</h5>
   </div>
 </div>
  </section>
+ <div id="clearbraces">
+       <section id="inquary">
+            
+            <Form/> 
+            
+            </section> 
+            </div>
+
+
  <h3 className=" noma text-center beautiful"><br/> Clear brace procedure     </h3>
   <p className="  text-center " >For patients receiving dental implant treatment, here's a guide to how the procedure usually goes </p>
 
@@ -431,11 +440,11 @@ Sue Green</h5>
 </ul>
 </div>
 
-<p className="pr-5 text-center hide pr-4">With recent advances in orthodontic treatment, there are now a number of fantastic invisible orthodontic treatments available. For those wishing to achieve a perfectly straight smile without drawing attention to their treatment, clear braces are a great option. Made largely from see through materials, they're virtually invisible to onlookers. They're also an affordable option, being less expensive than many alternate orthodontic treatments.
+<p className="pl-3 text-center hide ">With recent advances in orthodontic treatment, there are now a number of fantastic invisible orthodontic treatments available. For those wishing to achieve a perfectly straight smile without drawing attention to their treatment, clear braces are a great option. Made largely from see through materials, they're virtually invisible to onlookers. They're also an affordable option, being less expensive than many alternate orthodontic treatments.
   </p>
 <div className ="mt-3 gbtn hide">
     
-    <a href= "http://localhost:3000/Contactus" className ="btn- btn">Book your FREE consultation Now</a>                                                             
+    <a href= "#clearbraces" className ="btn- btn">Book your FREE consultation Now</a>                                                             
 
 <div className="row">
   

@@ -151,7 +151,7 @@ Sue Green</h5>
    <div className ="row d-flex justify-content-center">
   
    <div className="real-1 col-lg-4 col-md-4 col-12">
-   <div className="card text-center"style={{width:"18.83rem"}}>
+   <div className="card text-center"style={{width:"18.83rem",height:"11.83rem"}}>
   
   <div className="card-body"> Realistic</div>
   <div className="card-footer bg-primary">All-on-4 dental implants will look as close to real teeth as possible
@@ -198,7 +198,7 @@ Sue Green</h5>
 </p>
 <div className="mt-3 place">
 
-<a href="http://localhost:3000/Contactus" className=" mgt-5 swagButton">Discuss how you want to proceed </a>
+<a href="Contactus" className=" mgt-5 swagButton">Discuss how you want to proceed </a>
 
                 
                 

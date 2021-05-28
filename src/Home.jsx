@@ -24,6 +24,12 @@ import Ic1 from "../src/images/finance available.png";
 import Ic2 from "../src/images/private payment.png";
 import Ic3 from "../src/images/discounts.png";
 import Ic4 from "../src/images/spread the cost.png";
+
+import Ic11 from "../src/images/flexible.png";
+import Ic12 from "../src/images/same day.png";
+import Ic13 from "../src/images/down payment.png";
+import Vid from "../src/images/sea video.mp4";
+
 import Form from './Form';
 import Footer from './Footer';
 
@@ -33,46 +39,26 @@ import Footer from './Footer';
 
       return (   
      <>
-       <section id = "header" className ="d-flex justify-content-center easy" >  
-       <div className ="container">
-<div className ='row'>
-  <div className ="col-10 mx-auto">
-    <div className ="row">                                
-   <div className ="col-md-12 col col-10 d-flex justify-content-center "> 
-   <div className ='row'>
-    <h1>  Experts In Cosmetic Dentistry </h1>
-  <div className="row">
-   <h2 className ="my-3">  Over 20,000 Cosmetic Cases Completed  </h2>
- <h4>  Invisalign Aligners Dental Implants Veneers Fixed Braces</h4>
-<p> At MyClinique, we want you to always feel welcome and comfortable throughout your time in the clinic. We aim to create a stress-free and relaxing atmosphere to ensure that your experience is as positive as can be. Our staff members are friendly and always willing to help with any questions you may have and are there to make sure you feel at ease. Both new and existing patients always receive the highest level of care, as we want to make sure you are embarking on a positive journey to improving your smile.
-
-We began in Northampton in 2006 and have now been working to help create perfect smiles for our patients for well over a decade. We are extremely proud of the results we are able to give patients, and their feedback is hugely important to us. With our commitment to providing the best treatments in dental care, you can be sure you're in safe hands with the team at MyClinique.</p>
-
-
-<div className ="mt-3 place">
-    
-    <a href= "http://localhost:3000/Contactus" className ="swagButton ask">Ask for appointment </a>                                                             
-
-</div>
-
-     </div>
      
-     </div>
-      </div>
-     
-      </div>
-     
-     </div>
-      </div>
-     
- </div>
+
+       <section className="headder">
+   <video autoPlay loop className="video-background" playsInline >
+     <source src={Vid} type="video/mp4"/>
+  
+   </video>
+
+ </section>
+       <section>
+        <div className="logo">
+         <ul>
+         <li> <  img src={Ic11} alt=''className="img-fluid mt-5" style={{width:"17.83rem"}}/></li>
+         <li> <  img src={Ic12} alt=''className="img-fluid mt-5" style={{width:"17.83rem"}}/></li>
+         <li> <  img src={Ic13} alt=''className="img-fluid mt-5" style={{width:"17.83rem"}}/></li>
+         </ul>
+        </div>
 
 
-
-
-
-
-       </section >
+       </section>
 
        <section className ="header-extradiv mb-5">
          <div className= "container-fluid">
@@ -106,18 +92,50 @@ We began in Northampton in 2006 and have now been working to help create perfect
            
            </div>
          </div>
-           <section id="inquary">
-            
-            <Form/> 
-            
-            </section> 
+          
 
+            <section id="bismillah">
+ <div className="col-lg-12 col-md-12 cell ">
+   <div className="row">
+<p className=" text-center article ">At MyClinique, we want you to always feel welcome and comfortable throughout 
+your time in the clinic. Our staff members are friendly and always willing to help with any questions you may have
+ and are there to make sure you feel at ease. We began in Northampton in 2006 and have now been working to help 
+ create perfect smiles for our patients for well over a decade. We are extremely proud of the results we are able 
+ to give patients, and their feedback is hugely important to us. With our commitment to providing the best 
+ treatments in dental care, you can be sure you're in safe hands with the team at MyClinique.</p>
+                                                          
+  
 
+<div className="row">
+  
+   
+   
+<br/> <h4 className="successful"> <span className="change-value   brand-name "></span> </h4>
+   <div className="row">
+   
+   </div>
+  
+   </div>
+   </div>
+   </div>
+</section>
 
-
+         
   </section>
-  <div className="space"></div>
-      
+
+
+
+<section className="baner">
+
+<h3 className="hard front-hed text-center">
+MEET OUR TALENTED ORTHODONTISTS<br/>
+Behind every award winning smile that we create is a team of dedicated
+ orthodontic specialists that are with you every step of the way! 
+</h3>
+</section>
+
+<div id="enlarge0"></div>
+<div id="enlarge0"></div> 
       <section  id="pictures">
       <div className=" pictures " >
       <h3 className="debit "><br/><br/>Restore Your Smile</h3>
@@ -195,74 +213,92 @@ We began in Northampton in 2006 and have now been working to help create perfect
        </section>
 
 
-       <section className="container-fluid d-flex jusgtify-content-center reviews-ib " >  
+   
+
+                                                           
+
+   <section className=" container-fluid d-flex jusgtify-content-center"id="treatments-provided" >  
        
-<div className ='row'>
-  <div className ="col-10 treatment">
-   <h2 className="mb-3 hide"> Treatments</h2> 
-   <h6 className="mb-5 hide" >At MyClinique, we offer a wide range of treatments covering all areas of dentistry, from Invisalign clear aligners, to dental implants and veneers. We are committed to delivering the highest standards of treatment and will keep you informed throughout every step of your journey with us. Our CBCT and intraoral scanners are state of the art, as we use the latest technology to ensure you get the best treatment possible. Our gold standard sterilisation facilities are a testament to our commitment to providing top quality service in our Northampton clinic.<br/><br/><br/> </h6> <br/>                         
+       <div className ='row'>
+         <div className ="col-10 treatment">
+          
+
+
+   <h6 className=" hide "><br/><br/>At MyClinique, we offer a wide range of treatments covering all areas of
+    dentistry, from Invisalign clear aligners, to dental implants and veneers. We are committed to delivering the
+     highest standards of treatment and will keep you informed throughout every step of your journey with us. Our
+      CBCT and intraoral scanners are state of the art, as we use the latest technology to ensure you get the best
+       treatment possible. Our gold standard sterilisation facilities are a testament to our commitment to
+        providing top quality service in our Northampton clinic. </h6>                        
   
 </div>
 
 </div>
 
        </section >
-
-       <section className="section-5 reviews-ib" id="section-5">
-  <div className="container mb-5">
+      <div id="home">
+       <section id="inquary">
+            
+            <Form/> 
+            
+            </section> 
+            </div>
+<div id="enlarge4"></div>
+       <section className="section-5 reviews-ib  " id="section-5">
+  <div className="container mb-5 memaxm-10 ">
   <div className="carousel slide" id ="my-slider" data-ride="carousel">
     <div className="carousel-inner text-center">
      <div className="carousel-item active">
-  <br/>   <img src={Slide1} className="img-fluid "alt="slide1"/>
+  <br/>   <img src={Slide1} className="img-fluid "alt="slide1"style={{height:"18.83rem",width:"34.83rem"}}/>
      <div className="carousel-caption">
     <h3>Anti-Wrinkles Injections & Fillers</h3>
     
   </div>
      </div>
      <div className="carousel-item ">
-     <br/>  <img src={Slide2} className="img-fluid"alt="slide2"/>
+     <br/>  <img src={Slide2} className="img-fluid"alt="slide2"style={{height:"18.83rem",width:"34.83rem"}}/>
      <div className="carousel-caption">
     <h3>Face-lift</h3>
    
   </div>
      </div>
      <div className="carousel-item">
-     <br/>    <img src={Slide3} className="img-fluid"alt="slide3"/>
+     <br/>    <img src={Slide3} className="img-fluid"alt="slide3"style={{height:"18.83rem",width:"34.83rem"}}/>
      <div className="carousel-caption">
     <h3>Bridges</h3>
   
   </div>
      </div>
      <div className="carousel-item ">
-     <br/>     <img src={Slide4} className="img-fluid"alt="slide4"/>
+     <br/>     <img src={Slide4} className="img-fluid"alt="slide4"style={{height:"18.83rem",width:"34.83rem"}}/>
      <div className="carousel-caption">
     <h3>Emergency Treatments</h3>
     
   </div>
      </div>
      <div className="carousel-item">
-     <br/>    <img src={Slide5} className="img-fluid"alt="slide3"/>
+     <br/>    <img src={Slide5} className="img-fluid"alt="slide3"style={{height:"18.83rem",width:"34.83rem"}}/>
      <div className="carousel-caption">
     <h3>Invisalign</h3>
      
   </div>
      </div> 
      <div className="carousel-item">
-     <br/>    <img src={Slide6} className="img-fluid"alt="slide3"/>
+     <br/>    <img src={Slide6} className="img-fluid"alt="slide3"style={{height:"18.83rem",width:"34.83rem"}}/>
      <div className="carousel-caption">
     <h3>Fixed Braces</h3>
     
   </div>
      </div>
      <div className="carousel-item">
-     <br/>     <img src={Slide7} className="img-fluid"alt="slide3"/>
+     <br/>     <img src={Slide7} className="img-fluid"alt="slide3"style={{height:"18.83rem",width:"34.83rem"}}/>
      <div className="carousel-caption">
     <h3>Crowns</h3>
   
   </div>
      </div>
      <div className="carousel-item">
-     <br/>     <img src={Slide8} className="img-fluid"alt="slide3"/>
+     <br/>     <img src={Slide8} className="img-fluid"alt="slide3"style={{height:"18.83rem",width:"34.83rem"}}/>
      <div className="carousel-caption">
     <h3>Smile Makeovers & Veneers</h3>
   
@@ -278,7 +314,11 @@ We began in Northampton in 2006 and have now been working to help create perfect
          <div className ="col-10 treatment">
          
   
-          <h6 className="myc">If you have any questions or are interested in pursuing any dental treatments, feel free to book your free consultation and come in to see us. You'll find us at Cheyne Walk, right across the road from Northampton Hospital on the outskirts of Northampton town centre. We're only 1 mile away from the closest train station, or reach us by car via Junction 15 off the M1 motorway.
+          <h6 className="myc">If you have any questions or are interested in pursuing any dental treatments,
+           feel free to book your free consultation and come in to see us. You'll find us at Cheyne Walk, 
+           right across the road from Northampton Hospital on the outskirts of Northampton town centre.
+            We're only 1 mile away from the closest train station, or reach us by car via Junction 15 off 
+            the M1 motorway.
 
 MyClinique has free parking at the clinic, with disabled access and a fully air conditioned waiting area.. </h6>                             
          </div>
@@ -286,24 +326,24 @@ MyClinique has free parking at the clinic, with disabled access and a fully air 
        
        </div>
 
-    <br/>   <div className="section-out hide pr-5" >
     
-    <a href= "http://localhost:3000/Contactus" className =" btn-primary button-1  ">Book your FREE consultation Now</a>                                                             
-</div>
 </section>
 
-<section className ="section-4 mt-5">
+<section className ="section-4 ">
  <div className ="container heading text-center mb-5">
    <h3 className ="text-dark">
   Cost benefits
    </h3>
    <p  > 
-At MyClinique, we are passionate about making dental treatment accessible to everyone. We want everyone to have the opportunity to create their version of a perfect smile, whether that be through dental implants, veneers, braces or other treatments. We will always advise you on which treatments can work best to provide you with your ideal smile, but the decision to proceed will be yours only.
+At MyClinique, we are passionate about making dental treatment accessible to everyone. We want
+ everyone to have the opportunity to create their version of a perfect smile, whether that be through dental implants, veneers, braces or other treatments. We will always advise you on which treatments can work best to provide you with your ideal smile, but the decision to proceed will be yours only.
 
-Our treatments are available on a 0% dental finance plan, where you can spread the cost of your treatment over a longer amount of time. Where possible, our in-clinic private payment plans allow you to pay in convenient monthly instalments 
+Our treatments are available on a 0% dental finance plan, where you can spread the cost of your 
+treatment over a longer amount of time. Where possible, our in-clinic private payment plans allow you 
+to pay in convenient monthly instalments 
   </p>
  </div>
- <div className="container">
+ <div className="container financial">
    <div className ="row">
    <div className="fab col-lg-3 col-md-3 col-12">
    <div class="card text-center"style={{width:"13.83rem",height:"17.83rem",}}>
@@ -321,7 +361,7 @@ Our treatments are available on a 0% dental finance plan, where you can spread t
   <div class="card-footer"> <a href="https://lead.tabeo.co.uk/myclinique-1/finance" >Learn more </a> </div>
 </div>
    </div>
-   <div className="fab col-lg-3 col-md-3 col-12">
+   <div className="hide fab col-lg-3 col-md-3 col-12">
    <div class="card text-center"style={{width:"13.83rem adan",height:"17.83rem",}}>
    <i className="fab fa-creative-commons-zero"></i>
   <img src={Ic3} className="img-fluid border-radius p-4 adan" alt=" surgery"style={{width:"7.83rem",height:"5.83rem",}}/>

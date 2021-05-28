@@ -21,7 +21,7 @@ import Fixx2 from "../src/images/fixed1.jpg";
 import Fixx3 from "../src/images/fixed3.jpg";
 import Fixx4 from "../src/images/Fixx5.jpg";
 import Fixx5 from "../src/images/fixx6.png";
-import Fixx6 from "../src/images/cosmetic-beforeafter (5).jpg";
+
 import Footer from './Footer';
 
 
@@ -164,7 +164,7 @@ As the name suggest, they are fixed in your mouth, and can only be removed by yo
 </p>
 <div className ="mt-3 gbtn">
     
-    <a href= "" className ="btn- btn">Book your FREE consultation Now</a>                                                             
+    <a href= "Contactus" className ="btn- btn">Book your FREE consultation Now</a>                                                             
 
 <div className="row">
   
@@ -387,7 +387,7 @@ As the name suggest, they are fixed in your mouth, and can only be removed by yo
 
 <div className ="mt-3 gbtn hide">
     
-    <a href= "http://localhost:3000/Contactus" className ="btn- btn">Book your FREE consultation Now</a>                                                             
+    <a href= "Contactus" className ="btn- btn">Book your FREE consultation Now</a>                                                             
 
 <div className="row">
   

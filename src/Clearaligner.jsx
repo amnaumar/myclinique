@@ -22,7 +22,7 @@ import Clear3 from "../src/images/clear3 (1).jpg";
 import Clearri1 from "../src/images/clear right1.jpg";
 import Clearri2 from "../src/images/clear right2.png";
 import Footer from './Footer';
-
+import Form from './Form';
 
 const Clearaligner = () => {
 
@@ -197,7 +197,7 @@ Sue Green</h5>
                                                           
     <div className ="mt-5 place">
     
-    <a href= "http://localhost:3000/Contactus" className ="swagButton">Discuss how you want to proceed </a>                                                             
+    <a href= "#clearaligners" className ="swagButton">Discuss how you want to proceed </a>                                                             
 
 
 <div className="row">
@@ -236,7 +236,13 @@ Sue Green</h5>
   </div>
 </div>
  </section> 
-
+<div id="clearaligners">
+ <section id="inquary">
+            
+            <Form/> 
+            
+            </section> 
+            </div>
  <h3 className="text-center beautiful"><br/> Clear aligner procedure     </h3>
  
 <div className="container-fluid mt-5  d-flex justify-content-center ">
@@ -434,7 +440,7 @@ Sue Green</h5>
   </p>
 <div className ="mt-3 gbtn hide">
     
-    <a href= "http://localhost:3000/Contactus" className ="btn- btn">Book your FREE consultation Now</a>                                                             
+    <a href= "#clearaligners" className ="btn- btn">Book your FREE consultation Now</a>                                                             
 
 <div className="row">
   

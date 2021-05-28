@@ -25,7 +25,7 @@ import Img22 from "../src/images/image 22.jpg";
 import Img23 from "../src/images/image23.jpg";
 import Vid from "../src/images/Invisalign At My Clinique (1).mp4";
 import Footer from './Footer';
-
+import Form from './Form';
 const Invisalign = () => {
 
 return (   
@@ -120,7 +120,7 @@ return (
    <div className ="row d-flex justify-content-center">
   
    <div className="real-1 col-lg-4 col-md-4 col-12">
-   <div className="card text-center"style={{width:"18.83rem"}}>
+   <div className="card text-center"style={{width:"18.83rem",height:"11.83rem"}}>
   
   <div className="card-body"> More Freedom</div>
   <div className="card-footer "> It’s discreet to wear and easy to take out when you need to<br/>
@@ -161,7 +161,7 @@ Invisalign Doctors will manage your treatment every step of the way.
                                                        
     <div className ="mt-3 place">
     
-    <a href= "http://localhost:3000/Contactus" className ="swagButton">Discuss how you want to proceed </a>                                                             
+    <a href= "#invisalign" className ="swagButton">Discuss how you want to proceed </a>                                                             
 
 <div className="row">
   
@@ -192,6 +192,13 @@ Invisalign Doctors will manage your treatment every step of the way.
    </div>
 
 </section>
+<div id="invisalign">
+<section id="inquary">
+            
+            <Form/> 
+            
+            </section> 
+            </div>
 <h3 className="brace text-center beautiful"> <br/>Honest & transparent pricing<br/><br/></h3>
 
 <div className="row">

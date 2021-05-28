@@ -6,11 +6,10 @@ import Ven3 from "../src/images/0-percent (1).png";
 import Ven4 from "../src/images/information (2).png";
 import Ven5 from "../src/images/exceptional-aftercare.png";
 import Ven6 from "../src/images/ven6.jpg";
-import Ven7 from "../src/images/healing.png";
-import Ven8 from "../src/images/healing.png";
+
 import Smilec from "../src/images/talk@2x (1).png";
 import Smile5 from "../src/images/smile5.png";
-import Smile6 from "../src/images/smile4.jpg";
+
 import Smile8 from "../src/images/Follow-up-appointment.png";
 import Smile7 from "../src/images/smile 6.png";
 import Smile11 from "../src/images/Smile11.jpg";
@@ -133,7 +132,7 @@ const Veneerssinglearch = () => {
    <div className="card text-center"style={{width:"18.83rem"}}>
   
   <div className="card-body">Long-lasting</div>
-  <div className="card-footer ">With proper care, veneers can last for up to 10 years
+  <div className="card-footer "><br/>With proper care, veneers can last for up to 10 years
 
 
    </div>
@@ -143,7 +142,7 @@ const Veneerssinglearch = () => {
    <div className="card text-center"style={{width:"18.83rem"}}>
 
   <div className="card-body">Strong</div>
-  <div className="card-footer"> Porcelain veneers are extremely strong and durable
+  <div className="card-footer"> <br/>Porcelain veneers are extremely strong and durable
   
  </div>
 </div>
@@ -162,7 +161,7 @@ const Veneerssinglearch = () => {
 </p>                                                          
     <div className ="mt-3 place">
     
-    <a href= "http://localhost:3000/Contactus" className ="swagButton">Discuss how you want to proceed </a>                                                             
+    <a href= "#singlearch" className ="swagButton">Discuss how you want to proceed </a>                                                             
 
 
 <div className="row">
@@ -211,6 +210,14 @@ const Veneerssinglearch = () => {
 
   </div>
 </section>
+
+<div id="singlearch">
+       <section id="inquary">
+            
+            <Form/> 
+            
+            </section> 
+            </div>
 
 <h3 className="text-center beautiful "><br/> Veneers Procedure    </h3>
   
@@ -326,7 +333,7 @@ const Veneerssinglearch = () => {
 
 <div className ="mt-3 gbtn hide">
     
-    <a href= "http://localhost:3000/Contactus" className ="btn- btn">Book your FREE consultation Now</a>                                                             
+    <a href= "#singlearch" className ="btn- btn">Book your FREE consultation Now</a>                                                             
 
 <div className="row">
   

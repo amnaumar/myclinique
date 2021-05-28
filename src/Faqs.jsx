@@ -17,7 +17,7 @@ Read our FAQs for more information or feel free to give us a call and we'll be m
         
              <div className ="mt-3 place">
     
-    <a href= "http://localhost:3000/Contactus" className ="swagButton">Let's discuss further together </a>                                                       
+    <a href= "Contactus" className ="swagButton">Let's discuss further together </a>                                                       
  </div>
          </div>
 
@@ -31,7 +31,7 @@ Read our FAQs for more information or feel free to give us a call and we'll be m
 
             <div className ="mt-3 place">
     
-    <a href= "http://localhost:3000/Contactus" className ="swagButton">Let's discuss further together </a>                                                      
+    <a href= "Contactus" className ="swagButton">Let's discuss further together </a>                                                      
 </div>
          </div>
 
@@ -46,7 +46,7 @@ Read our FAQs for more information or feel free to give us a call and we'll be m
 
             <div className ="mt-3 place">
     
-    <a href= "http://localhost:3000/Contactus" className ="swagButton">Let's discuss further together </a>                                                    
+    <a href= "Contactus" className ="swagButton">Let's discuss further together </a>                                                    
 </div>
 
          </div>
@@ -63,7 +63,7 @@ Read our FAQs for more information or feel free to give us a call and we'll be m
 
                   <div className ="mt-3 place">
     
-    <a href= "http://localhost:3000/Contactus" className ="swagButton">Let's discuss further together </a> 
+    <a href= "Contactus" className ="swagButton">Let's discuss further together </a> 
                                               
 </div>
 
@@ -79,7 +79,7 @@ Read our FAQs for more information or feel free to give us a call and we'll be m
 
     <div className ="mt-3 place">
     
-    <a href= "http://localhost:3000/Contactus" className ="swagButton">Let's discuss further together </a> 
+    <a href= "Contactus" className ="swagButton">Let's discuss further together </a> 
                                               
 </div>
          </div>

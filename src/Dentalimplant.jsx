@@ -24,7 +24,7 @@ import Show4 from "../src/images/patient-dm-2 (1).jpg";
 import Footer from './Footer';
 import Show5 from "../src/images/patient-dm-3.jpg";
 
-
+import Form from './Form';
 import Vid from "../src/images/Single Dental Implants At My Clinique.mp4";
 
 
@@ -156,7 +156,7 @@ Discover the power of dental implants<br/><br/>
 ">Dental implants are the most effective and long-lasting way to replacing missing teeth. As they can last up to 25 years, dental implants are considered a permanent solution to creating natural-looking and fully functioning replacement. At MyClinique, we have placed thousands of dental implants in Northampton with a 98% success rate.</h6>
 <div className =" dis row d-flex justify-content-center">
   
-   <div className="col-lg-4 col-md-4 col-12">
+   <div className="pl-5 col-lg-4 col-md-4 col-12">
    <div className="card text-center"style={{width:"18.83rem"}}>
   
   <div className="card-body"> Long-Lasting</div>
@@ -199,7 +199,7 @@ Discover the power of dental implants<br/><br/>
 
 <div className ="mt-2 mb-5 place">
     
-    <a href= "http://localhost:3000/Contactus" className ="swagButton">Discuss how you want to proceed </a>                                                             
+    <a href= "#dentalimplant" className ="swagButton">Discuss how you want to proceed </a>                                                             
 
 <div className="row">
   
@@ -277,6 +277,8 @@ Discover the power of dental implants<br/><br/>
 
 </section>
 
+
+
 <section className="we-are container mt-5"id="product" >
   <div className="py-2 text-center mb-5">
     <div>
@@ -325,6 +327,24 @@ Discover the power of dental implants<br/><br/>
 
 </section>
 </div>
+<h3 className="brace text-center mt-5 beautiful  "><br/><br/>Dental implants at<div className="brand-name"> myclinique</div> <br/><br/>    </h3>
+<div className="insert d-flex justify-content-center mb-5">
+   <video style={{width:"45.83rem",height:"25.83rem"}}
+    controls>
+     <source src={Vid} type="video/mp4"/>
+  
+   </video>
+
+ </div>
+ <div id="dentalimplant">
+<section id="inquary">
+            
+            <Form/> 
+            
+            </section> 
+
+            </div>
+
 
 <div className=" hide reviews-ib">
 <h3 className=" text-center"><br/><br/> Dental implant procedure     </h3>

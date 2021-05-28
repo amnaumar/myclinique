@@ -157,7 +157,7 @@ Whole-arch replacements use either 4 or 6 <br/>dental implant screws. These are 
                                                            
     <div className ="mt-3 place">
     
-    <a href= "http://localhost:3000/Contactus" className ="swagButton">Discuss how you want to proceed </a>                                                             
+    <a href= "Contactus" className ="swagButton">Discuss how you want to proceed </a>                                                             
 
 
 <div className="row">
@@ -334,7 +334,7 @@ Whole-arch replacements use either 4 or 6 <br/>dental implant screws. These are 
 
 <div className ="mt-3 gbtn hide">
     
-    <a href= "http://localhost:3000/Contactus" className ="btn- btn">Book your FREE consultation Now</a>                                                             
+    <a href= "Contactus" className ="btn- btn">Book your FREE consultation Now</a>                                                             
 
 <div className="row">
   

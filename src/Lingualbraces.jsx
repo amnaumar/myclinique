@@ -25,6 +25,7 @@ import Lin4 from "../src/images/line4.jpg";
 import Lin5 from "../src/images/lin5.png";
 import Vid from "../src/images/Lingual Braces At My Clinique (1).mp4";
 import Footer from './Footer';
+import Form from './Form';
 
 
 
@@ -46,7 +47,7 @@ const Lingualbraces = () => {
 
 </h2>
 
- <img src={Lban} className="img-fluid dant" alt=" surgery"style={{height:"20.83rem",width:"37.83rem"}}/>
+ <img src={Lban} className="img-fluid  pr-5" alt=" surgery"style={{height:"20.83rem",width:"39.83rem"}}/>
 </div>
 </div>
       </div>
@@ -133,7 +134,7 @@ const Lingualbraces = () => {
    </div>
 
    <div className="real-1 col-lg-4 col-md-4 col-12">
-   <div className="card text-center"style={{width:"18.83rem"}}>
+   <div className="card text-center"style={{width:"18.83rem",height:"12.83rem"}}>
   
   <div className="card-body">Effective</div>
   <div className="card-footer bg-primary hard">Lingual braces work in a similar way to traditional braces to achieve amazing results
@@ -143,7 +144,7 @@ const Lingualbraces = () => {
 </div>
    </div>
    <div className="real-1 col-lg-4 col-md-4 col-12">
-   <div className="card text-center"style={{width:"18.83rem"}}>
+   <div className="card text-center"style={{width:"18.83rem",height:"12.83rem"}}>
 
   <div className="card-body">Quick</div>
   <div className="card-footer bg-primary hard"> Lingual braces achieve fantastic results in a short timeframe
@@ -166,7 +167,7 @@ What's more, as well as granting you a<br/> perfectly straight smile, your lingu
 
     <div className ="mt-5 place">
     
-    <a href= "http://localhost:3000/Contactus" className ="swagButton">Discuss how you want to proceed </a>                                                             
+    <a href= "#lingualbraces" className ="swagButton">Discuss how you want to proceed </a>                                                             
 
   
    <img src={Power} className="img-fluid oer2 pt-5" alt=" surgery"style={{width:"23.83rem",height:"15.83rem"}}/>
@@ -178,6 +179,15 @@ What's more, as well as granting you a<br/> perfectly straight smile, your lingu
    </div>
    </div>
 </section>
+<div id="lingualbraces">
+<section id="inquary">
+            
+            <Form/> 
+            
+            </section> 
+
+            </div>
+
 <section  id="agee" className="mt-5 reviews-ib">
 <h3 className=" text-center beautiful"><br/>Pros & cons</h3>
 <p className="hide text-center  beautiful" >Here is a quick guide to the pros and cons of Lingual Braces. </p>
@@ -388,7 +398,7 @@ What's more, as well as granting you a perfectly straight smile, your lingual br
 
 <div className ="mt-3 gbtn hide">
     
-    <a href= "http://localhost:3000/Contactus" className ="btn- btn">Book your FREE consultation Now</a>                                                             
+    <a href= "#lingualbraces" className ="btn- btn">Book your FREE consultation Now</a>                                                             
 
 <div className="row">
 

@@ -31,7 +31,7 @@ const Form = () => {
 
 <form onSubmit={formSubmit}>
 <div className="container-fluid cure consultation mt-5" id="consultation">
-               <h3 className="beautiful mt-5"><br/>Get your free consultation today</h3>
+               <h3 className="beautiful text-center mt-5"><br/>Get your free consultation today</h3>
                <div className="row d-flex justify-content-center mt-5">
                <div className="big-form col-lg-2 col-md-2 col-12">
                  
@@ -77,15 +77,15 @@ const Form = () => {
               </div>
               </div>
 
-              <div className="check ">
-      <input type="checkbox" aria-label="Checkbox for following text input"/>
+              <div>
+      
     </div>
-    <p>I understand that by requesting a consultation through MyClinique I am agreeing with the MyClinique Privacy Policy & Terms & Conditions.
+    <p className="text-center pt-5">I understand that by requesting a consultation through MyClinique I am agreeing with the MyClinique Privacy Policy & Terms & Conditions.
  </p>
  <div className ="mt-5 ">
     
  
-   <input type="submit"  className ="btn-orderappointment "value="Book your FREE consultation Now"/>  <br/><br/>                                                        
+   <input type="submit"  className ="btn-orderappointment check8"value="Book your FREE consultation Now"/>  <br/><br/>  <br/><br/>                                                       
 </div>
   
 

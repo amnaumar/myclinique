@@ -199,7 +199,7 @@ Implant retained dentures use much the same materials as implant-supported dentu
                                                             
     <div className ="mt-3 place">
     
-    <a href= "http://localhost:3000/Contactus" className ="mt-5 swagButton">Discuss how you want to proceed </a>                                                             
+    <a href= "Contactus" className ="mt-5 swagButton">Discuss how you want to proceed </a>                                                             
 
 
 <div className="row">
@@ -389,7 +389,7 @@ Implant retained dentures use much the same materials as implant-supported dentu
 
 <div className ="mt-3 gbtn hide">
     
-    <a href= "http://localhost:3000/Contactus" className ="btn- btn">Book your FREE consultation Now</a>                                                             
+    <a href= "Contactus" className ="btn- btn">Book your FREE consultation Now</a>                                                             
 
 <div className="row">
   

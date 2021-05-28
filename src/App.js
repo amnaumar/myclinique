@@ -12,7 +12,7 @@ import Faqs from './Faqs';
 
 import Multipledentalimplants from './Multipledentalimplants';
 import Dentalimplant from './Dentalimplant';
-import Dentalimplants from './Dentalimplants';
+import Termsandconditions from './Termsandconditions';
 import Invisalign from './Invisalign';
 import Implantretaineddentures from './Implantretaineddentures';
 import Antiwrinkleinjectionandfillers from './Antiwrinkleinjectionandfillers';
@@ -31,10 +31,15 @@ import  Allon6   from './Allon6';
 import  Singleimplant  from './Singleimplant';
 import  Allon4 from './Allon4';
 import  Teethinaday from './Teethinaday';
+import  Invisalignexpress from './Invisalignexpress';
 
-
-
-
+import  Invisalignlite from './Invisalignlite';
+import  Invisalignfull from './Invisalignfull';
+import Antiwrinkleinjections  from './Antiwrinkleinjections';
+import  Fillers from './Fillers';
+import  Generaldentistry from './Generaldentistry';
+import  Emergencytreatments from './Emergencytreatments';
+import  Privacypolicy from './Privacypolicy';
 
 
 import {Switch,Route,Redirect} from 'react-router-dom';
@@ -54,7 +59,7 @@ const App = () => {
      
      <Route exact path = "/Multipledentalimplants" component = {Multipledentalimplants}/>
       <Route exact path = "/Dentalimplant" component = {Dentalimplant}/>
-      <Route exact path = "/Dentalimplants" component = {Dentalimplants}/>
+      <Route exact path = "/Termsandconditions" component = {Termsandconditions}/>
       <Route exact path = "/Invisalign" component = {Invisalign}/>
       <Route exact path = "/Implantretaineddentures" component = {Implantretaineddentures}/>
       <Route exact path = "/Antiwrinkleinjectionandfillers" component = {Antiwrinkleinjectionandfillers}/>
@@ -74,6 +79,16 @@ const App = () => {
       <Route exact path = "/Allon4" component = {Allon4}/>
       <Route exact path = "/Teethinaday" component = {Teethinaday}/>
 
+      <Route exact path = "/Invisalignexpress" component = {Invisalignexpress}/>
+      <Route exact path = "/Invisalignlite" component = {Invisalignlite}/>
+      <Route exact path = "/Invisalignfull" component = {Invisalignfull}/>
+
+      <Route exact path = "/Antiwrinkleinjections" component = {Antiwrinkleinjections}/>
+      <Route exact path = "/Fillers" component = {Fillers}/>
+
+      <Route exact path = "/Generaldentistry" component = {Generaldentistry}/>
+      <Route exact path = "/Emergencytreatments" component = {Emergencytreatments}/>
+      <Route exact path = "/Privacypolicy" component = {Privacypolicy}/>
 
      <Redirect to = "/" />
     

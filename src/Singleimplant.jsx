@@ -164,7 +164,7 @@ Implants are made from zirconia, a strong and therefore<br/> robust material. Th
                                                                
     <div className ="mt-5 place">
     
-    <a href= "http://localhost:3000/Contactus" className ="swagButton">Discuss how you want to proceed </a>                                                             
+    <a href= "Contactus" className ="swagButton">Discuss how you want to proceed </a>                                                             
 
 <div className="row">
 
@@ -339,7 +339,7 @@ Implants are made from zirconia, a strong and therefore<br/> robust material. Th
 </p>
 <div className ="mt-3 gbtn hide">
     
-    <a href= "http://localhost:3000/Contactus" className ="btn- btn">Book your FREE consultation Now</a>                                                             
+    <a href= "Contactus" className ="btn- btn">Book your FREE consultation Now</a>                                                             
 
 <div className="row">
   

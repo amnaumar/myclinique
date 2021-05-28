@@ -29,7 +29,7 @@ Meet our team and see why we have a consistently high level of patient satisfact
 
 <div className ="mt-5  ">
     
-    <a href= "http://localhost:3000/Contactus" className ="swagButton"> Ask for appointment </a>                                                             
+    <a href= "Contactus" className ="swagButton"> Ask for appointment </a>                                                             
 
 
  
@@ -45,12 +45,14 @@ Meet our team and see why we have a consistently high level of patient satisfact
        </section>
 
        <section className="we-are container mt-5 " >
-  <div className="py-5 text-center extramaxm">
+  <div className=" text-center extramaxm">
     <div>
-<h2 className="brace">
-Our Team
-</h2>
+
 <h3 className="brace-1">Decades of experience, a true passion & a patient first mentality</h3>
+
+<h2 className="brace mb-5">
+Our Team<br/>
+</h2>
 <div className ='row'>
   <div className ="col-10 mx-auto text-center">
     <div className ="row gy-4" >
@@ -71,7 +73,7 @@ DDMS<hr/>Dr Mark has been active throughout his 20+ years in dentistry and has b
      <img src={Web2} alt=''/>
   <h5>Christos Nikolakis<br/>Orthodontist
 
-  <hr/>Christos has a passion for passing his knowledge on to aspiring orthodontists and he's spent time as both a consultant and teacher to dentists. </h5>
+  <br/> <hr/>Christos has a passion for passing his knowledge on to aspiring orthodontists and he's spent time as both a consultant and teacher to dentists. </h5>
     </div>
     
     </div>

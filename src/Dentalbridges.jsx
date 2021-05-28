@@ -159,7 +159,7 @@ const  Dentalbridges = () => {
                                                              
     <div className ="mt-3 place">
     
-    <a href= "http://localhost:3000/Contactus" className ="swagButton">Discuss how you want to proceed </a> 
+    <a href= "Contactus" className ="swagButton">Discuss how you want to proceed </a> 
 
 
 <div className="row">
@@ -299,7 +299,7 @@ const  Dentalbridges = () => {
 
 <div className ="mpm mt-3 gbtn hide">
     
-    <a href= "http://localhost:3000/Contactus" className =" btn- btn">Book your FREE consultation Now</a>                                                             
+    <a href= "Contactus" className =" btn- btn">Book your FREE consultation Now</a>                                                             
 
 <div className="row">
   

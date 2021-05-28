@@ -120,7 +120,7 @@ const Smilemakeoverandveneers = () => {
    <div className ="row d-flex justify-content-center">
   
    <div className="real-1 col-lg-4 col-md-4 col-12">
-   <div className="card text-center"style={{width:"18.83rem"}}>
+   <div className="card text-center"style={{width:"18.83rem",height:"11.83rem"}}>
   
   <div className="card-body"> Smile with Confidence</div>
   <div className="card-footer ">Enhance your smile by covering chipped, cracked or discoloured teeth
@@ -130,7 +130,7 @@ const Smilemakeoverandveneers = () => {
    </div>
 
    <div className="real-1 col-lg-4 col-md-4 col-12">
-   <div className="card text-center"style={{width:"18.83rem"}}>
+   <div className="card text-center"style={{width:"18.83rem",height:"11.83rem"}}>
   
   <div className="card-body">Social 6</div>
   <div className="card-footer ">The "social 6" focuses on the 6 teeth that are most visible when you smile
@@ -160,7 +160,7 @@ const Smilemakeoverandveneers = () => {
 
     <div className ="mt-5 place">
     
-    <a href= "http://localhost:3000/Contactus" className ="swagButton">Discuss how you want to proceed </a>                                                             
+    <a href= "#smilemakeover" className ="swagButton">Discuss how you want to proceed </a>                                                             
 
 
 <div className="row">
@@ -245,6 +245,8 @@ const Smilemakeoverandveneers = () => {
   </div>
  </div>
 
+
+
  <h3 className="text-center beautiful space"><br/><br/><br/><br/> <br/>Veneers Procedure    </h3>
   
 
@@ -296,6 +298,14 @@ const Smilemakeoverandveneers = () => {
    </div>
 
    <section>
+
+   <div id="smilemakeover">
+       <section id="inquary">
+            
+            <Form/> 
+            
+            </section> 
+            </div>
    <h3 className="text-center beautiful">Veneers patients</h3>  
       <div className=" sobia mt-5" >
       
