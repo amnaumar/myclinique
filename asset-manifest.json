@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/myclinique/static/css/main.8a71ffb6.chunk.css",
-    "main.js": "/myclinique/static/js/main.c7c52f8e.chunk.js",
-    "main.js.map": "/myclinique/static/js/main.c7c52f8e.chunk.js.map",
+    "main.js": "/myclinique/static/js/main.caacffb9.chunk.js",
+    "main.js.map": "/myclinique/static/js/main.caacffb9.chunk.js.map",
     "runtime-main.js": "/myclinique/static/js/runtime-main.510eda3a.js",
     "runtime-main.js.map": "/myclinique/static/js/runtime-main.510eda3a.js.map",
     "static/css/2.150d169a.chunk.css": "/myclinique/static/css/2.150d169a.chunk.css",
-    "static/js/2.e5356959.chunk.js": "/myclinique/static/js/2.e5356959.chunk.js",
-    "static/js/2.e5356959.chunk.js.map": "/myclinique/static/js/2.e5356959.chunk.js.map",
+    "static/js/2.d4d98e53.chunk.js": "/myclinique/static/js/2.d4d98e53.chunk.js",
+    "static/js/2.d4d98e53.chunk.js.map": "/myclinique/static/js/2.d4d98e53.chunk.js.map",
     "index.html": "/myclinique/index.html",
     "static/css/2.150d169a.chunk.css.map": "/myclinique/static/css/2.150d169a.chunk.css.map",
     "static/css/main.8a71ffb6.chunk.css.map": "/myclinique/static/css/main.8a71ffb6.chunk.css.map",
-    "static/js/2.e5356959.chunk.js.LICENSE.txt": "/myclinique/static/js/2.e5356959.chunk.js.LICENSE.txt",
+    "static/js/2.d4d98e53.chunk.js.LICENSE.txt": "/myclinique/static/js/2.d4d98e53.chunk.js.LICENSE.txt",
     "static/media/0-percent (1).65871f9b.png": "/myclinique/static/media/0-percent (1).65871f9b.png",
     "static/media/1area.673dced3.jpg": "/myclinique/static/media/1area.673dced3.jpg",
     "static/media/2 area.c9c41f74.jpg": "/myclinique/static/media/2 area.c9c41f74.jpg",
@@ -210,8 +210,8 @@
   "entrypoints": [
     "static/js/runtime-main.510eda3a.js",
     "static/css/2.150d169a.chunk.css",
-    "static/js/2.e5356959.chunk.js",
+    "static/js/2.d4d98e53.chunk.js",
     "static/css/main.8a71ffb6.chunk.css",
-    "static/js/main.c7c52f8e.chunk.js"
+    "static/js/main.caacffb9.chunk.js"
   ]
 }
