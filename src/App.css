@@ -48,6 +48,7 @@ z-index: -1;
 color: rgba(118, 116, 243, 0.3);
 }
 
+
 #inquary{background-color: #74f1edff;}
 
 .menu-btn {
@@ -295,16 +296,7 @@ padding: 10px 20px;text-decoration: none;
     margin-bottom: -490x;
 }
 
-.dropdown-item{
-    width: 15rem;
-    background-color: #2346ff;
-    color: #fff;
-    position:relative;
-    text-align: center;
-    opacity: 0.8;
-    opacity: 0.8;
-    list-style: none;
-  }
+
 
   .menupic{display: none;}
   .turtle{
@@ -320,17 +312,7 @@ margin-left: 250px;}
  }
 .paright{margin-left: -650px;}
 
-  .dropdown-item1{
-    position: absolute;
-    margin-left: 240px;
-    margin-top: 0px;
-    width: 15rem;
-    background-color: #2346ff;
-    color: #fff;
-     text-align: center;
-    opacity: 0.8;
-    list-style: none;
-  }
+ 
   
   .front-hed{
       
@@ -1318,7 +1300,7 @@ box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
 }
 .footersection{
     width: 100%;
-    height: 100vh;
+    height: 130vh;
     padding-top: 90px;
     padding-bottom: -625px;
     background:#293461ff ;
@@ -2082,10 +2064,7 @@ height:120vh ;
     height: 25rem;
    margin-bottom: -11rem;
     }
-    .front-hed {
-       display: none;
-    }
-
+    
     .memaxm-10{margin-top: -60rem;}
 
     .section-4{background-color:#ecf0f5cc ;
@@ -2107,6 +2086,21 @@ height:120vh ;
         margin-right:36rem ;
     width: 25rem;
 }
+
+.background-image{
+    height: 25px;
+    width: 45px;
+}
+.iconbarr{display: visible;
+}
+.iconbarr  li {
+    list-style: none;
+}
+
+.footersection{
+    height: 240vh;
+}
+
 
 
 }

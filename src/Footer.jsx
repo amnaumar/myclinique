@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Lo from "../src/images/logo-image.png";
+
 
 
 
@@ -18,16 +18,9 @@ const Footer = () => {
                  <li><a href="Aboutus">About Us</a></li>
                  <li><a href="Pricing ">Pricing</a></li>
                  <li><a href="Faqs ">FAQS</a></li>
-                 <li><a href="Termsandconditions">Terms & Conditions</a></li>
                  <li><a href="Contactus">Contact Us</a></li>
                   <li><a href="Termsandconditions">Terms & Conditions</a></li>
-                 <li><a href="Privacypolicy">Privacy policy</a></li></ul>
-</div>
-  </div>
-  <div className="col-lg-4 col-md-4 col-12 footer-div ">
-               <div>
-                <h2>Useful Links</h2>
-                <ul>
+                 <li><a href="Privacypolicy">Privacy policy</a></li>
                  <li><a href="Dentalimplant">Dental Implants</a></li>
                  <li><a href="Invisalign">Invisalign</a></li>
                  <li><a href="Clearaligner">Clear Aligners</a></li>
@@ -37,12 +30,44 @@ const Footer = () => {
                  <li><a href="Smilemakeoverandveneers">Smile Makeovers & Veneers</a></li>
                  <li><a href="Crownsandbridges">Crowns & Bridges</a></li>
                  <li><a href="Antiwrinkleinjectionandfillers">Anti Wrinkle Injections & Fillers</a></li>
-                 <li><a href="Generaldentistry">General Dentistry</a></li>
-                 <li><a href="Emergencytreatments">Emergency Treatments</a></li>
-                 
-
-                 </ul>
+</ul>
+</div>
+  </div>
+  <div className="col-lg-4 col-md-4 col-12 footer-div mobile-view">
+               <div>
+                <h2>Useful Links</h2>
+                <ul>
                 
+                 <li><a href="Generaldentistry">General Dentistry</a></li>
+                 <li><a href="Emergencytreatments">Emergency Treatments</a></li> </ul>
+               
+               
+                 <div className="iconbarr">
+<ul>
+                 <li><a href="multipledentalimplants">Multiple dental Implants</a></li>
+                 <li><a href="Implantretaineddentures">Implant Retained Dentures</a></li>
+                 <li><a href="Allon6"> All-On-6</a></li>
+                 <li><a href="Singleimplant">Single Implant</a></li>
+                 <li><a href="Wholearchreplacement">Whole Arch Replacement</a></li>
+                 <li><a href="Allon4">All-On-4</a></li>
+                 <li><a href="Teethinaday"> Teeth In A Day</a></li>
+                 <li><a href="Invisalignlite">Invisalign Lite</a></li>
+                 <li><a href="Invisalignexpress">Invisalign Express</a></li>
+                 <li><a href="Invisalignfull">Invisalign Full</a></li>
+                 <li><a href="Veneerssinglearch">Veneers Single Arch</a></li>
+                 <li><a href="Singleveneers">Single Veneers</a></li>
+                 <li><a href="Hollywoodsmile">Hollywood Smile</a></li>
+                 <li><a href="Dentalcrowns"> Dental Crowns</a></li>
+                 <li><a href="Dentalbridges">Dental Bridges</a></li>
+                 <li><a href="Antiwrinkleinjections">Anti Wrinkle Injections</a></li>
+                
+                 <li><a href="fillers">Fillers</a></li></ul>
+                
+               
+
+                 </div>
+
+                 
 </div>
   </div>
   

@@ -154,7 +154,14 @@ return (
 <nav>
 <ul>
 <li><a href="Home"> Home </a>   </li>
-<li><a href="Treatments">Treatments  </a>   </li>
+<li><a href="Treatments">Treatments 
+
+ </a> </li>
+        
+          
+         
+
+
 <li><a href="Aboutus"> Aboutus </a>   </li>
 <li><a href="Pricing">Pricing  </a>   </li>
 <li><a href="Faqs"> Faqs </a>   </li>
