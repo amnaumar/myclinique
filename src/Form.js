@@ -40,7 +40,7 @@ const Form = () => {
      name="message"
      value={data.message}
     onChange={InputEvent}
-     placeholder="---message us---" />
+     placeholder="---message us---" required/>
     </div>
     <div className="big-form col-lg-2 col-md-2 col-12 ">
         <input type="text"  
@@ -48,7 +48,7 @@ const Form = () => {
           name="fullname"
           value={data.fullname}
           onChange={InputEvent}
-          placeholder="Name" />
+          placeholder="Name" required/>
     </div>
     <div className="big-for mcol-lg-2 col-md-2 col-12 ">
         <input type="email" 
@@ -64,7 +64,7 @@ const Form = () => {
          name="phone"
          value={data.phone}
          onChange={InputEvent}
-         placeholder="Contact Number" />
+         placeholder="Contact Number" required/>
     </div>
     <div className="big-form col-lg-2 col-md-2 col-12">
         <input type="text" 
@@ -72,7 +72,7 @@ const Form = () => {
           name="postcode"
           value={data.postcode}
     onChange={InputEvent}
-          placeholder="Postcode" />
+          placeholder="Postcode" required/>
     </div>
               </div>
               </div>

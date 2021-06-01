@@ -191,7 +191,7 @@ transform: translateX(-90%);
     100%{transform: translateX(0);}
 }
 
-.article{padding-left: 30rem;padding-right: 10rem;
+.article{padding-left: 30rem;padding-right: 7rem;
     animation: article-load  ease-in 10.5s;}
 
 #agee{
@@ -420,7 +420,7 @@ text-decoration: none;
 }
 .successful{margin-top: -12rem;
 margin-left: 2rem;
-margin-right:54rem;
+margin-right:56rem;
 }
 
 .change-value{
@@ -949,7 +949,8 @@ margin-left: 4rem;
 margin-left: 12rem;}
 
 .check8{
-margin-left: 33rem;}
+margin-left: 32rem;
+margin-right: 32rem;}
 #thund{
 
 height: 75vh;
@@ -2101,7 +2102,9 @@ height:120vh ;
     height: 240vh;
 }
 
-
+.front-hed{
+display: none;
+}
 
 }
 
